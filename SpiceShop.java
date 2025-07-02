@@ -1,13 +1,50 @@
 class SpiceShop{
-	public static void main(String[] spicenames){
 	
-	String[] spices={"Turmeric","Cumin","Coriander","Musterd","Chilli powder","Garam masala","Cloves","Cardamon","Cinnamon","Ginger","Saffron","Anise","Curry leaves","Asafoetida"};
-	//System.out.println("List of spices are: "+spices[0]+","+spices[1]+","+spices[2] +","+spices[3]+","+spices[4] +","+spices[5]+","+spices[6]+ ","+spices[7]+","+spices[8]+","+spices[9]+","+
-						//spices[10]+ ","+spices[11]+","+spices[12]+","+spices[13]);
+	/*static String turmeric="Turmeric";
+	static String cumin="Cumin";
+	static String coriander="Coriander";
+	static String musterd="Musterd";
+	static String chilliPowder="Chilli Powder";
+	static String garamMasala="Garam Masala";
+	static String cloves="Cloves";
+	static String cardamon="Cardamon";
+	static String cinnamon="Cinnamon";
+	static String ginger="Ginger";
+	static String saffron="Saffron";
+	static String anise="Anise";
+	static String curryLeaves="Curry Leaves";
+	static String asafoetida="Asafoetida";
+	
+	static String[] spices={turmeric,cumin,coriander,musterd,chilliPowder,garamMasala,
+	cloves,cardamon,cinnamon,ginger,saffron,anise,curryLeaves,asafoetida};*/
+
+	
+	public static void main(String[] spicenames){
+	System.out.println("\nmain started\n");
+	
+	String turmeric="Turmeric";
+	String cumin="Cumin";
+	String coriander="Coriander";
+	String musterd="Musterd";
+	String chilliPowder="Chilli Powder";
+	String garamMasala="Garam Masala";
+	String cloves="Cloves";
+	String cardamon="Cardamon";
+	String cinnamon="Cinnamon";
+	String ginger="Ginger";
+	String saffron="Saffron";
+	String anise="Anise";
+	String curryLeaves="Curry Leaves";
+	String asafoetida="Asafoetida";
+	
+	String[] spices={turmeric,cumin,coriander,musterd,chilliPowder,garamMasala,
+	cloves,cardamon,cinnamon,ginger,saffron,anise,curryLeaves,asafoetida};
+	
 	System.out.println("List of spices are:");
 	for(String spice:spices){
 		System.out.println(spice);
 	}
 	
+	System.out.println("\nmain ended");
 	}
 }
