@@ -1,12 +1,40 @@
 class Hospital{
+	
+	/*static String docOne="Nirmala";
+	static String docTwo="Gangadhar";
+	static String docThree="Sam";
+	static String docFour="Suraj";
+	static String docFive="Harsha";
+	static String docSix="Samruddhi";
+	static String docSeven="Sarasvathi";
+	static String docEight="Srujan";
+	static String docNine="Rashmi";
+	static String docTen="Renuka Prasad";
+	
+	static String[] doctorNames={docOne,docTwo,docThree,docFour,docFive,docSix,
+	docSeven,docEight,docNine,docTen};*/
+
 	public static void main(String[] docnames){
 	
-	String[] doctorNames={"Nirmala","Gangadhar","Sam","Suraj","Harsha","Samruddhi","Sarasvathi","Srujan","Rashmi","Renuka Prasad"};
-	//System.out.println("List of doctors in the hospital is: "+doctorNames[0]+","+doctorNames[1]+","+doctorNames[2]+","+doctorNames[3]+","+doctorNames[4]+ ","+doctorNames[5]+","+doctorNames[6 ]+","+doctorNames[7] +","+doctorNames[8 ]+","+doctorNames[9]);
+	System.out.println("\nmain started\n");
+	
+	String docOne="Nirmala";
+	String docTwo="Gangadhar";
+	String docThree="Sam";
+	String docFour="Suraj";
+	String docFive="Harsha";
+	String docSix="Samruddhi";
+	String docSeven="Sarasvathi";
+	String docEight="Srujan";
+	String docNine="Rashmi";
+	String docTen="Renuka Prasad";
+	
+	String[] doctorNames={docOne,docTwo,docThree,docFour,docFive,docSix,docSeven,docEight,docNine,docTen};
 	
 	System.out.println("List of Doctor names are:");
 	for(String doctorName:doctorNames){
 		System.out.println(doctorName);
 	}
+	System.out.println("\nmain ended");
 	}
 }
