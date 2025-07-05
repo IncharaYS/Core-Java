@@ -1,10 +1,4 @@
 class Cabinet{
-	public static void main(String cabinet[]){
-	
-	System.out.println("\nmain started\n");
-	storeItems();
-	System.out.println("\nmain ended");
-	}
 
 	public static void storeItems(){
 	System.out.println("storeItems method started");

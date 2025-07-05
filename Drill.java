@@ -1,10 +1,4 @@
 class Drill{
-	public static void main(String drill[]){
-	
-	System.out.println("\nmain started\n");
-	makeHoles();
-	System.out.println("\nmain ended");
-	}
 
 	public static void makeHoles(){
 	System.out.println("Make Holes method started");
