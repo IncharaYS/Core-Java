@@ -1,10 +1,4 @@
 class Google{
-	public static void main(String google[]){
-	
-	System.out.println("\nmain started\n");
-	searchInformation();
-	System.out.println("\nmain ended");
-	}
 
 	public static void searchInformation(){
 	System.out.println("searchInformation method started");

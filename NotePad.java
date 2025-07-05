@@ -1,10 +1,4 @@
 class NotePad{
-	public static void main(String notes[]){
-	
-	System.out.println("\nmain started\n");
-	editText();
-	System.out.println("\nmain ended");
-	}
 
 	public static void editText(){
 	System.out.println("editText method started");
