@@ -1,11 +1,9 @@
-class YouTubeRunner{
-	public static void main(String yt[]){
-		System.out.println("\nmain started\n");
+class YoutubeRunner{
+	public static void main(String [] insta){
+		boolean isUserRegistered=Youtube.registerUser("sana133@gmail.com","Sana@123");
+		if(isUserRegistered)	System.out.println("User registered successfully using email");
 		
-		boolean userIsRegistered = YouTube.registerUser("Standard","Inchara Y S","inchara@123","incharays07@gmail.com","098866","India","Female");
-		System.out.println("Is user Registered: " + userIsRegistered +"\n");
-		if(userIsRegistered) YouTube.getUserInfo();
-		
-		System.out.println("\nmain ended");
+		isUserRegistered=Youtube.registerUser(9865325689l,"sana123@");
+		if(isUserRegistered)	System.out.println("User registered successfully using phone no");
 	}
 }

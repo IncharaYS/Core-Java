@@ -1,10 +1,10 @@
-class LinkedIn{
-	public static boolean registerUser(String userName,String password){
+class Snapchat{
+	public static boolean registerUser(String username,String password){
 		boolean isUserRegistered=false;
-		if(userName!=null&&password!=null){
+		if(username!=null&&password!=null){
 			isUserRegistered=true;
 		}
-		else System.out.println("Entered user name or password is not valid");
+		else System.out.println("Entered uder name or password is not valid");
 		return isUserRegistered;
 	}
 	

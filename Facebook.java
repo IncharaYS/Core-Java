@@ -1,69 +1,19 @@
 class Facebook{
-
-static String fullName;
-static String password;
-static String confirmPassword;
-static long phoneNo;
-static String email;
-
-
-	public static boolean registerUser(String fName,String pwd,String cpwd,long pno,String eId){
-		boolean	isUserRegistered = false;
-		boolean isFullNameValid = false;
-		boolean isPasswordValid=false;
-		boolean isConfirmPasswordValid=false;
-		boolean isPhoneNoValid=false;
-		boolean isEmailIdValid=false;
-
-			
-		if(fName!=null){ 
-			fullName=fName;
-			isFullNameValid=true;
+	public static boolean registerUser(String email,String password){
+		boolean isUserRegistered=false;
+		if(email!=null&&password!=null){
+			isUserRegistered=true;
 		}
-		else System.out.println("Entered Full name is not valid");
-		
-		
-		if(pwd!=null){
-			password=pwd;
-			isPasswordValid=true;
-		}
-		else System.out.println("Entered password is not valid");
-		
-		if(cpwd!=null){
-			if(cpwd==pwd){
-			confirmPassword=cpwd;
-			isConfirmPasswordValid=true;
-			}
-			else System.out.println("Enterd confirm password is not same as password");
-		}
-		else System.out.println("Entered confirm password is not valid");
-		
-				
-		if(pno!=0){
-			phoneNo=pno;
-			isPhoneNoValid=true;
-		}
-		else System.out.println("Entered Phone No is not valid");
-		
-			if(eId!=null){
-			email=eId;
-			isEmailIdValid=true;
-		}
-		else System.out.println("Entered Email id is not valid");
-		
-		
-		if(isFullNameValid  && isConfirmPasswordValid && isPasswordValid&&isPhoneNoValid&&isEmailIdValid){
-			System.out.println("Entered credentials are valid");
-			isUserRegistered = true;   
-		}
-		return isUserRegistered; 			
+		else System.out.println("Entered email or password is not valid");
+		return isUserRegistered;
 	}
-
-	public static void getUserInfo(){
-		System.out.println("The full name is: " + fullName );
-		System.out.println("The password is: " + password);
-		System.out.println("The confirm password value is: " + confirmPassword);
-		System.out.println("Phone no is: " + phoneNo );
-		System.out.println("Entered Email id is:"+email);
+	
+	public static boolean registerUser(long phoneNo,String password){
+		boolean isUserRegistered=false;
+		if(phoneNo!=0&&password!=null){
+			isUserRegistered=true;
+		}
+		else System.out.println("Entered phoneno or password is not valid");
+		return isUserRegistered;
 	}
 }
