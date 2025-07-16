@@ -1,11 +1,9 @@
 class FacebookRunner{
-	public static void main(String fb[]){
-		System.out.println("\nmain started\n");
+	public static void main(String [] insta){
+		boolean isUserRegistered=Facebook.registerUser("sana133@gmail.com","Sana@123");
+		if(isUserRegistered)	System.out.println("User registered successfully using email");
 		
-		boolean userIsRegistered = Facebook.registerUser("Inchara Y S","inchara@123","inchara@123",8765323479l,"incharays07@gmail.com");
-		System.out.println("Is user Registered: " + userIsRegistered +"\n");
-		if(userIsRegistered) Facebook.getUserInfo();
-		
-		System.out.println("\nmain ended");
+		isUserRegistered=Facebook.registerUser(9865325689l,"sana123@");
+		if(isUserRegistered)	System.out.println("User registered successfully using phone no");
 	}
 }

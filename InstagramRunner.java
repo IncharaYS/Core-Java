@@ -1,11 +1,9 @@
 class InstagramRunner{
-	public static void main(String insta[]){
-		System.out.println("\nmain started\n");
+	public static void main(String [] insta){
+		boolean isUserRegistered=Instagram.registerUser("Sana07",9876434567l);
+		if(isUserRegistered)	System.out.println("User registered successfully using phone no");
 		
-		boolean userIsRegistered = Instagram.registerUser("Inchara","Y S","inchara@123","inchara@123","incharays07@gmail.com");
-		System.out.println("Is user Registered: " + userIsRegistered +"\n");
-		if(userIsRegistered) Instagram.getUserInfo();
-		
-		System.out.println("\nmain ended");
+		isUserRegistered=Instagram.registerUser("Sana07","sana123@gmail.com");
+		if(isUserRegistered)	System.out.println("User registered successfully using email");
 	}
 }
