@@ -1,18 +1,16 @@
 class ZomatoRunner{
 	public static void main(String zomato[]){
 	String foodName="Pizza puff";
-	int quantity=5;
-	double price=Zomato.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity is: "+quantity);
+	double price=Zomato.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Cheesy chicken meetballs";
 	price=Zomato.getFoodPrice(foodName);
 	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Choco chip brownie";
-	quantity=19;
-	price=Zomato.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity is: "+quantity);
+	price=Zomato.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Teekha Chaska Sausages";
 	price=Zomato.getFoodPrice(foodName);

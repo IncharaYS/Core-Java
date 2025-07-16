@@ -1,9 +1,0 @@
-class LinkedInRunner{
-	public static void main(String [] insta){
-		boolean isUserRegistered=Youtube.registerUser("Sana123","Sana@123");
-		if(isUserRegistered)	System.out.println("User registered successfully using user name");
-		
-		isUserRegistered=Youtube.registerUser(9865325689l,"sana123@");
-		if(isUserRegistered)	System.out.println("User registered successfully using phone no");
-	}
-}j
