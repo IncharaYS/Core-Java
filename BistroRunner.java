@@ -1,23 +1,20 @@
 class BistroRunner{
 	public static void main(String bistro[]){
 	String foodName="Kheema bonda";
-	int quantity=9;
-	double price=Bistro.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity is: "+quantity);
+	double price=Bistro.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Aloo bonda";
 	price=Bistro.getFoodPrice(foodName);
 	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Paper roast";
-	quantity=2;
-	price=Bistro.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity is: "+quantity);
+	price=Bistro.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Manglore buns";
-	quantity=1;
-	price=Bistro.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity is: "+quantity);
+	price=Bistro.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Mango lassi";
 	price=Bistro.getFoodPrice(foodName);

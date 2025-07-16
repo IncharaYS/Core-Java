@@ -1,23 +1,20 @@
 class SwiggyRunner{
 	public static void main(String swiggy[]){
 	String foodName="Chicken lasagna";
-	int quantity=3;
-	double price=Swiggy.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity ids: "+quantity);
+	double price=Swiggy.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Expresso tiramisu";
 	price=Swiggy.getFoodPrice(foodName);
 	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Crispy combo";
-	quantity=7;
-	price=Swiggy.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity ids: "+quantity);
+	price=Swiggy.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Toffe pudding";
-	quantity=3;
-	price=Swiggy.getFoodPrice(foodName,quantity);
-	System.out.println("Price of "+foodName+" is: "+price+" and quantity ids: "+quantity);
+	price=Swiggy.getFoodPrice(foodName);
+	System.out.println("Price of "+foodName+" is: "+price);
 	
 	foodName="Tender coconut juice";
 	price=Swiggy.getFoodPrice(foodName);
