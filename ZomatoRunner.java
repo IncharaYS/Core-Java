@@ -1,23 +1,11 @@
 class ZomatoRunner{
 	public static void main(String zomato[]){
-	String foodName="Pizza puff";
-	double price=Zomato.getFoodPrice(foodName);
-	System.out.println("Price of "+foodName+" is: "+price);
-	
-	foodName="Cheesy chicken meetballs";
-	price=Zomato.getFoodPrice(foodName);
-	System.out.println("Price of "+foodName+" is: "+price);
-	
-	foodName="Choco chip brownie";
-	price=Zomato.getFoodPrice(foodName);
-	System.out.println("Price of "+foodName+" is: "+price);
-	
-	foodName="Teekha Chaska Sausages";
-	price=Zomato.getFoodPrice(foodName);
-	System.out.println("Price of "+foodName+" is: "+price);
-	
-	foodName="Pizza";
-	price=Zomato.getFoodPrice(foodName);
-	System.out.println("Price of "+foodName+" is: "+price);
+		System.out.println("\nmain started\n");
+		
+		boolean userIsRegistered = Zomato.registerUser("Inchara Y S","inchara@123","incharays07@gmail.com","098866","Banglore");
+		System.out.println("Is user Registered: " + userIsRegistered +"\n");
+		if(userIsRegistered) Zomato.getUserInfo();
+		
+		System.out.println("\nmain ended");
 	}
 }
