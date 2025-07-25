@@ -12,12 +12,6 @@ class CrackersRunner{
 	cracker1.price=56.00;
 	cracker1.size="Small";
 	
-	System.out.println("Crackers id is:"+cracker1.crackersId);
-	System.out.println("Crackers name is:"+cracker1.name);
-	System.out.println("Crackers type is:"+cracker1.type);
-	System.out.println("Crackers weight is:"+cracker1.weight);
-	System.out.println("Crackers price is:"+cracker1.price);
-	System.out.println("Crackers size is:"+cracker1.size+"\n");
 	
 	
 	Crackers cracker2=new Crackers();
@@ -29,12 +23,7 @@ class CrackersRunner{
 	cracker2.price=65.00;
 	cracker2.size="Medium";
 
-	System.out.println("Crackers id is:"+cracker2.crackersId);
-	System.out.println("Crackers name is:"+cracker2.name);
-	System.out.println("Crackers type is:"+cracker2.type);
-	System.out.println("Crackers weight is:"+cracker2.weight);
-	System.out.println("Crackers price is:"+cracker2.price);
-	System.out.println("Crackers size is:"+cracker2.size+"\n");
+
 
 	Crackers cracker3=new Crackers();
 
@@ -45,12 +34,7 @@ class CrackersRunner{
 	cracker3.price=60.00;
 	cracker3.size="Small";
 
-	System.out.println("Crackers id is:"+cracker3.crackersId);
-	System.out.println("Crackers name is:"+cracker3.name);
-	System.out.println("Crackers type is:"+cracker3.type);
-	System.out.println("Crackers weight is:"+cracker3.weight);
-	System.out.println("Crackers price is:"+cracker3.price);
-	System.out.println("Crackers size is:"+cracker3.size+"\n");
+
 
 	Crackers cracker4=new Crackers();
 
@@ -61,12 +45,7 @@ class CrackersRunner{
 	cracker4.price=52.00;
 	cracker4.size="Small";
 
-	System.out.println("Crackers id is:"+cracker4.crackersId);
-	System.out.println("Crackers name is:"+cracker4.name);
-	System.out.println("Crackers type is:"+cracker4.type);
-	System.out.println("Crackers weight is:"+cracker4.weight);
-	System.out.println("Crackers price is:"+cracker4.price);
-	System.out.println("Crackers size is:"+cracker4.size+"\n");
+
 
 	Crackers cracker5=new Crackers();
 
@@ -77,12 +56,7 @@ class CrackersRunner{
 	cracker5.price=20.00;
 	cracker5.size="Large";
 
-	System.out.println("Crackers id is:"+cracker5.crackersId);
-	System.out.println("Crackers name is:"+cracker5.name);
-	System.out.println("Crackers type is:"+cracker5.type);
-	System.out.println("Crackers weight is:"+cracker5.weight);
-	System.out.println("Crackers price is:"+cracker5.price);
-	System.out.println("Crackers size is:"+cracker5.size+"\n");
+
 
 	Crackers cracker6=new Crackers();
 
@@ -93,12 +67,7 @@ class CrackersRunner{
 	cracker6.price=48.00;
 	cracker6.size="Medium";
 
-	System.out.println("Crackers id is:"+cracker6.crackersId);
-	System.out.println("Crackers name is:"+cracker6.name);
-	System.out.println("Crackers type is:"+cracker6.type);
-	System.out.println("Crackers weight is:"+cracker6.weight);
-	System.out.println("Crackers price is:"+cracker6.price);
-	System.out.println("Crackers size is:"+cracker6.size+"\n");
+
 
 	Crackers cracker7=new Crackers();
 
@@ -109,12 +78,7 @@ class CrackersRunner{
 	cracker7.price=35.00;
 	cracker7.size="Small";
 
-	System.out.println("Crackers id is:"+cracker7.crackersId);
-	System.out.println("Crackers name is:"+cracker7.name);
-	System.out.println("Crackers type is:"+cracker7.type);
-	System.out.println("Crackers weight is:"+cracker7.weight);
-	System.out.println("Crackers price is:"+cracker7.price);
-	System.out.println("Crackers size is:"+cracker7.size+"\n");
+
 
 	Crackers cracker8=new Crackers();
 
@@ -125,12 +89,7 @@ class CrackersRunner{
 	cracker8.price=40.00;
 	cracker8.size="Large";
 
-	System.out.println("Crackers id is:"+cracker8.crackersId);
-	System.out.println("Crackers name is:"+cracker8.name);
-	System.out.println("Crackers type is:"+cracker8.type);
-	System.out.println("Crackers weight is:"+cracker8.weight);
-	System.out.println("Crackers price is:"+cracker8.price);
-	System.out.println("Crackers size is:"+cracker8.size+"\n");
+
 
 	Crackers cracker9=new Crackers();
 
@@ -141,12 +100,7 @@ class CrackersRunner{
 	cracker9.price=70.00;
 	cracker9.size="Medium";
 
-	System.out.println("Crackers id is:"+cracker9.crackersId);
-	System.out.println("Crackers name is:"+cracker9.name);
-	System.out.println("Crackers type is:"+cracker9.type);
-	System.out.println("Crackers weight is:"+cracker9.weight);
-	System.out.println("Crackers price is:"+cracker9.price);
-	System.out.println("Crackers size is:"+cracker9.size+"\n");
+
 
 	Crackers cracker10=new Crackers();
 
@@ -157,12 +111,7 @@ class CrackersRunner{
 	cracker10.price=85.00;
 	cracker10.size="Large";
 
-	System.out.println("Crackers id is:"+cracker10.crackersId);
-	System.out.println("Crackers name is:"+cracker10.name);
-	System.out.println("Crackers type is:"+cracker10.type);
-	System.out.println("Crackers weight is:"+cracker10.weight);
-	System.out.println("Crackers price is:"+cracker10.price);
-	System.out.println("Crackers size is:"+cracker10.size+"\n");
+
 
 	Crackers cracker11=new Crackers();
 
@@ -173,12 +122,7 @@ class CrackersRunner{
 	cracker11.price=60.00;
 	cracker11.size="Medium";
 
-	System.out.println("Crackers id is:"+cracker11.crackersId);
-	System.out.println("Crackers name is:"+cracker11.name);
-	System.out.println("Crackers type is:"+cracker11.type);
-	System.out.println("Crackers weight is:"+cracker11.weight);
-	System.out.println("Crackers price is:"+cracker11.price);
-	System.out.println("Crackers size is:"+cracker11.size+"\n");
+
 
 	Crackers cracker12=new Crackers();
 
@@ -189,12 +133,6 @@ class CrackersRunner{
 	cracker12.price=55.00;
 	cracker12.size="Medium";
 
-	System.out.println("Crackers id is:"+cracker12.crackersId);
-	System.out.println("Crackers name is:"+cracker12.name);
-	System.out.println("Crackers type is:"+cracker12.type);
-	System.out.println("Crackers weight is:"+cracker12.weight);
-	System.out.println("Crackers price is:"+cracker12.price);
-	System.out.println("Crackers size is:"+cracker12.size+"\n");
 
 	Crackers cracker13=new Crackers();
 
@@ -205,12 +143,7 @@ class CrackersRunner{
 	cracker13.price=38.00;
 	cracker13.size="Small";
 
-	System.out.println("Crackers id is:"+cracker13.crackersId);
-	System.out.println("Crackers name is:"+cracker13.name);
-	System.out.println("Crackers type is:"+cracker13.type);
-	System.out.println("Crackers weight is:"+cracker13.weight);
-	System.out.println("Crackers price is:"+cracker13.price);
-	System.out.println("Crackers size is:"+cracker13.size+"\n");
+
 
 	Crackers cracker14=new Crackers();
 
@@ -221,12 +154,7 @@ class CrackersRunner{
 	cracker14.price=67.00;
 	cracker14.size="Large";
 
-	System.out.println("Crackers id is:"+cracker14.crackersId);
-	System.out.println("Crackers name is:"+cracker14.name);
-	System.out.println("Crackers type is:"+cracker14.type);
-	System.out.println("Crackers weight is:"+cracker14.weight);
-	System.out.println("Crackers price is:"+cracker14.price);
-	System.out.println("Crackers size is:"+cracker14.size+"\n");
+
 
 	Crackers cracker15=new Crackers();
 
@@ -237,12 +165,7 @@ class CrackersRunner{
 	cracker15.price=20.00;
 	cracker15.size="Small";
 
-	System.out.println("Crackers id is:"+cracker15.crackersId);
-	System.out.println("Crackers name is:"+cracker15.name);
-	System.out.println("Crackers type is:"+cracker15.type);
-	System.out.println("Crackers weight is:"+cracker15.weight);
-	System.out.println("Crackers price is:"+cracker15.price);
-	System.out.println("Crackers size is:"+cracker15.size+"\n");
+
 
 	Crackers cracker16=new Crackers();
 
@@ -253,12 +176,7 @@ class CrackersRunner{
 	cracker16.price=30.00;
 	cracker16.size="Medium";
 
-	System.out.println("Crackers id is:"+cracker16.crackersId);
-	System.out.println("Crackers name is:"+cracker16.name);
-	System.out.println("Crackers type is:"+cracker16.type);
-	System.out.println("Crackers weight is:"+cracker16.weight);
-	System.out.println("Crackers price is:"+cracker16.price);
-	System.out.println("Crackers size is:"+cracker16.size+"\n");
+
 
 	Crackers cracker17=new Crackers();
 
@@ -269,12 +187,6 @@ class CrackersRunner{
 	cracker17.price=90.00;
 	cracker17.size="Large";
 
-	System.out.println("Crackers id is:"+cracker17.crackersId);
-	System.out.println("Crackers name is:"+cracker17.name);
-	System.out.println("Crackers type is:"+cracker17.type);
-	System.out.println("Crackers weight is:"+cracker17.weight);
-	System.out.println("Crackers price is:"+cracker17.price);
-	System.out.println("Crackers size is:"+cracker17.size+"\n");
 
 	Crackers cracker18=new Crackers();
 
@@ -285,12 +197,6 @@ class CrackersRunner{
 	cracker18.price=48.00;
 	cracker18.size="Small";
 
-	System.out.println("Crackers id is:"+cracker18.crackersId);
-	System.out.println("Crackers name is:"+cracker18.name);
-	System.out.println("Crackers type is:"+cracker18.type);
-	System.out.println("Crackers weight is:"+cracker18.weight);
-	System.out.println("Crackers price is:"+cracker18.price);
-	System.out.println("Crackers size is:"+cracker18.size+"\n");
 
 	Crackers cracker19=new Crackers();
 
@@ -301,12 +207,7 @@ class CrackersRunner{
 	cracker19.price=72.00;
 	cracker19.size="Large";
 
-	System.out.println("Crackers id is:"+cracker19.crackersId);
-	System.out.println("Crackers name is:"+cracker19.name);
-	System.out.println("Crackers type is:"+cracker19.type);
-	System.out.println("Crackers weight is:"+cracker19.weight);
-	System.out.println("Crackers price is:"+cracker19.price);
-	System.out.println("Crackers size is:"+cracker19.size+"\n");
+
 
 	Crackers cracker20=new Crackers();
 
@@ -317,12 +218,26 @@ class CrackersRunner{
 	cracker20.price=80.00;
 	cracker20.size="Large";
 
-	System.out.println("Crackers id is:"+cracker20.crackersId);
-	System.out.println("Crackers name is:"+cracker20.name);
-	System.out.println("Crackers type is:"+cracker20.type);
-	System.out.println("Crackers weight is:"+cracker20.weight);
-	System.out.println("Crackers price is:"+cracker20.price);
-	System.out.println("Crackers size is:"+cracker20.size+"\n");
+	cracker1.getInfo();
+	cracker2.getInfo();
+	cracker3.getInfo();
+	cracker4.getInfo();
+	cracker5.getInfo();
+	cracker6.getInfo();
+	cracker7.getInfo();
+	cracker8.getInfo();
+	cracker9.getInfo();
+	cracker10.getInfo();
+	cracker11.getInfo();
+	cracker12.getInfo();
+	cracker13.getInfo();
+	cracker14.getInfo();
+	cracker15.getInfo();
+	cracker16.getInfo();
+	cracker17.getInfo();
+	cracker18.getInfo();
+	cracker19.getInfo();
+	cracker20.getInfo();
 
 	
 	System.out.println("\nmain ended");

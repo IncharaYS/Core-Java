@@ -11,12 +11,6 @@ class PipeRunner{
 	pipe1.isFireResistance=true;
 	pipe1.shape="circle";
 	
-	System.out.println("Pipe id is:"+pipe1.pipeId);
-	System.out.println("Pipe width is:"+pipe1.width);
-	System.out.println("Pipe length is:"+pipe1.length);
-	System.out.println("Pipe material is:"+pipe1.material);
-	System.out.println("Pipe is fire resistant?:"+pipe1.isFireResistance);
-	System.out.println("Pipe shapa is:"+pipe1.shape+"\n");
 	
 	Pipe pipe2=new Pipe();
 
@@ -27,12 +21,6 @@ class PipeRunner{
 	pipe2.isFireResistance=false;
 	pipe2.shape="square";
 
-	System.out.println("Pipe id is:"+pipe2.pipeId);
-	System.out.println("Pipe width is:"+pipe2.width);
-	System.out.println("Pipe length is:"+pipe2.length);
-	System.out.println("Pipe material is:"+pipe2.material);
-	System.out.println("Pipe is fire resistant?:"+pipe2.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe2.shape+"\n");
 
 	Pipe pipe3=new Pipe();
 
@@ -43,12 +31,6 @@ class PipeRunner{
 	pipe3.isFireResistance=true;
 	pipe3.shape="circle";
 
-	System.out.println("Pipe id is:"+pipe3.pipeId);
-	System.out.println("Pipe width is:"+pipe3.width);
-	System.out.println("Pipe length is:"+pipe3.length);
-	System.out.println("Pipe material is:"+pipe3.material);
-	System.out.println("Pipe is fire resistant?:"+pipe3.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe3.shape+"\n");
 
 	Pipe pipe4=new Pipe();
 
@@ -59,12 +41,6 @@ class PipeRunner{
 	pipe4.isFireResistance=false;
 	pipe4.shape="rectangle";
 
-	System.out.println("Pipe id is:"+pipe4.pipeId);
-	System.out.println("Pipe width is:"+pipe4.width);
-	System.out.println("Pipe length is:"+pipe4.length);
-	System.out.println("Pipe material is:"+pipe4.material);
-	System.out.println("Pipe is fire resistant?:"+pipe4.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe4.shape+"\n");
 
 	Pipe pipe5=new Pipe();
 
@@ -75,12 +51,7 @@ class PipeRunner{
 	pipe5.isFireResistance=true;
 	pipe5.shape="oval";
 
-	System.out.println("Pipe id is:"+pipe5.pipeId);
-	System.out.println("Pipe width is:"+pipe5.width);
-	System.out.println("Pipe length is:"+pipe5.length);
-	System.out.println("Pipe material is:"+pipe5.material);
-	System.out.println("Pipe is fire resistant?:"+pipe5.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe5.shape+"\n");
+
 
 	Pipe pipe6=new Pipe();
 
@@ -91,12 +62,7 @@ class PipeRunner{
 	pipe6.isFireResistance=true;
 	pipe6.shape="triangle";
 
-	System.out.println("Pipe id is:"+pipe6.pipeId);
-	System.out.println("Pipe width is:"+pipe6.width);
-	System.out.println("Pipe length is:"+pipe6.length);
-	System.out.println("Pipe material is:"+pipe6.material);
-	System.out.println("Pipe is fire resistant?:"+pipe6.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe6.shape+"\n");
+
 
 	Pipe pipe7=new Pipe();
 
@@ -107,12 +73,7 @@ class PipeRunner{
 	pipe7.isFireResistance=false;
 	pipe7.shape="circle";
 
-	System.out.println("Pipe id is:"+pipe7.pipeId);
-	System.out.println("Pipe width is:"+pipe7.width);
-	System.out.println("Pipe length is:"+pipe7.length);
-	System.out.println("Pipe material is:"+pipe7.material);
-	System.out.println("Pipe is fire resistant?:"+pipe7.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe7.shape+"\n");
+
 
 	Pipe pipe8=new Pipe();
 
@@ -123,12 +84,6 @@ class PipeRunner{
 	pipe8.isFireResistance=true;
 	pipe8.shape="hexagon";
 
-	System.out.println("Pipe id is:"+pipe8.pipeId);
-	System.out.println("Pipe width is:"+pipe8.width);
-	System.out.println("Pipe length is:"+pipe8.length);
-	System.out.println("Pipe material is:"+pipe8.material);
-	System.out.println("Pipe is fire resistant?:"+pipe8.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe8.shape+"\n");
 
 	Pipe pipe9=new Pipe();
 
@@ -139,12 +94,6 @@ class PipeRunner{
 	pipe9.isFireResistance=false;
 	pipe9.shape="circle";
 
-	System.out.println("Pipe id is:"+pipe9.pipeId);
-	System.out.println("Pipe width is:"+pipe9.width);
-	System.out.println("Pipe length is:"+pipe9.length);
-	System.out.println("Pipe material is:"+pipe9.material);
-	System.out.println("Pipe is fire resistant?:"+pipe9.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe9.shape+"\n");
 
 	Pipe pipe10=new Pipe();
 
@@ -155,12 +104,7 @@ class PipeRunner{
 	pipe10.isFireResistance=true;
 	pipe10.shape="square";
 
-	System.out.println("Pipe id is:"+pipe10.pipeId);
-	System.out.println("Pipe width is:"+pipe10.width);
-	System.out.println("Pipe length is:"+pipe10.length);
-	System.out.println("Pipe material is:"+pipe10.material);
-	System.out.println("Pipe is fire resistant?:"+pipe10.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe10.shape+"\n");
+
 
 	Pipe pipe11=new Pipe();
 
@@ -171,12 +115,6 @@ class PipeRunner{
 	pipe11.isFireResistance=true;
 	pipe11.shape="circle";
 
-	System.out.println("Pipe id is:"+pipe11.pipeId);
-	System.out.println("Pipe width is:"+pipe11.width);
-	System.out.println("Pipe length is:"+pipe11.length);
-	System.out.println("Pipe material is:"+pipe11.material);
-	System.out.println("Pipe is fire resistant?:"+pipe11.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe11.shape+"\n");
 
 	Pipe pipe12=new Pipe();
 
@@ -187,12 +125,6 @@ class PipeRunner{
 	pipe12.isFireResistance=false;
 	pipe12.shape="ellipse";
 
-	System.out.println("Pipe id is:"+pipe12.pipeId);
-	System.out.println("Pipe width is:"+pipe12.width);
-	System.out.println("Pipe length is:"+pipe12.length);
-	System.out.println("Pipe material is:"+pipe12.material);
-	System.out.println("Pipe is fire resistant?:"+pipe12.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe12.shape+"\n");
 
 	Pipe pipe13=new Pipe();
 
@@ -203,12 +135,6 @@ class PipeRunner{
 	pipe13.isFireResistance=true;
 	pipe13.shape="rectangle";
 
-	System.out.println("Pipe id is:"+pipe13.pipeId);
-	System.out.println("Pipe width is:"+pipe13.width);
-	System.out.println("Pipe length is:"+pipe13.length);
-	System.out.println("Pipe material is:"+pipe13.material);
-	System.out.println("Pipe is fire resistant?:"+pipe13.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe13.shape+"\n");
 
 	Pipe pipe14=new Pipe();
 
@@ -219,12 +145,6 @@ class PipeRunner{
 	pipe14.isFireResistance=true;
 	pipe14.shape="circle";
 
-	System.out.println("Pipe id is:"+pipe14.pipeId);
-	System.out.println("Pipe width is:"+pipe14.width);
-	System.out.println("Pipe length is:"+pipe14.length);
-	System.out.println("Pipe material is:"+pipe14.material);
-	System.out.println("Pipe is fire resistant?:"+pipe14.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe14.shape+"\n");
 
 	Pipe pipe15=new Pipe();
 
@@ -235,12 +155,6 @@ class PipeRunner{
 	pipe15.isFireResistance=false;
 	pipe15.shape="square";
 
-	System.out.println("Pipe id is:"+pipe15.pipeId);
-	System.out.println("Pipe width is:"+pipe15.width);
-	System.out.println("Pipe length is:"+pipe15.length);
-	System.out.println("Pipe material is:"+pipe15.material);
-	System.out.println("Pipe is fire resistant?:"+pipe15.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe15.shape+"\n");
 
 	Pipe pipe16=new Pipe();
 
@@ -251,12 +165,6 @@ class PipeRunner{
 	pipe16.isFireResistance=true;
 	pipe16.shape="octagon";
 
-	System.out.println("Pipe id is:"+pipe16.pipeId);
-	System.out.println("Pipe width is:"+pipe16.width);
-	System.out.println("Pipe length is:"+pipe16.length);
-	System.out.println("Pipe material is:"+pipe16.material);
-	System.out.println("Pipe is fire resistant?:"+pipe16.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe16.shape+"\n");
 
 	Pipe pipe17=new Pipe();
 
@@ -267,12 +175,6 @@ class PipeRunner{
 	pipe17.isFireResistance=true;
 	pipe17.shape="triangle";
 
-	System.out.println("Pipe id is:"+pipe17.pipeId);
-	System.out.println("Pipe width is:"+pipe17.width);
-	System.out.println("Pipe length is:"+pipe17.length);
-	System.out.println("Pipe material is:"+pipe17.material);
-	System.out.println("Pipe is fire resistant?:"+pipe17.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe17.shape+"\n");
 
 	Pipe pipe18=new Pipe();
 
@@ -283,12 +185,6 @@ class PipeRunner{
 	pipe18.isFireResistance=false;
 	pipe18.shape="circle";
 
-	System.out.println("Pipe id is:"+pipe18.pipeId);
-	System.out.println("Pipe width is:"+pipe18.width);
-	System.out.println("Pipe length is:"+pipe18.length);
-	System.out.println("Pipe material is:"+pipe18.material);
-	System.out.println("Pipe is fire resistant?:"+pipe18.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe18.shape+"\n");
 
 	Pipe pipe19=new Pipe();
 
@@ -299,12 +195,6 @@ class PipeRunner{
 	pipe19.isFireResistance=false;
 	pipe19.shape="rectangle";
 
-	System.out.println("Pipe id is:"+pipe19.pipeId);
-	System.out.println("Pipe width is:"+pipe19.width);
-	System.out.println("Pipe length is:"+pipe19.length);
-	System.out.println("Pipe material is:"+pipe19.material);
-	System.out.println("Pipe is fire resistant?:"+pipe19.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe19.shape+"\n");
 
 	Pipe pipe20=new Pipe();
 
@@ -315,13 +205,27 @@ class PipeRunner{
 	pipe20.isFireResistance=true;
 	pipe20.shape="hexagon";
 
-	System.out.println("Pipe id is:"+pipe20.pipeId);
-	System.out.println("Pipe width is:"+pipe20.width);
-	System.out.println("Pipe length is:"+pipe20.length);
-	System.out.println("Pipe material is:"+pipe20.material);
-	System.out.println("Pipe is fire resistant?:"+pipe20.isFireResistance);
-	System.out.println("Pipe shape is:"+pipe20.shape+"\n");
-
+	pipe1.getInfo();
+	pipe2.getInfo();
+	pipe3.getInfo();
+	pipe4.getInfo();
+	pipe5.getInfo();
+	pipe6.getInfo();
+	pipe7.getInfo();
+	pipe8.getInfo();
+	pipe9.getInfo();
+	pipe10.getInfo();
+	pipe11.getInfo();
+	pipe12.getInfo();
+	pipe13.getInfo();
+	pipe14.getInfo();
+	pipe15.getInfo();
+	pipe16.getInfo();
+	pipe17.getInfo();
+	pipe18.getInfo();
+	pipe19.getInfo();
+	pipe20.getInfo();
+	
 	
 	System.out.println("\nmain ended");
 

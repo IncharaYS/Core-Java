@@ -5,4 +5,14 @@ class Flowers{
 	boolean isFresh;
 	double price;
 	boolean hasLongLife;
+	
+	public void getInfo(){
+			
+	System.out.println("Flower Id is"+flowerId);
+	System.out.println("Flower color is"+color);
+	System.out.println("Flower name is"+name);
+	System.out.println("Flower price is"+price);
+	System.out.println("Flower is Fresh?"+isFresh);
+	System.out.println("Flower has long life?:"+hasLongLife+"\n");
+	}
 }

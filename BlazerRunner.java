@@ -11,12 +11,7 @@ class BlazerRunner{
 	blazer1.brandName="Raymond";
 	blazer1.price=2000.00;
 	
-	System.out.println("Blazer ID is:"+blazer1.itemId);
-	System.out.println("Blazer size is:"+blazer1.size);
-	System.out.println("Blazer color is:"+blazer1.color);
-	System.out.println("Blazer style is:"+blazer1.style);
-	System.out.println("Blazer brand name is:"+blazer1.brandName);
-	System.out.println("Blazer price is:"+blazer1.price+"\n");
+
 	
 	Blazer blazer2=new Blazer();
 	
@@ -27,12 +22,7 @@ class BlazerRunner{
 	blazer2.brandName="Manyavar";
 	blazer2.price=5400.00;
 	
-	System.out.println("Blazer ID is:"+blazer2.itemId);
-	System.out.println("Blazer size is:"+blazer2.size);
-	System.out.println("Blazer color is:"+blazer2.color);
-	System.out.println("Blazer style is:"+blazer2.style);
-	System.out.println("Blazer brand name is:"+blazer2.brandName);
-	System.out.println("Blazer price is:"+blazer2.price+"\n");
+
 	
 	
 	Blazer blazer3=new Blazer();
@@ -44,12 +34,7 @@ class BlazerRunner{
 	blazer3.brandName="Peter England";
 	blazer3.price=4500.00;
 	
-	System.out.println("Blazer ID is:"+blazer3.itemId);
-	System.out.println("Blazer size is:"+blazer3.size);
-	System.out.println("Blazer color is:"+blazer3.color);
-	System.out.println("Blazer style is:"+blazer3.style);
-	System.out.println("Blazer brand name is:"+blazer3.brandName);
-	System.out.println("Blazer price is:"+blazer3.price+"\n");
+
 	
 	Blazer blazer4=new Blazer();
 	
@@ -60,12 +45,7 @@ class BlazerRunner{
 	blazer4.brandName="Van Heusen India";
 	blazer4.price=8900.00;
 	
-	System.out.println("Blazer ID is:"+blazer4.itemId);
-	System.out.println("Blazer size is:"+blazer4.size);
-	System.out.println("Blazer color is:"+blazer4.color);
-	System.out.println("Blazer style is:"+blazer4.style);
-	System.out.println("Blazer brand name is:"+blazer4.brandName);
-	System.out.println("Blazer price is:"+blazer4.price+"\n");
+
 	
 	Blazer blazer5=new Blazer();
 	
@@ -76,12 +56,7 @@ class BlazerRunner{
 	blazer5.brandName="Van Heusen India";
 	blazer5.price=3900.00;
 	
-	System.out.println("Blazer ID is:"+blazer5.itemId);
-	System.out.println("Blazer size is:"+blazer5.size);
-	System.out.println("Blazer color is:"+blazer5.color);
-	System.out.println("Blazer style is:"+blazer5.style);
-	System.out.println("Blazer brand name is:"+blazer5.brandName);
-	System.out.println("Blazer price is:"+blazer5.price+"\n");
+
 	
 	Blazer blazer6=new Blazer();
 	
@@ -92,12 +67,7 @@ class BlazerRunner{
 	blazer6.brandName="FabIndia";
 	blazer6.price=6599.00;
 	
-	System.out.println("Blazer ID is:"+blazer6.itemId);
-	System.out.println("Blazer size is:"+blazer6.size);
-	System.out.println("Blazer color is:"+blazer6.color);
-	System.out.println("Blazer style is:"+blazer6.style);
-	System.out.println("Blazer brand name is:"+blazer6.brandName);
-	System.out.println("Blazer price is:"+blazer6.price+"\n");
+
 	
 	Blazer blazer7=new Blazer();
 	
@@ -109,11 +79,7 @@ class BlazerRunner{
 	blazer7.price=7199.00;
 	
 	System.out.println("Blazer ID is:"+blazer7.itemId);
-	System.out.println("Blazer size is:"+blazer7.size);
-	System.out.println("Blazer color is:"+blazer7.color);
-	System.out.println("Blazer style is:"+blazer7.style);
-	System.out.println("Blazer brand name is:"+blazer7.brandName);
-	System.out.println("Blazer price is:"+blazer7.price+"\n");
+
 	
 	Blazer blazer8=new Blazer();
 	
@@ -124,12 +90,7 @@ class BlazerRunner{
 	blazer8.brandName="Manyavar";
 	blazer8.price=9999.00;
 
-	System.out.println("Blazer ID is:"+blazer8.itemId);
-	System.out.println("Blazer size is:"+blazer8.size);
-	System.out.println("Blazer color is:"+blazer8.color);
-	System.out.println("Blazer style is:"+blazer8.style);
-	System.out.println("Blazer brand name is:"+blazer8.brandName);
-	System.out.println("Blazer price is:"+blazer8.price+"\n");
+
 	
 	Blazer blazer9=new Blazer();
 	
@@ -140,12 +101,7 @@ class BlazerRunner{
 	blazer9.brandName="Louis Philippe";
 	blazer9.price=11499.00;
 	
-	System.out.println("Blazer ID is:"+blazer9.itemId);
-	System.out.println("Blazer size is:"+blazer9.size);
-	System.out.println("Blazer color is:"+blazer9.color);
-	System.out.println("Blazer style is:"+blazer9.style);
-	System.out.println("Blazer brand name is:"+blazer9.brandName);
-	System.out.println("Blazer price is:"+blazer9.price+"\n");
+
 	
 	Blazer blazer10=new Blazer();
 	
@@ -156,12 +112,7 @@ class BlazerRunner{
 	blazer10.brandName="Siyaram’s";
 	blazer10.price=5399.00;
 	
-	System.out.println("Blazer ID is:"+blazer10.itemId);
-	System.out.println("Blazer size is:"+blazer10.size);
-	System.out.println("Blazer color is:"+blazer10.color);
-	System.out.println("Blazer style is:"+blazer10.style);
-	System.out.println("Blazer brand name is:"+blazer10.brandName);
-	System.out.println("Blazer price is:"+blazer10.price+"\n");
+
 	
 	Blazer blazer11=new Blazer();
 	
@@ -172,12 +123,8 @@ class BlazerRunner{
 	blazer11.brandName="Manyavar";
 	blazer11.price=8499.00;
 	
-	System.out.println("Blazer ID is:"+blazer11.itemId);
-	System.out.println("Blazer size is:"+blazer11.size);
-	System.out.println("Blazer color is:"+blazer11.color);
-	System.out.println("Blazer style is:"+blazer11.style);
-	System.out.println("Blazer brand name is:"+blazer11.brandName);
-	System.out.println("Blazer price is:"+blazer11.price+"\n");
+
+
 	
 	Blazer blazer12=new Blazer();
 	
@@ -188,12 +135,7 @@ class BlazerRunner{
 	blazer12.brandName="FabIndia";
 	blazer12.price=6099.00;
 	
-	System.out.println("Blazer ID is:"+blazer12.itemId);
-	System.out.println("Blazer size is:"+blazer12.size);
-	System.out.println("Blazer color is:"+blazer12.color);
-	System.out.println("Blazer style is:"+blazer12.style);
-	System.out.println("Blazer brand name is:"+blazer12.brandName);
-	System.out.println("Blazer price is:"+blazer12.price+"\n");
+
 	
 	Blazer blazer13=new Blazer();
 	
@@ -203,13 +145,7 @@ class BlazerRunner{
 	blazer13.style="Neharu";
 	blazer13.brandName="Raymond";
 	blazer13.price=6799.00;
-		
-	System.out.println("Blazer ID is:"+blazer13.itemId);
-	System.out.println("Blazer size is:"+blazer13.size);
-	System.out.println("Blazer color is:"+blazer13.color);
-	System.out.println("Blazer style is:"+blazer13.style);
-	System.out.println("Blazer brand name is:"+blazer13.brandName);
-	System.out.println("Blazer price is:"+blazer13.price+"\n");
+	
 	
 	Blazer blazer14=new Blazer();
 	
@@ -221,12 +157,7 @@ class BlazerRunner{
 	blazer14.brandName="Van Heusen";
 	blazer14.price=7199.00;
 	
-	System.out.println("Blazer ID is:"+blazer14.itemId);
-	System.out.println("Blazer size is:"+blazer14.size);
-	System.out.println("Blazer color is:"+blazer14.color);
-	System.out.println("Blazer style is:"+blazer14.style);
-	System.out.println("Blazer brand name is:"+blazer14.brandName);
-	System.out.println("Blazer price is:"+blazer14.price+"\n");
+
 	
 	Blazer blazer15=new Blazer();
 	
@@ -237,12 +168,7 @@ class BlazerRunner{
 	blazer15.brandName="ManQ";
 	blazer15.price=4499.00;
 	
-	System.out.println("Blazer ID is:"+blazer15.itemId);
-	System.out.println("Blazer size is:"+blazer15.size);
-	System.out.println("Blazer color is:"+blazer15.color);
-	System.out.println("Blazer style is:"+blazer15.style);
-	System.out.println("Blazer brand name is:"+blazer15.brandName);
-	System.out.println("Blazer price is:"+blazer15.price+"\n");
+
 	
 	Blazer blazer16=new Blazer();
 	
@@ -253,12 +179,7 @@ class BlazerRunner{
 	blazer16.brandName="Peter England";
 	blazer16.price=5699.00;
 	
-	System.out.println("Blazer ID is:"+blazer16.itemId);
-	System.out.println("Blazer size is:"+blazer16.size);
-	System.out.println("Blazer color is:"+blazer16.color);
-	System.out.println("Blazer style is:"+blazer16.style);
-	System.out.println("Blazer brand name is:"+blazer16.brandName);
-	System.out.println("Blazer price is:"+blazer16.price+"\n");
+
 	
 	Blazer blazer17=new Blazer();
 	
@@ -269,12 +190,7 @@ class BlazerRunner{
 	blazer17.brandName="Manyavar";
 	blazer17.price=9599.00;
 	
-	System.out.println("Blazer ID is:"+blazer17.itemId);
-	System.out.println("Blazer size is:"+blazer17.size);
-	System.out.println("Blazer color is:"+blazer17.color);
-	System.out.println("Blazer style is:"+blazer17.style);
-	System.out.println("Blazer brand name is:"+blazer17.brandName);
-	System.out.println("Blazer price is:"+blazer17.price+"\n");
+
 	
 	Blazer blazer18=new Blazer();
 	
@@ -285,12 +201,7 @@ class BlazerRunner{
 	blazer18.brandName="FabIndia";
 	blazer18.price=5899.00;
 	
-	System.out.println("Blazer ID is:"+blazer18.itemId);
-	System.out.println("Blazer size is:"+blazer18.size);
-	System.out.println("Blazer color is:"+blazer18.color);
-	System.out.println("Blazer style is:"+blazer18.style);
-	System.out.println("Blazer brand name is:"+blazer18.brandName);
-	System.out.println("Blazer price is:"+blazer18.price+"\n");
+
 	
 	Blazer blazer19=new Blazer();
 	
@@ -301,12 +212,7 @@ class BlazerRunner{
 	blazer19.brandName="Blackberrys";
 	blazer19.price=6299.00;
 	
-	System.out.println("Blazer ID is:"+blazer19.itemId);
-	System.out.println("Blazer size is:"+blazer19.size);
-	System.out.println("Blazer color is:"+blazer19.color);
-	System.out.println("Blazer style is:"+blazer19.style);
-	System.out.println("Blazer brand name is:"+blazer19.brandName);
-	System.out.println("Blazer price is:"+blazer19.price+"\n");
+
 	
 	Blazer blazer20=new Blazer();
 	
@@ -317,12 +223,26 @@ class BlazerRunner{
 	blazer20.brandName="Louis Philippe";
 	blazer20.price=8499.00;
 	
-	System.out.println("Blazer ID is:"+blazer20.itemId);
-	System.out.println("Blazer size is:"+blazer20.size);
-	System.out.println("Blazer color is:"+blazer20.color);
-	System.out.println("Blazer style is:"+blazer20.style);
-	System.out.println("Blazer brand name is:"+blazer20.brandName);
-	System.out.println("Blazer price is:"+blazer20.price+"\n");
+	blazer1.getInfo();
+	blazer2.getInfo();
+	blazer3.getInfo();
+	blazer4.getInfo();
+	blazer5.getInfo();
+	blazer6.getInfo();
+	blazer7.getInfo();
+	blazer8.getInfo();
+	blazer9.getInfo();
+	blazer10.getInfo();
+	blazer11.getInfo();
+	blazer12.getInfo();
+	blazer13.getInfo();
+	blazer14.getInfo();
+	blazer15.getInfo();
+	blazer16.getInfo();
+	blazer17.getInfo();
+	blazer18.getInfo();
+	blazer19.getInfo();
+	blazer20.getInfo();
 	
 	
 	System.out.println("\nmain ended");

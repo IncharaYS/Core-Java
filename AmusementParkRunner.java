@@ -11,12 +11,7 @@ class AmusementParkRunner{
 	park1.closingTime="7:30";
 	park1.price=1000.00;
 	
-	System.out.println("Park id is:"+park1.parkId);
-	System.out.println("Park name is:"+park1.name);
-	System.out.println("Park location is:"+park1.location);
-	System.out.println("Park opening Time is:"+park1.openingTime);
-	System.out.println("Park closing Time is:"+park1.closingTime);
-	System.out.println("Park price is:"+park1.price+"\n");
+	park1.getInfo();
 	
 	AmusementPark park2=new AmusementPark();
 
@@ -27,12 +22,7 @@ class AmusementParkRunner{
 	park2.closingTime="6:00";
 	park2.price=1200.00;
 
-	System.out.println("Park id is:"+park2.parkId);
-	System.out.println("Park name is:"+park2.name);
-	System.out.println("Park location is:"+park2.location);
-	System.out.println("Park opening Time is:"+park2.openingTime);
-	System.out.println("Park closing Time is:"+park2.closingTime);
-	System.out.println("Park price is:"+park2.price+"\n");
+	park2.getInfo();
 
 	AmusementPark park3=new AmusementPark();
 
@@ -43,12 +33,7 @@ class AmusementParkRunner{
 	park3.closingTime="6:30";
 	park3.price=950.00;
 
-	System.out.println("Park id is:"+park3.parkId);
-	System.out.println("Park name is:"+park3.name);
-	System.out.println("Park location is:"+park3.location);
-	System.out.println("Park opening Time is:"+park3.openingTime);
-	System.out.println("Park closing Time is:"+park3.closingTime);
-	System.out.println("Park price is:"+park3.price+"\n");
+	park3.getInfo();
 
 	AmusementPark park4=new AmusementPark();
 
@@ -59,12 +44,7 @@ class AmusementParkRunner{
 	park4.closingTime="8:00";
 	park4.price=1300.00;
 
-	System.out.println("Park id is:"+park4.parkId);
-	System.out.println("Park name is:"+park4.name);
-	System.out.println("Park location is:"+park4.location);
-	System.out.println("Park opening Time is:"+park4.openingTime);
-	System.out.println("Park closing Time is:"+park4.closingTime);
-	System.out.println("Park price is:"+park4.price+"\n");
+	park4.getInfo();
 
 	AmusementPark park5=new AmusementPark();
 
@@ -75,12 +55,7 @@ class AmusementParkRunner{
 	park5.closingTime="5:30";
 	park5.price=1100.00;
 
-	System.out.println("Park id is:"+park5.parkId);
-	System.out.println("Park name is:"+park5.name);
-	System.out.println("Park location is:"+park5.location);
-	System.out.println("Park opening Time is:"+park5.openingTime);
-	System.out.println("Park closing Time is:"+park5.closingTime);
-	System.out.println("Park price is:"+park5.price+"\n");
+park5.getInfo();
 
 	AmusementPark park6=new AmusementPark();
 
@@ -91,12 +66,7 @@ class AmusementParkRunner{
 	park6.closingTime="6:00";
 	park6.price=700.00;
 
-	System.out.println("Park id is:"+park6.parkId);
-	System.out.println("Park name is:"+park6.name);
-	System.out.println("Park location is:"+park6.location);
-	System.out.println("Park opening Time is:"+park6.openingTime);
-	System.out.println("Park closing Time is:"+park6.closingTime);
-	System.out.println("Park price is:"+park6.price+"\n");
+park6.getInfo();
 
 	AmusementPark park7=new AmusementPark();
 
@@ -107,12 +77,7 @@ class AmusementParkRunner{
 	park7.closingTime="5:30";
 	park7.price=1150.00;
 
-	System.out.println("Park id is:"+park7.parkId);
-	System.out.println("Park name is:"+park7.name);
-	System.out.println("Park location is:"+park7.location);
-	System.out.println("Park opening Time is:"+park7.openingTime);
-	System.out.println("Park closing Time is:"+park7.closingTime);
-	System.out.println("Park price is:"+park7.price+"\n");
+park7.getInfo();
 
 	AmusementPark park8=new AmusementPark();
 
@@ -123,12 +88,7 @@ class AmusementParkRunner{
 	park8.closingTime="7:00";
 	park8.price=850.00;
 
-	System.out.println("Park id is:"+park8.parkId);
-	System.out.println("Park name is:"+park8.name);
-	System.out.println("Park location is:"+park8.location);
-	System.out.println("Park opening Time is:"+park8.openingTime);
-	System.out.println("Park closing Time is:"+park8.closingTime);
-	System.out.println("Park price is:"+park8.price+"\n");
+park8.getInfo();
 
 	AmusementPark park9=new AmusementPark();
 
@@ -139,12 +99,7 @@ class AmusementParkRunner{
 	park9.closingTime="6:00";
 	park9.price=950.00;
 
-	System.out.println("Park id is:"+park9.parkId);
-	System.out.println("Park name is:"+park9.name);
-	System.out.println("Park location is:"+park9.location);
-	System.out.println("Park opening Time is:"+park9.openingTime);
-	System.out.println("Park closing Time is:"+park9.closingTime);
-	System.out.println("Park price is:"+park9.price+"\n");
+park9.getInfo();
 
 	AmusementPark park10=new AmusementPark();
 
@@ -155,12 +110,7 @@ class AmusementParkRunner{
 	park10.closingTime="6:30";
 	park10.price=1400.00;
 
-	System.out.println("Park id is:"+park10.parkId);
-	System.out.println("Park name is:"+park10.name);
-	System.out.println("Park location is:"+park10.location);
-	System.out.println("Park opening Time is:"+park10.openingTime);
-	System.out.println("Park closing Time is:"+park10.closingTime);
-	System.out.println("Park price is:"+park10.price+"\n");
+park10.getInfo();
 
 	AmusementPark park11=new AmusementPark();
 
@@ -171,12 +121,7 @@ class AmusementParkRunner{
 	park11.closingTime="7:00";
 	park11.price=1050.00;
 
-	System.out.println("Park id is:"+park11.parkId);
-	System.out.println("Park name is:"+park11.name);
-	System.out.println("Park location is:"+park11.location);
-	System.out.println("Park opening Time is:"+park11.openingTime);
-	System.out.println("Park closing Time is:"+park11.closingTime);
-	System.out.println("Park price is:"+park11.price+"\n");
+park11.getInfo();
 
 	AmusementPark park12=new AmusementPark();
 
@@ -187,12 +132,7 @@ class AmusementParkRunner{
 	park12.closingTime="6:00";
 	park12.price=980.00;
 
-	System.out.println("Park id is:"+park12.parkId);
-	System.out.println("Park name is:"+park12.name);
-	System.out.println("Park location is:"+park12.location);
-	System.out.println("Park opening Time is:"+park12.openingTime);
-	System.out.println("Park closing Time is:"+park12.closingTime);
-	System.out.println("Park price is:"+park12.price+"\n");
+park12.getInfo();
 
 	AmusementPark park13=new AmusementPark();
 
@@ -203,12 +143,7 @@ class AmusementParkRunner{
 	park13.closingTime="7:30";
 	park13.price=1250.00;
 
-	System.out.println("Park id is:"+park13.parkId);
-	System.out.println("Park name is:"+park13.name);
-	System.out.println("Park location is:"+park13.location);
-	System.out.println("Park opening Time is:"+park13.openingTime);
-	System.out.println("Park closing Time is:"+park13.closingTime);
-	System.out.println("Park price is:"+park13.price+"\n");
+park13.getInfo();
 
 	AmusementPark park14=new AmusementPark();
 
@@ -219,12 +154,7 @@ class AmusementParkRunner{
 	park14.closingTime="6:00";
 	park14.price=970.00;
 
-	System.out.println("Park id is:"+park14.parkId);
-	System.out.println("Park name is:"+park14.name);
-	System.out.println("Park location is:"+park14.location);
-	System.out.println("Park opening Time is:"+park14.openingTime);
-	System.out.println("Park closing Time is:"+park14.closingTime);
-	System.out.println("Park price is:"+park14.price+"\n");
+park14.getInfo();
 
 	AmusementPark park15=new AmusementPark();
 
@@ -235,12 +165,7 @@ class AmusementParkRunner{
 	park15.closingTime="6:00";
 	park15.price=1320.00;
 
-	System.out.println("Park id is:"+park15.parkId);
-	System.out.println("Park name is:"+park15.name);
-	System.out.println("Park location is:"+park15.location);
-	System.out.println("Park opening Time is:"+park15.openingTime);
-	System.out.println("Park closing Time is:"+park15.closingTime);
-	System.out.println("Park price is:"+park15.price+"\n");
+park15.getInfo();
 
 	AmusementPark park16=new AmusementPark();
 
@@ -251,12 +176,7 @@ class AmusementParkRunner{
 	park16.closingTime="6:30";
 	park16.price=890.00;
 
-	System.out.println("Park id is:"+park16.parkId);
-	System.out.println("Park name is:"+park16.name);
-	System.out.println("Park location is:"+park16.location);
-	System.out.println("Park opening Time is:"+park16.openingTime);
-	System.out.println("Park closing Time is:"+park16.closingTime);
-	System.out.println("Park price is:"+park16.price+"\n");
+park16.getInfo();
 
 	AmusementPark park17=new AmusementPark();
 
@@ -267,12 +187,7 @@ class AmusementParkRunner{
 	park17.closingTime="7:00";
 	park17.price=820.00;
 
-	System.out.println("Park id is:"+park17.parkId);
-	System.out.println("Park name is:"+park17.name);
-	System.out.println("Park location is:"+park17.location);
-	System.out.println("Park opening Time is:"+park17.openingTime);
-	System.out.println("Park closing Time is:"+park17.closingTime);
-	System.out.println("Park price is:"+park17.price+"\n");
+park17.getInfo();
 
 	AmusementPark park18=new AmusementPark();
 
@@ -283,12 +198,7 @@ class AmusementParkRunner{
 	park18.closingTime="6:30";
 	park18.price=990.00;
 
-	System.out.println("Park id is:"+park18.parkId);
-	System.out.println("Park name is:"+park18.name);
-	System.out.println("Park location is:"+park18.location);
-	System.out.println("Park opening Time is:"+park18.openingTime);
-	System.out.println("Park closing Time is:"+park18.closingTime);
-	System.out.println("Park price is:"+park18.price+"\n");
+park18.getInfo();
 
 	AmusementPark park19=new AmusementPark();
 
@@ -299,12 +209,7 @@ class AmusementParkRunner{
 	park19.closingTime="7:30";
 	park19.price=950.00;
 
-	System.out.println("Park id is:"+park19.parkId);
-	System.out.println("Park name is:"+park19.name);
-	System.out.println("Park location is:"+park19.location);
-	System.out.println("Park opening Time is:"+park19.openingTime);
-	System.out.println("Park closing Time is:"+park19.closingTime);
-	System.out.println("Park price is:"+park19.price+"\n");
+park19.getInfo();
 
 	AmusementPark park20=new AmusementPark();
 
@@ -315,12 +220,7 @@ class AmusementParkRunner{
 	park20.closingTime="6:00";
 	park20.price=1020.00;
 
-	System.out.println("Park id is:"+park20.parkId);
-	System.out.println("Park name is:"+park20.name);
-	System.out.println("Park location is:"+park20.location);
-	System.out.println("Park opening Time is:"+park20.openingTime);
-	System.out.println("Park closing Time is:"+park20.closingTime);
-	System.out.println("Park price is:"+park20.price+"\n");
+park20.getInfo();
 
 	
 	System.out.println("\nmain ended");

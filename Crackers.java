@@ -5,4 +5,13 @@ class Crackers{
 	String size;
 	double weight;
 	double price;
+	
+	public void getInfo(){
+	System.out.println("Crackers id is:"+crackersId);
+	System.out.println("Crackers name is:"+name);
+	System.out.println("Crackers type is:"+type);
+	System.out.println("Crackers weight is:"+weight);
+	System.out.println("Crackers price is:"+price);
+	System.out.println("Crackers size is:"+size+"\n");
+	}
 }

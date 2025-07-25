@@ -10,13 +10,7 @@ class HairClipRunner{
 	clip1.price=23.00;
 	clip1.size="S";
 	clip1.material="Metal";
-	
-	System.out.println("Clip ID is: "+clip1.itemId);
-	System.out.println("Clip color is: "+clip1.color);
-	System.out.println("Clip type is: "+clip1.type);
-	System.out.println("Clip price is: "+clip1.price);
-	System.out.println("Clip size is: "+clip1.size);
-	System.out.println("Clip material is: "+clip1.material);
+
 	
 	HairClip clip2=new HairClip();
 
@@ -27,12 +21,7 @@ class HairClipRunner{
 	clip2.size="M";
 	clip2.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip2.itemId);
-	System.out.println("Clip color is: "+clip2.color);
-	System.out.println("Clip type is: "+clip2.type);
-	System.out.println("Clip price is: "+clip2.price);
-	System.out.println("Clip size is: "+clip2.size);
-	System.out.println("Clip material is: "+clip2.material);
+
 
 	HairClip clip3=new HairClip();
 
@@ -43,12 +32,6 @@ class HairClipRunner{
 	clip3.size="S";
 	clip3.material="Steel";
 
-	System.out.println("Clip ID is: "+clip3.itemId);
-	System.out.println("Clip color is: "+clip3.color);
-	System.out.println("Clip type is: "+clip3.type);
-	System.out.println("Clip price is: "+clip3.price);
-	System.out.println("Clip size is: "+clip3.size);
-	System.out.println("Clip material is: "+clip3.material);
 
 	HairClip clip4=new HairClip();
 
@@ -59,12 +42,7 @@ class HairClipRunner{
 	clip4.size="S";
 	clip4.material="Metal";
 
-	System.out.println("Clip ID is: "+clip4.itemId);
-	System.out.println("Clip color is: "+clip4.color);
-	System.out.println("Clip type is: "+clip4.type);
-	System.out.println("Clip price is: "+clip4.price);
-	System.out.println("Clip size is: "+clip4.size);
-	System.out.println("Clip material is: "+clip4.material);
+
 
 	HairClip clip5=new HairClip();
 
@@ -75,12 +53,6 @@ class HairClipRunner{
 	clip5.size="S";
 	clip5.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip5.itemId);
-	System.out.println("Clip color is: "+clip5.color);
-	System.out.println("Clip type is: "+clip5.type);
-	System.out.println("Clip price is: "+clip5.price);
-	System.out.println("Clip size is: "+clip5.size);
-	System.out.println("Clip material is: "+clip5.material);
 
 	HairClip clip6=new HairClip();
 
@@ -91,12 +63,7 @@ class HairClipRunner{
 	clip6.size="L";
 	clip6.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip6.itemId);
-	System.out.println("Clip color is: "+clip6.color);
-	System.out.println("Clip type is: "+clip6.type);
-	System.out.println("Clip price is: "+clip6.price);
-	System.out.println("Clip size is: "+clip6.size);
-	System.out.println("Clip material is: "+clip6.material);
+
 
 	HairClip clip7=new HairClip();
 
@@ -107,12 +74,6 @@ class HairClipRunner{
 	clip7.size="S";
 	clip7.material="Alluminium";
 
-	System.out.println("Clip ID is: "+clip7.itemId);
-	System.out.println("Clip color is: "+clip7.color);
-	System.out.println("Clip type is: "+clip7.type);
-	System.out.println("Clip price is: "+clip7.price);
-	System.out.println("Clip size is: "+clip7.size);
-	System.out.println("Clip material is: "+clip7.material);
 
 	HairClip clip8=new HairClip();
 
@@ -123,12 +84,7 @@ class HairClipRunner{
 	clip8.size="L";
 	clip8.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip8.itemId);
-	System.out.println("Clip color is: "+clip8.color);
-	System.out.println("Clip type is: "+clip8.type);
-	System.out.println("Clip price is: "+clip8.price);
-	System.out.println("Clip size is: "+clip8.size);
-	System.out.println("Clip material is: "+clip8.material);
+
 
 	HairClip clip9=new HairClip();
 
@@ -139,12 +95,7 @@ class HairClipRunner{
 	clip9.size="S";
 	clip9.material="Metal";
 
-	System.out.println("Clip ID is: "+clip9.itemId);
-	System.out.println("Clip color is: "+clip9.color);
-	System.out.println("Clip type is: "+clip9.type);
-	System.out.println("Clip price is: "+clip9.price);
-	System.out.println("Clip size is: "+clip9.size);
-	System.out.println("Clip material is: "+clip9.material);
+
 
 	HairClip clip10=new HairClip();
 
@@ -155,12 +106,7 @@ class HairClipRunner{
 	clip10.size="M";
 	clip10.material="Metal";
 
-	System.out.println("Clip ID is: "+clip10.itemId);
-	System.out.println("Clip color is: "+clip10.color);
-	System.out.println("Clip type is: "+clip10.type);
-	System.out.println("Clip price is: "+clip10.price);
-	System.out.println("Clip size is: "+clip10.size);
-	System.out.println("Clip material is: "+clip10.material);
+
 
 	HairClip clip11=new HairClip();
 
@@ -171,12 +117,7 @@ class HairClipRunner{
 	clip11.size="S";
 	clip11.material="Steel";
 
-	System.out.println("Clip ID is: "+clip11.itemId);
-	System.out.println("Clip color is: "+clip11.color);
-	System.out.println("Clip type is: "+clip11.type);
-	System.out.println("Clip price is: "+clip11.price);
-	System.out.println("Clip size is: "+clip11.size);
-	System.out.println("Clip material is: "+clip11.material);
+
 
 	HairClip clip12=new HairClip();
 
@@ -187,12 +128,7 @@ class HairClipRunner{
 	clip12.size="L";
 	clip12.material="Stainless steel";
 
-	System.out.println("Clip ID is: "+clip12.itemId);
-	System.out.println("Clip color is: "+clip12.color);
-	System.out.println("Clip type is: "+clip12.type);
-	System.out.println("Clip price is: "+clip12.price);
-	System.out.println("Clip size is: "+clip12.size);
-	System.out.println("Clip material is: "+clip12.material);
+
 
 	HairClip clip13=new HairClip();
 
@@ -203,12 +139,6 @@ class HairClipRunner{
 	clip13.size="S";
 	clip13.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip13.itemId);
-	System.out.println("Clip color is: "+clip13.color);
-	System.out.println("Clip type is: "+clip13.type);
-	System.out.println("Clip price is: "+clip13.price);
-	System.out.println("Clip size is: "+clip13.size);
-	System.out.println("Clip material is: "+clip13.material);
 
 	HairClip clip14=new HairClip();
 
@@ -219,12 +149,6 @@ class HairClipRunner{
 	clip14.size="M";
 	clip14.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip14.itemId);
-	System.out.println("Clip color is: "+clip14.color);
-	System.out.println("Clip type is: "+clip14.type);
-	System.out.println("Clip price is: "+clip14.price);
-	System.out.println("Clip size is: "+clip14.size);
-	System.out.println("Clip material is: "+clip14.material);
 
 	HairClip clip15=new HairClip();
 
@@ -235,12 +159,6 @@ class HairClipRunner{
 	clip15.size="M";
 	clip15.material="Steel";
 
-	System.out.println("Clip ID is: "+clip15.itemId);
-	System.out.println("Clip color is: "+clip15.color);
-	System.out.println("Clip type is: "+clip15.type);
-	System.out.println("Clip price is: "+clip15.price);
-	System.out.println("Clip size is: "+clip15.size);
-	System.out.println("Clip material is: "+clip15.material);
 
 	HairClip clip16=new HairClip();
 
@@ -251,13 +169,6 @@ class HairClipRunner{
 	clip16.size="S";
 	clip16.material="Alluminium";
 
-	System.out.println("Clip ID is: "+clip16.itemId);
-	System.out.println("Clip color is: "+clip16.color);
-	System.out.println("Clip type is: "+clip16.type);
-	System.out.println("Clip price is: "+clip16.price);
-	System.out.println("Clip size is: "+clip16.size);
-	System.out.println("Clip material is: "+clip16.material);
-
 	HairClip clip17=new HairClip();
 
 	clip17.itemId=17;
@@ -267,12 +178,6 @@ class HairClipRunner{
 	clip17.size="L";
 	clip17.material="Wood";
 
-	System.out.println("Clip ID is: "+clip17.itemId);
-	System.out.println("Clip color is: "+clip17.color);
-	System.out.println("Clip type is: "+clip17.type);
-	System.out.println("Clip price is: "+clip17.price);
-	System.out.println("Clip size is: "+clip17.size);
-	System.out.println("Clip material is: "+clip17.material);
 
 	HairClip clip18=new HairClip();
 
@@ -283,12 +188,6 @@ class HairClipRunner{
 	clip18.size="M";
 	clip18.material="Plastic";
 
-	System.out.println("Clip ID is: "+clip18.itemId);
-	System.out.println("Clip color is: "+clip18.color);
-	System.out.println("Clip type is: "+clip18.type);
-	System.out.println("Clip price is: "+clip18.price);
-	System.out.println("Clip size is: "+clip18.size);
-	System.out.println("Clip material is: "+clip18.material);
 
 	HairClip clip19=new HairClip();
 
@@ -299,12 +198,6 @@ class HairClipRunner{
 	clip19.size="S";
 	clip19.material="Steel";
 
-	System.out.println("Clip ID is: "+clip19.itemId);
-	System.out.println("Clip color is: "+clip19.color);
-	System.out.println("Clip type is: "+clip19.type);
-	System.out.println("Clip price is: "+clip19.price);
-	System.out.println("Clip size is: "+clip19.size);
-	System.out.println("Clip material is: "+clip19.material);
 
 	HairClip clip20=new HairClip();
 
@@ -315,12 +208,27 @@ class HairClipRunner{
 	clip20.size="L";
 	clip20.material="Resin";
 
-	System.out.println("Clip ID is: "+clip20.itemId);
-	System.out.println("Clip color is: "+clip20.color);
-	System.out.println("Clip type is: "+clip20.type);
-	System.out.println("Clip price is: "+clip20.price);
-	System.out.println("Clip size is: "+clip20.size);
-	System.out.println("Clip material is: "+clip20.material);
+	clip1.getInfo();
+	clip2.getInfo();
+	clip3.getInfo();
+	clip4.getInfo();
+	clip5.getInfo();
+	clip6.getInfo();
+	clip7.getInfo();
+	clip8.getInfo();
+	clip9.getInfo();
+	clip10.getInfo();
+	clip11.getInfo();
+	clip12.getInfo();
+	clip13.getInfo();
+	clip14.getInfo();
+	clip15.getInfo();
+	clip16.getInfo();
+	clip17.getInfo();
+	clip18.getInfo();
+	clip19.getInfo();
+	clip20.getInfo();
+	
 	
 	System.out.println("\nmain ended");
 	}

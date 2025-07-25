@@ -11,12 +11,7 @@ class InvitationCardRunner{
 	card1.time="10:40";
 	card1.venue="Shimogga";
 	
-	System.out.println("Invitation card Id is: "+card1.invitationId);
-	System.out.println("Host name is: "+card1.hostName);
-	System.out.println("Guest name is: "+card1.guestName);
-	System.out.println("Date is: "+card1.date);
-	System.out.println("Time is: "+card1.time);
-	System.out.println("Venue is: "+card1.venue+"\n");
+
 	
 	InvitationCard card2=new InvitationCard();
 
@@ -27,12 +22,6 @@ class InvitationCardRunner{
 	card2.time="5:40";
 	card2.venue="Davangere";
 
-	System.out.println("Invitation card Id is: "+card2.invitationId);
-	System.out.println("Host name is: "+card2.hostName);
-	System.out.println("Guest name is: "+card2.guestName);
-	System.out.println("Date is: "+card2.date);
-	System.out.println("Time is: "+card2.time);
-	System.out.println("Venue is: "+card2.venue+"\n");
 
 	InvitationCard card3=new InvitationCard();
 
@@ -43,12 +32,7 @@ class InvitationCardRunner{
 	card3.time="12:30";
 	card3.venue="Davangere";
 
-	System.out.println("Invitation card Id is: "+card3.invitationId);
-	System.out.println("Host name is: "+card3.hostName);
-	System.out.println("Guest name is: "+card3.guestName);
-	System.out.println("Date is: "+card3.date);
-	System.out.println("Time is: "+card3.time);
-	System.out.println("Venue is: "+card3.venue+"\n");
+
 
 	InvitationCard card4=new InvitationCard();
 
@@ -59,12 +43,6 @@ class InvitationCardRunner{
 	card4.time="5:00";
 	card4.venue="Shimoga";
 
-	System.out.println("Invitation card Id is: "+card4.invitationId);
-	System.out.println("Host name is: "+card4.hostName);
-	System.out.println("Guest name is: "+card4.guestName);
-	System.out.println("Date is: "+card4.date);
-	System.out.println("Time is: "+card4.time);
-	System.out.println("Venue is: "+card4.venue+"\n");
 
 	InvitationCard card5=new InvitationCard();
 
@@ -75,12 +53,6 @@ class InvitationCardRunner{
 	card5.time="11:00";
 	card5.venue="banglore";
 
-	System.out.println("Invitation card Id is: "+card5.invitationId);
-	System.out.println("Host name is: "+card5.hostName);
-	System.out.println("Guest name is: "+card5.guestName);
-	System.out.println("Date is: "+card5.date);
-	System.out.println("Time is: "+card5.time);
-	System.out.println("Venue is: "+card5.venue+"\n");
 
 	InvitationCard card6=new InvitationCard();
 
@@ -91,12 +63,6 @@ class InvitationCardRunner{
 	card6.time="11:00";
 	card6.venue="Banglore";
 
-	System.out.println("Invitation card Id is: "+card6.invitationId);
-	System.out.println("Host name is: "+card6.hostName);
-	System.out.println("Guest name is: "+card6.guestName);
-	System.out.println("Date is: "+card6.date);
-	System.out.println("Time is: "+card6.time);
-	System.out.println("Venue is: "+card6.venue+"\n");
 
 	InvitationCard card7=new InvitationCard();
 
@@ -107,12 +73,6 @@ class InvitationCardRunner{
 	card7.time="3:00";
 	card7.venue="Chikkamangalore";
 
-	System.out.println("Invitation card Id is: "+card7.invitationId);
-	System.out.println("Host name is: "+card7.hostName);
-	System.out.println("Guest name is: "+card7.guestName);
-	System.out.println("Date is: "+card7.date);
-	System.out.println("Time is: "+card7.time);
-	System.out.println("Venue is: "+card7.venue+"\n");
 
 	InvitationCard card8=new InvitationCard();
 
@@ -123,12 +83,7 @@ class InvitationCardRunner{
 	card8.time="8:00";
 	card8.venue="Shimoga";
 
-	System.out.println("Invitation card Id is: "+card8.invitationId);
-	System.out.println("Host name is: "+card8.hostName);
-	System.out.println("Guest name is: "+card8.guestName);
-	System.out.println("Date is: "+card8.date);
-	System.out.println("Time is: "+card8.time);
-	System.out.println("Venue is: "+card8.venue+"\n");
+
 
 	InvitationCard card9=new InvitationCard();
 
@@ -139,12 +94,6 @@ class InvitationCardRunner{
 	card9.time="9:00";
 	card9.venue="Coorg";
 
-	System.out.println("Invitation card Id is: "+card9.invitationId);
-	System.out.println("Host name is: "+card9.hostName);
-	System.out.println("Guest name is: "+card9.guestName);
-	System.out.println("Date is: "+card9.date);
-	System.out.println("Time is: "+card9.time);
-	System.out.println("Venue is: "+card9.venue+"\n");
 
 	InvitationCard card10=new InvitationCard();
 
@@ -155,12 +104,7 @@ class InvitationCardRunner{
 	card10.time="8:00";
 	card10.venue="Davangere";
 
-	System.out.println("Invitation card Id is: "+card10.invitationId);
-	System.out.println("Host name is: "+card10.hostName);
-	System.out.println("Guest name is: "+card10.guestName);
-	System.out.println("Date is: "+card10.date);
-	System.out.println("Time is: "+card10.time);
-	System.out.println("Venue is: "+card10.venue+"\n");
+
 
 	InvitationCard card11=new InvitationCard();
 
@@ -171,12 +115,6 @@ class InvitationCardRunner{
 	card11.time="10:00";
 	card11.venue="Banglore";
 
-	System.out.println("Invitation card Id is: "+card11.invitationId);
-	System.out.println("Host name is: "+card11.hostName);
-	System.out.println("Guest name is: "+card11.guestName);
-	System.out.println("Date is: "+card11.date);
-	System.out.println("Time is: "+card11.time);
-	System.out.println("Venue is: "+card11.venue+"\n");
 
 	InvitationCard card12=new InvitationCard();
 
@@ -187,12 +125,6 @@ class InvitationCardRunner{
 	card12.time="9:00";
 	card12.venue="Ballari";
 
-	System.out.println("Invitation card Id is: "+card12.invitationId);
-	System.out.println("Host name is: "+card12.hostName);
-	System.out.println("Guest name is: "+card12.guestName);
-	System.out.println("Date is: "+card12.date);
-	System.out.println("Time is: "+card12.time);
-	System.out.println("Venue is: "+card12.venue+"\n");
 
 	InvitationCard card13=new InvitationCard();
 
@@ -203,12 +135,6 @@ class InvitationCardRunner{
 	card13.time="12:30";
 	card13.venue="Madikeri";
 
-	System.out.println("Invitation card Id is: "+card13.invitationId);
-	System.out.println("Host name is: "+card13.hostName);
-	System.out.println("Guest name is: "+card13.guestName);
-	System.out.println("Date is: "+card13.date);
-	System.out.println("Time is: "+card13.time);
-	System.out.println("Venue is: "+card13.venue+"\n");
 
 	InvitationCard card14=new InvitationCard();
 
@@ -219,12 +145,7 @@ class InvitationCardRunner{
 	card14.time="7:00";
 	card14.venue="Banglore";
 
-	System.out.println("Invitation card Id is: "+card14.invitationId);
-	System.out.println("Host name is: "+card14.hostName);
-	System.out.println("Guest name is: "+card14.guestName);
-	System.out.println("Date is: "+card14.date);
-	System.out.println("Time is: "+card14.time);
-	System.out.println("Venue is: "+card14.venue+"\n");
+
 
 	InvitationCard card15=new InvitationCard();
 
@@ -235,12 +156,6 @@ class InvitationCardRunner{
 	card15.time="9:00";
 	card15.venue="Gachabowli";
 
-	System.out.println("Invitation card Id is: "+card15.invitationId);
-	System.out.println("Host name is: "+card15.hostName);
-	System.out.println("Guest name is: "+card15.guestName);
-	System.out.println("Date is: "+card15.date);
-	System.out.println("Time is: "+card15.time);
-	System.out.println("Venue is: "+card15.venue+"\n");
 
 	InvitationCard card16=new InvitationCard();
 
@@ -251,12 +166,7 @@ class InvitationCardRunner{
 	card16.time="7:00";
 	card16.venue="Davangere";
 
-	System.out.println("Invitation card Id is: "+card16.invitationId);
-	System.out.println("Host name is: "+card16.hostName);
-	System.out.println("Guest name is: "+card16.guestName);
-	System.out.println("Date is: "+card16.date);
-	System.out.println("Time is: "+card16.time);
-	System.out.println("Venue is: "+card16.venue+"\n");
+
 
 	InvitationCard card17=new InvitationCard();
 
@@ -267,12 +177,7 @@ class InvitationCardRunner{
 	card17.time="7:00";
 	card17.venue="Davangere";
 
-	System.out.println("Invitation card Id is: "+card17.invitationId);
-	System.out.println("Host name is: "+card17.hostName);
-	System.out.println("Guest name is: "+card17.guestName);
-	System.out.println("Date is: "+card17.date);
-	System.out.println("Time is: "+card17.time);
-	System.out.println("Venue is: "+card17.venue+"\n");
+
 
 	InvitationCard card18=new InvitationCard();
 
@@ -283,12 +188,7 @@ class InvitationCardRunner{
 	card18.time="11:00";
 	card18.venue="Banglore";
 
-	System.out.println("Invitation card Id is: "+card18.invitationId);
-	System.out.println("Host name is: "+card18.hostName);
-	System.out.println("Guest name is: "+card18.guestName);
-	System.out.println("Date is: "+card18.date);
-	System.out.println("Time is: "+card18.time);
-	System.out.println("Venue is: "+card18.venue+"\n");
+
 
 	InvitationCard card19=new InvitationCard();
 
@@ -299,12 +199,6 @@ class InvitationCardRunner{
 	card19.time="8:00";
 	card19.venue="Madkere";
 
-	System.out.println("Invitation card Id is: "+card19.invitationId);
-	System.out.println("Host name is: "+card19.hostName);
-	System.out.println("Guest name is: "+card19.guestName);
-	System.out.println("Date is: "+card19.date);
-	System.out.println("Time is: "+card19.time);
-	System.out.println("Venue is: "+card19.venue+"\n");
 
 	InvitationCard card20=new InvitationCard();
 
@@ -315,12 +209,26 @@ class InvitationCardRunner{
 	card20.time="7:00";
 	card20.venue="Davangere";
 
-	System.out.println("Invitation card Id is: "+card20.invitationId);
-	System.out.println("Host name is: "+card20.hostName);
-	System.out.println("Guest name is: "+card20.guestName);
-	System.out.println("Date is: "+card20.date);
-	System.out.println("Time is: "+card20.time);
-	System.out.println("Venue is: "+card20.venue+"\n");
+	card1.getInfo();
+	card2.getInfo();
+	card3.getInfo();
+	card4.getInfo();
+	card5.getInfo();
+	card6.getInfo();
+	card7.getInfo();
+	card8.getInfo();
+	card9.getInfo();
+	card10.getInfo();
+	card11.getInfo();
+	card12.getInfo();
+	card13.getInfo();
+	card14.getInfo();
+	card15.getInfo();
+	card16.getInfo();
+	card17.getInfo();
+	card18.getInfo();
+	card19.getInfo();
+	card20.getInfo();
 	
 	System.out.println("\nmain ended");
 }
