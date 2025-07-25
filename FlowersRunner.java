@@ -10,13 +10,7 @@ class FlowersRunner{
 	flower1.price=25.00;
 	flower1.isFresh=true;
 	flower1.hasLongLife=true;
-	
-	System.out.println("Flower Id is"+flower1.flowerId);
-	System.out.println("Flower color is"+flower1.color);
-	System.out.println("Flower name is"+flower1.name);
-	System.out.println("Flower price is"+flower1.price);
-	System.out.println("Flower is Fresh?"+flower1.isFresh);
-	System.out.println("Flower has long life?:"+flower1.hasLongLife+"\n");
+
 	
 	Flowers flower2=new Flowers();
 	
@@ -27,12 +21,7 @@ class FlowersRunner{
 	flower2.isFresh=true;
 	flower2.hasLongLife=false;
 	
-	System.out.println("Flower Id is"+flower2.flowerId);
-	System.out.println("Flower color is"+flower2.color);
-	System.out.println("Flower name is"+flower2.name);
-	System.out.println("Flower price is"+flower2.price);
-	System.out.println("Flower is Fresh?"+flower2.isFresh);
-	System.out.println("Flower has long life?:"+flower2.hasLongLife+"\n");
+
 
 	Flowers flower3=new Flowers();
 	
@@ -43,12 +32,7 @@ class FlowersRunner{
 	flower3.isFresh=false;
 	flower3.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower3.flowerId);
-	System.out.println("Flower color is"+flower3.color);
-	System.out.println("Flower name is"+flower3.name);
-	System.out.println("Flower price is"+flower3.price);
-	System.out.println("Flower is Fresh?"+flower3.isFresh);
-	System.out.println("Flower has long life?:"+flower3.hasLongLife+"\n");
+
 
 	Flowers flower4=new Flowers();
 	
@@ -59,12 +43,7 @@ class FlowersRunner{
 	flower4.isFresh=true;
 	flower4.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower4.flowerId);
-	System.out.println("Flower color is"+flower4.color);
-	System.out.println("Flower name is"+flower4.name);
-	System.out.println("Flower price is"+flower4.price);
-	System.out.println("Flower is Fresh?"+flower4.isFresh);
-	System.out.println("Flower has long life?:"+flower4.hasLongLife+"\n");
+
 	
 	Flowers flower5=new Flowers();
 	
@@ -75,12 +54,7 @@ class FlowersRunner{
 	flower5.isFresh=false;
 	flower5.hasLongLife=false;
 	
-	System.out.println("Flower Id is"+flower5.flowerId);
-	System.out.println("Flower color is"+flower5.color);
-	System.out.println("Flower name is"+flower5.name);
-	System.out.println("Flower price is"+flower5.price);
-	System.out.println("Flower is Fresh?"+flower5.isFresh);
-	System.out.println("Flower has long life?:"+flower5.hasLongLife+"\n");
+
 
 	Flowers flower6=new Flowers();
 	
@@ -90,13 +64,7 @@ class FlowersRunner{
 	flower6.price=40.75;
 	flower6.isFresh=true;
 	flower6.hasLongLife=true;
-	
-	System.out.println("Flower Id is"+flower6.flowerId);
-	System.out.println("Flower color is"+flower6.color);
-	System.out.println("Flower name is"+flower6.name);
-	System.out.println("Flower price is"+flower6.price);
-	System.out.println("Flower is Fresh?"+flower6.isFresh);
-	System.out.println("Flower has long life?:"+flower6.hasLongLife+"\n");
+
 
 	Flowers flower7=new Flowers();
 	
@@ -107,12 +75,7 @@ class FlowersRunner{
 	flower7.isFresh=true;
 	flower7.hasLongLife=false;
 	
-	System.out.println("Flower Id is"+flower7.flowerId);
-	System.out.println("Flower color is"+flower7.color);
-	System.out.println("Flower name is"+flower7.name);
-	System.out.println("Flower price is"+flower7.price);
-	System.out.println("Flower is Fresh?"+flower7.isFresh);
-	System.out.println("Flower has long life?:"+flower7.hasLongLife+"\n");
+
 
 	Flowers flower8=new Flowers();
 	
@@ -123,12 +86,7 @@ class FlowersRunner{
 	flower8.isFresh=false;
 	flower8.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower8.flowerId);
-	System.out.println("Flower color is"+flower8.color);
-	System.out.println("Flower name is"+flower8.name);
-	System.out.println("Flower price is"+flower8.price);
-	System.out.println("Flower is Fresh?"+flower8.isFresh);
-	System.out.println("Flower has long life?:"+flower8.hasLongLife+"\n");
+
 
 	Flowers flower9=new Flowers();
 	
@@ -139,12 +97,7 @@ class FlowersRunner{
 	flower9.isFresh=true;
 	flower9.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower9.flowerId);
-	System.out.println("Flower color is"+flower9.color);
-	System.out.println("Flower name is"+flower9.name);
-	System.out.println("Flower price is"+flower9.price);
-	System.out.println("Flower is Fresh?"+flower9.isFresh);
-	System.out.println("Flower has long life?:"+flower9.hasLongLife+"\n");
+
 
 	Flowers flower10=new Flowers();
 	
@@ -155,12 +108,7 @@ class FlowersRunner{
 	flower10.isFresh=false;
 	flower10.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower10.flowerId);
-	System.out.println("Flower color is"+flower10.color);
-	System.out.println("Flower name is"+flower10.name);
-	System.out.println("Flower price is"+flower10.price);
-	System.out.println("Flower is Fresh?"+flower10.isFresh);
-	System.out.println("Flower has long life?:"+flower10.hasLongLife+"\n");
+
 
 	Flowers flower11=new Flowers();
 	
@@ -171,12 +119,7 @@ class FlowersRunner{
 	flower11.isFresh=true;
 	flower11.hasLongLife=false;
 	
-	System.out.println("Flower Id is"+flower11.flowerId);
-	System.out.println("Flower color is"+flower11.color);
-	System.out.println("Flower name is"+flower11.name);
-	System.out.println("Flower price is"+flower11.price);
-	System.out.println("Flower is Fresh?"+flower11.isFresh);
-	System.out.println("Flower has long life?:"+flower11.hasLongLife+"\n");
+
 
 	Flowers flower12=new Flowers();
 	
@@ -187,12 +130,7 @@ class FlowersRunner{
 	flower12.isFresh=true;
 	flower12.hasLongLife=false;
 	
-	System.out.println("Flower Id is"+flower12.flowerId);
-	System.out.println("Flower color is"+flower12.color);
-	System.out.println("Flower name is"+flower12.name);
-	System.out.println("Flower price is"+flower12.price);
-	System.out.println("Flower is Fresh?"+flower12.isFresh);
-	System.out.println("Flower has long life?:"+flower12.hasLongLife+"\n");
+
 
 	Flowers flower13=new Flowers();
 	
@@ -203,12 +141,7 @@ class FlowersRunner{
 	flower13.isFresh=false;
 	flower13.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower13.flowerId);
-	System.out.println("Flower color is"+flower13.color);
-	System.out.println("Flower name is"+flower13.name);
-	System.out.println("Flower price is"+flower13.price);
-	System.out.println("Flower is Fresh?"+flower13.isFresh);
-	System.out.println("Flower has long life?:"+flower13.hasLongLife+"\n");
+
 
 	Flowers flower14=new Flowers();
 	
@@ -219,12 +152,7 @@ class FlowersRunner{
 	flower14.isFresh=true;
 	flower14.hasLongLife=false;
 	
-	System.out.println("Flower Id is"+flower14.flowerId);
-	System.out.println("Flower color is"+flower14.color);
-	System.out.println("Flower name is"+flower14.name);
-	System.out.println("Flower price is"+flower14.price);
-	System.out.println("Flower is Fresh?"+flower14.isFresh);
-	System.out.println("Flower has long life?:"+flower14.hasLongLife+"\n");
+
 
 	Flowers flower15=new Flowers();
 	
@@ -235,12 +163,7 @@ class FlowersRunner{
 	flower15.isFresh=true;
 	flower15.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower15.flowerId);
-	System.out.println("Flower color is"+flower15.color);
-	System.out.println("Flower name is"+flower15.name);
-	System.out.println("Flower price is"+flower15.price);
-	System.out.println("Flower is Fresh?"+flower15.isFresh);
-	System.out.println("Flower has long life?:"+flower15.hasLongLife+"\n");
+
 
 	Flowers flower16=new Flowers();
 	
@@ -250,13 +173,7 @@ class FlowersRunner{
 	flower16.price=33.60;
 	flower16.isFresh=false;
 	flower16.hasLongLife=false;
-	
-	System.out.println("Flower Id is"+flower16.flowerId);
-	System.out.println("Flower color is"+flower16.color);
-	System.out.println("Flower name is"+flower16.name);
-	System.out.println("Flower price is"+flower16.price);
-	System.out.println("Flower is Fresh?"+flower16.isFresh);
-	System.out.println("Flower has long life?:"+flower16.hasLongLife+"\n");
+
 
 	Flowers flower17=new Flowers();
 	
@@ -267,12 +184,7 @@ class FlowersRunner{
 	flower17.isFresh=true;
 	flower17.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower17.flowerId);
-	System.out.println("Flower color is"+flower17.color);
-	System.out.println("Flower name is"+flower17.name);
-	System.out.println("Flower price is"+flower17.price);
-	System.out.println("Flower is Fresh?"+flower17.isFresh);
-	System.out.println("Flower has long life?:"+flower17.hasLongLife+"\n");
+
 
 	Flowers flower18=new Flowers();
 	
@@ -283,12 +195,7 @@ class FlowersRunner{
 	flower18.isFresh=false;
 	flower18.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower18.flowerId);
-	System.out.println("Flower color is"+flower18.color);
-	System.out.println("Flower name is"+flower18.name);
-	System.out.println("Flower price is"+flower18.price);
-	System.out.println("Flower is Fresh?"+flower18.isFresh);
-	System.out.println("Flower has long life?:"+flower18.hasLongLife+"\n");
+
 
 	Flowers flower19=new Flowers();
 	
@@ -298,13 +205,7 @@ class FlowersRunner{
 	flower19.price=19.20;
 	flower19.isFresh=true;
 	flower19.hasLongLife=false;
-	
-	System.out.println("Flower Id is"+flower19.flowerId);
-	System.out.println("Flower color is"+flower19.color);
-	System.out.println("Flower name is"+flower19.name);
-	System.out.println("Flower price is"+flower19.price);
-	System.out.println("Flower is Fresh?"+flower19.isFresh);
-	System.out.println("Flower has long life?:"+flower19.hasLongLife+"\n");
+
 
 	Flowers flower20=new Flowers();
 	
@@ -315,12 +216,26 @@ class FlowersRunner{
 	flower20.isFresh=true;
 	flower20.hasLongLife=true;
 	
-	System.out.println("Flower Id is"+flower20.flowerId);
-	System.out.println("Flower color is"+flower20.color);
-	System.out.println("Flower name is"+flower20.name);
-	System.out.println("Flower price is"+flower20.price);
-	System.out.println("Flower is Fresh?"+flower20.isFresh);
-	System.out.println("Flower has long life?:"+flower20.hasLongLife+"\n");
+	flower1.getInfo();
+	flower2.getInfo();
+	flower3.getInfo();
+	flower4.getInfo();
+	flower5.getInfo();
+	flower6.getInfo();
+	flower7.getInfo();
+	flower8.getInfo();
+	flower9.getInfo();
+	flower10.getInfo();
+	flower11.getInfo();
+	flower12.getInfo();
+	flower13.getInfo();
+	flower15.getInfo();
+	flower14.getInfo();
+	flower16.getInfo();
+	flower17.getInfo();
+	flower18.getInfo();
+	flower19.getInfo();
+	flower20.getInfo();
 
 
 	System.out.println("\nmain ended");

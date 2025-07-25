@@ -10,13 +10,7 @@ class GiTagRunner{
 	tag1.catogory="Agricultural";
 	tag1.period=10;
 	tag1.registeredYear="2004";
-	
-	System.out.println("GiTag id is"+tag1.GiTagId);
-	System.out.println("GiTag name is"+tag1.name);
-	System.out.println("GiTag state is"+tag1.state);
-	System.out.println("GiTag catogory is"+tag1.catogory);
-	System.out.println("GiTag period is"+tag1.period);
-	System.out.println("GiTag registered Year is"+tag1.registeredYear+"\n");
+
 	
 	GiTag tag2=new GiTag();
 
@@ -27,12 +21,7 @@ class GiTagRunner{
 	tag2.period=15;
 	tag2.registeredYear="2005";
 
-	System.out.println("GiTag id is"+tag2.GiTagId);
-	System.out.println("GiTag name is"+tag2.name);
-	System.out.println("GiTag state is"+tag2.state);
-	System.out.println("GiTag catogory is"+tag2.catogory);
-	System.out.println("GiTag period is"+tag2.period);
-	System.out.println("GiTag registered Year is"+tag2.registeredYear+"\n");
+
 
 	GiTag tag3=new GiTag();
 
@@ -43,12 +32,7 @@ class GiTagRunner{
 	tag3.period=12;
 	tag3.registeredYear="2006";
 
-	System.out.println("GiTag id is"+tag3.GiTagId);
-	System.out.println("GiTag name is"+tag3.name);
-	System.out.println("GiTag state is"+tag3.state);
-	System.out.println("GiTag catogory is"+tag3.catogory);
-	System.out.println("GiTag period is"+tag3.period);
-	System.out.println("GiTag registered Year is"+tag3.registeredYear+"\n");
+
 
 	GiTag tag4=new GiTag();
 	
@@ -59,12 +43,7 @@ class GiTagRunner{
 	tag4.period=18;
 	tag4.registeredYear="2007";
 
-	System.out.println("GiTag id is"+tag4.GiTagId);
-	System.out.println("GiTag name is"+tag4.name);
-	System.out.println("GiTag state is"+tag4.state);
-	System.out.println("GiTag catogory is"+tag4.catogory);
-	System.out.println("GiTag period is"+tag4.period);
-	System.out.println("GiTag registered Year is"+tag4.registeredYear+"\n");
+
 
 	GiTag tag5=new GiTag();
 
@@ -75,12 +54,7 @@ class GiTagRunner{
 	tag5.period=14;
 	tag5.registeredYear="2008";
 
-	System.out.println("GiTag id is"+tag5.GiTagId);
-	System.out.println("GiTag name is"+tag5.name);
-	System.out.println("GiTag state is"+tag5.state);
-	System.out.println("GiTag catogory is"+tag5.catogory);
-	System.out.println("GiTag period is"+tag5.period);
-	System.out.println("GiTag registered Year is"+tag5.registeredYear+"\n");
+
 
 	GiTag tag6=new GiTag();
 
@@ -91,12 +65,7 @@ class GiTagRunner{
 	tag6.period=11;
 	tag6.registeredYear="2009";
 
-	System.out.println("GiTag id is"+tag6.GiTagId);
-	System.out.println("GiTag name is"+tag6.name);
-	System.out.println("GiTag state is"+tag6.state);
-	System.out.println("GiTag catogory is"+tag6.catogory);
-	System.out.println("GiTag period is"+tag6.period);
-	System.out.println("GiTag registered Year is"+tag6.registeredYear+"\n");
+
 
 	GiTag tag7=new GiTag();
 
@@ -107,12 +76,7 @@ class GiTagRunner{
 	tag7.period=8;
 	tag7.registeredYear="2010";
 
-	System.out.println("GiTag id is"+tag7.GiTagId);
-	System.out.println("GiTag name is"+tag7.name);
-	System.out.println("GiTag state is"+tag7.state);
-	System.out.println("GiTag catogory is"+tag7.catogory);
-	System.out.println("GiTag period is"+tag7.period);
-	System.out.println("GiTag registered Year is"+tag7.registeredYear+"\n");
+
 
 	GiTag tag8=new GiTag();
 
@@ -123,12 +87,7 @@ class GiTagRunner{
 	tag8.period=13;
 	tag8.registeredYear="2011";
 
-	System.out.println("GiTag id is"+tag8.GiTagId);
-	System.out.println("GiTag name is"+tag8.name);
-	System.out.println("GiTag state is"+tag8.state);
-	System.out.println("GiTag catogory is"+tag8.catogory);
-	System.out.println("GiTag period is"+tag8.period);
-	System.out.println("GiTag registered Year is"+tag8.registeredYear+"\n");
+
 
 	GiTag tag9=new GiTag();
 
@@ -139,12 +98,6 @@ class GiTagRunner{
 	tag9.period=10;
 	tag9.registeredYear="2012";
 
-	System.out.println("GiTag id is"+tag9.GiTagId);
-	System.out.println("GiTag name is"+tag9.name);
-	System.out.println("GiTag state is"+tag9.state);
-	System.out.println("GiTag catogory is"+tag9.catogory);
-	System.out.println("GiTag period is"+tag9.period);
-	System.out.println("GiTag registered Year is"+tag9.registeredYear+"\n");
 
 	GiTag tag10=new GiTag();
 
@@ -155,12 +108,7 @@ class GiTagRunner{
 	tag10.period=17;
 	tag10.registeredYear="2013";
 
-	System.out.println("GiTag id is"+tag10.GiTagId);
-	System.out.println("GiTag name is"+tag10.name);
-	System.out.println("GiTag state is"+tag10.state);
-	System.out.println("GiTag catogory is"+tag10.catogory);
-	System.out.println("GiTag period is"+tag10.period);
-	System.out.println("GiTag registered Year is"+tag10.registeredYear+"\n");
+
 
 	GiTag tag11=new GiTag();
 
@@ -171,12 +119,7 @@ class GiTagRunner{
 	tag11.period=12;
 	tag11.registeredYear="2014";
 
-	System.out.println("GiTag id is"+tag11.GiTagId);
-	System.out.println("GiTag name is"+tag11.name);
-	System.out.println("GiTag state is"+tag11.state);
-	System.out.println("GiTag catogory is"+tag11.catogory);
-	System.out.println("GiTag period is"+tag11.period);
-	System.out.println("GiTag registered Year is"+tag11.registeredYear+"\n");
+
 
 	GiTag tag12=new GiTag();
 
@@ -187,12 +130,7 @@ class GiTagRunner{
 	tag12.period=16;
 	tag12.registeredYear="2015";
 
-	System.out.println("GiTag id is"+tag12.GiTagId);
-	System.out.println("GiTag name is"+tag12.name);
-	System.out.println("GiTag state is"+tag12.state);
-	System.out.println("GiTag catogory is"+tag12.catogory);
-	System.out.println("GiTag period is"+tag12.period);
-	System.out.println("GiTag registered Year is"+tag12.registeredYear+"\n");
+
 
 	GiTag tag13=new GiTag();
 
@@ -203,12 +141,7 @@ class GiTagRunner{
 	tag13.period=9;
 	tag13.registeredYear="2016";
 
-	System.out.println("GiTag id is"+tag13.GiTagId);
-	System.out.println("GiTag name is"+tag13.name);
-	System.out.println("GiTag state is"+tag13.state);
-	System.out.println("GiTag catogory is"+tag13.catogory);
-	System.out.println("GiTag period is"+tag13.period);
-	System.out.println("GiTag registered Year is"+tag13.registeredYear+"\n");
+
 
 	GiTag tag14=new GiTag();
 
@@ -219,12 +152,7 @@ class GiTagRunner{
 	tag14.period=14;
 	tag14.registeredYear="2017";
 
-	System.out.println("GiTag id is"+tag14.GiTagId);
-	System.out.println("GiTag name is"+tag14.name);
-	System.out.println("GiTag state is"+tag14.state);
-	System.out.println("GiTag catogory is"+tag14.catogory);
-	System.out.println("GiTag period is"+tag14.period);
-	System.out.println("GiTag registered Year is"+tag14.registeredYear+"\n");
+
 
 	GiTag tag15=new GiTag();
 
@@ -235,12 +163,7 @@ class GiTagRunner{
 	tag15.period=10;
 	tag15.registeredYear="2018";
 
-	System.out.println("GiTag id is"+tag15.GiTagId);
-	System.out.println("GiTag name is"+tag15.name);
-	System.out.println("GiTag state is"+tag15.state);
-	System.out.println("GiTag catogory is"+tag15.catogory);
-	System.out.println("GiTag period is"+tag15.period);
-	System.out.println("GiTag registered Year is"+tag15.registeredYear+"\n");
+
 
 	GiTag tag16=new GiTag();
 
@@ -251,12 +174,6 @@ class GiTagRunner{
 	tag16.period=11;
 	tag16.registeredYear="2019";
 
-	System.out.println("GiTag id is"+tag16.GiTagId);
-	System.out.println("GiTag name is"+tag16.name);
-	System.out.println("GiTag state is"+tag16.state);
-	System.out.println("GiTag catogory is"+tag16.catogory);
-	System.out.println("GiTag period is"+tag16.period);
-	System.out.println("GiTag registered Year is"+tag16.registeredYear+"\n");
 
 	GiTag tag17=new GiTag();
 
@@ -267,12 +184,7 @@ class GiTagRunner{
 	tag17.period=13;
 	tag17.registeredYear="2020";
 
-	System.out.println("GiTag id is"+tag17.GiTagId);
-	System.out.println("GiTag name is"+tag17.name);
-	System.out.println("GiTag state is"+tag17.state);
-	System.out.println("GiTag catogory is"+tag17.catogory);
-	System.out.println("GiTag period is"+tag17.period);
-	System.out.println("GiTag registered Year is"+tag17.registeredYear+"\n");
+
 
 	GiTag tag18=new GiTag();
 
@@ -283,12 +195,7 @@ class GiTagRunner{
 	tag18.period=16;
 	tag18.registeredYear="2021";
 
-	System.out.println("GiTag id is"+tag18.GiTagId);
-	System.out.println("GiTag name is"+tag18.name);
-	System.out.println("GiTag state is"+tag18.state);
-	System.out.println("GiTag catogory is"+tag18.catogory);
-	System.out.println("GiTag period is"+tag18.period);
-	System.out.println("GiTag registered Year is"+tag18.registeredYear+"\n");
+
 
 	GiTag tag19=new GiTag();
 
@@ -299,12 +206,7 @@ class GiTagRunner{
 	tag19.period=15;
 	tag19.registeredYear="2022";
 
-	System.out.println("GiTag id is"+tag19.GiTagId);
-	System.out.println("GiTag name is"+tag19.name);
-	System.out.println("GiTag state is"+tag19.state);
-	System.out.println("GiTag catogory is"+tag19.catogory);
-	System.out.println("GiTag period is"+tag19.period);
-	System.out.println("GiTag registered Year is"+tag19.registeredYear+"\n");
+
 
 	GiTag tag20=new GiTag();
 
@@ -314,13 +216,27 @@ class GiTagRunner{
 	tag20.catogory="Food";
 	tag20.period=9;
 	tag20.registeredYear="2022";
-
-	System.out.println("GiTag id is"+tag20.GiTagId);
-	System.out.println("GiTag name is"+tag20.name);
-	System.out.println("GiTag state is"+tag20.state);
-	System.out.println("GiTag catogory is"+tag20.catogory);
-	System.out.println("GiTag period is"+tag20.period);
-	System.out.println("GiTag registered Year is"+tag20.registeredYear+"\n");
+	
+	tag1.getInfo();
+	tag2.getInfo();
+	tag3.getInfo();
+	tag4.getInfo();
+	tag5.getInfo();
+	tag6.getInfo();
+	tag7.getInfo();
+	tag8.getInfo();
+	tag9.getInfo();
+	tag10.getInfo();
+	tag11.getInfo();
+	tag12.getInfo();
+	tag13.getInfo();
+	tag14.getInfo();
+	tag15.getInfo();
+	tag16.getInfo();
+	tag17.getInfo();
+	tag18.getInfo();
+	tag19.getInfo();
+	tag20.getInfo();
 	
 	System.out.println("\nmain ended");
 	}

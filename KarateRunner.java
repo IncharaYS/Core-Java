@@ -11,14 +11,8 @@ class KarateRunner{
 	karate1.rank="black belt 1st dan";
 	karate1.beltColor="Black";
 	
-	System.out.println("Karate id is:"+karate1.karateId);
-	System.out.println("Karate height is:"+karate1.height);
-	System.out.println("Karate weight is:"+karate1.weight);
-	System.out.println("Karate dominant Hand is:"+karate1.dominantHand);
-	System.out.println("Karate rank is:"+karate1.rank);
-	System.out.println("Karate belt Color is:"+karate1.beltColor+"\n");
 	
-		Karate karate2=new Karate();
+	Karate karate2=new Karate();
 	
 	karate2.karateId=2;
 	karate2.height=170;
@@ -26,13 +20,7 @@ class KarateRunner{
 	karate2.dominantHand="Left";
 	karate2.rank="Brown belt";
 	karate2.beltColor="Brown";
-	
-	System.out.println("Karate id is:"+karate2.karateId);
-	System.out.println("Karate height is:"+karate2.height);
-	System.out.println("Karate weight is:"+karate2.weight);
-	System.out.println("Karate dominant Hand is:"+karate2.dominantHand);
-	System.out.println("Karate rank is:"+karate2.rank);
-	System.out.println("Karate belt Color is:"+karate2.beltColor+"\n");
+
 	
 	Karate karate3=new Karate();
 	
@@ -42,13 +30,7 @@ class KarateRunner{
 	karate3.dominantHand="Right";
 	karate3.rank="Green belt";
 	karate3.beltColor="Green";
-	
-	System.out.println("Karate id is:"+karate3.karateId);
-	System.out.println("Karate height is:"+karate3.height);
-	System.out.println("Karate weight is:"+karate3.weight);
-	System.out.println("Karate dominant Hand is:"+karate3.dominantHand);
-	System.out.println("Karate rank is:"+karate3.rank);
-	System.out.println("Karate belt Color is:"+karate3.beltColor+"\n");
+
 	
 	Karate karate4=new Karate();
 	
@@ -58,13 +40,7 @@ class KarateRunner{
 	karate4.dominantHand="Right";
 	karate4.rank="Blue belt";
 	karate4.beltColor="Blue";
-	
-	System.out.println("Karate id is:"+karate4.karateId);
-	System.out.println("Karate height is:"+karate4.height);
-	System.out.println("Karate weight is:"+karate4.weight);
-	System.out.println("Karate dominant Hand is:"+karate4.dominantHand);
-	System.out.println("Karate rank is:"+karate4.rank);
-	System.out.println("Karate belt Color is:"+karate4.beltColor+"\n");
+
 	
 	Karate karate5=new Karate();
 	
@@ -74,13 +50,7 @@ class KarateRunner{
 	karate5.dominantHand="Left";
 	karate5.rank="Yellow belt";
 	karate5.beltColor="Yellow";
-	
-	System.out.println("Karate id is:"+karate5.karateId);
-	System.out.println("Karate height is:"+karate5.height);
-	System.out.println("Karate weight is:"+karate5.weight);
-	System.out.println("Karate dominant Hand is:"+karate5.dominantHand);
-	System.out.println("Karate rank is:"+karate5.rank);
-	System.out.println("Karate belt Color is:"+karate5.beltColor+"\n");
+
 	
 	Karate karate6=new Karate();
 	
@@ -90,13 +60,7 @@ class KarateRunner{
 	karate6.dominantHand="Right";
 	karate6.rank="Red belt";
 	karate6.beltColor="Red";
-	
-	System.out.println("Karate id is:"+karate6.karateId);
-	System.out.println("Karate height is:"+karate6.height);
-	System.out.println("Karate weight is:"+karate6.weight);
-	System.out.println("Karate dominant Hand is:"+karate6.dominantHand);
-	System.out.println("Karate rank is:"+karate6.rank);
-	System.out.println("Karate belt Color is:"+karate6.beltColor+"\n");
+
 	
 	Karate karate7=new Karate();
 	
@@ -106,13 +70,7 @@ class KarateRunner{
 	karate7.dominantHand="Right";
 	karate7.rank="Orange belt";
 	karate7.beltColor="Orange";
-	
-	System.out.println("Karate id is:"+karate7.karateId);
-	System.out.println("Karate height is:"+karate7.height);
-	System.out.println("Karate weight is:"+karate7.weight);
-	System.out.println("Karate dominant Hand is:"+karate7.dominantHand);
-	System.out.println("Karate rank is:"+karate7.rank);
-	System.out.println("Karate belt Color is:"+karate7.beltColor+"\n");
+
 	
 	Karate karate8=new Karate();
 	
@@ -122,13 +80,7 @@ class KarateRunner{
 	karate8.dominantHand="Left";
 	karate8.rank="Purple belt";
 	karate8.beltColor="Purple";
-	
-	System.out.println("Karate id is:"+karate8.karateId);
-	System.out.println("Karate height is:"+karate8.height);
-	System.out.println("Karate weight is:"+karate8.weight);
-	System.out.println("Karate dominant Hand is:"+karate8.dominantHand);
-	System.out.println("Karate rank is:"+karate8.rank);
-	System.out.println("Karate belt Color is:"+karate8.beltColor+"\n");
+
 	
 	Karate karate9=new Karate();
 	
@@ -139,13 +91,6 @@ class KarateRunner{
 	karate9.rank="White belt";
 	karate9.beltColor="White";
 	
-	System.out.println("Karate id is:"+karate9.karateId);
-	System.out.println("Karate height is:"+karate9.height);
-	System.out.println("Karate weight is:"+karate9.weight);
-	System.out.println("Karate dominant Hand is:"+karate9.dominantHand);
-	System.out.println("Karate rank is:"+karate9.rank);
-	System.out.println("Karate belt Color is:"+karate9.beltColor+"\n");
-	
 	Karate karate10=new Karate();
 	
 	karate10.karateId=10;
@@ -155,12 +100,117 @@ class KarateRunner{
 	karate10.rank="Black belt 2nd dan";
 	karate10.beltColor="Black";
 	
-	System.out.println("Karate id is:"+karate10.karateId);
-	System.out.println("Karate height is:"+karate10.height);
-	System.out.println("Karate weight is:"+karate10.weight);
-	System.out.println("Karate dominant Hand is:"+karate10.dominantHand);
-	System.out.println("Karate rank is:"+karate10.rank);
-	System.out.println("Karate belt Color is:"+karate10.beltColor+"\n");
+	Karate karate11 = new Karate();
+	
+	karate11.karateId = 11;
+	karate11.height = 172;
+	karate11.weight = 70;
+	karate11.dominantHand = "Left";
+	karate11.rank = "Black belt 2nd dan";
+	karate11.beltColor = "Black";
+
+	Karate karate12 = new Karate();
+	
+	karate12.karateId = 12;
+	karate12.height = 180;
+	karate12.weight = 78;
+	karate12.dominantHand = "Right";
+	karate12.rank = "Black belt 2nd dan";
+	karate12.beltColor = "Black";
+
+	Karate karate13 = new Karate();
+	
+	karate13.karateId = 13;
+	karate13.height = 168;
+	karate13.weight = 66;
+	karate13.dominantHand = "Right";
+	karate13.rank = "Black belt 2nd dan";
+	karate13.beltColor = "Black";
+
+	Karate karate14 = new Karate();
+	
+	karate14.karateId = 14;
+	karate14.height = 174;
+	karate14.weight = 72;
+	karate14.dominantHand = "Left";
+	karate14.rank = "Black belt 2nd dan";
+	karate14.beltColor = "Black";
+
+	Karate karate15 = new Karate();
+	
+	karate15.karateId = 15;
+	karate15.height = 177;
+	karate15.weight = 76;
+	karate15.dominantHand = "Right";
+	karate15.rank = "Black belt 2nd dan";
+	karate15.beltColor = "Black";
+
+	Karate karate16 = new Karate();
+	
+	karate16.karateId = 16;
+	karate16.height = 181;
+	karate16.weight = 79;
+	karate16.dominantHand = "Right";
+	karate16.rank = "Black belt 2nd dan";
+	karate16.beltColor = "Black";
+
+	Karate karate17 = new Karate();
+	
+	karate17.karateId = 17;
+	karate17.height = 170;
+	karate17.weight = 68;
+	karate17.dominantHand = "Left";
+	karate17.rank = "Black belt 2nd dan";
+	karate17.beltColor = "Black";
+
+	Karate karate18 = new Karate();
+	
+	karate18.karateId = 18;
+	karate18.height = 175;
+	karate18.weight = 73;
+	karate18.dominantHand = "Right";
+	karate18.rank = "Black belt 2nd dan";
+	karate18.beltColor = "Black";
+
+	Karate karate19 = new Karate();
+	
+	karate19.karateId = 19;
+	karate19.height = 169;
+	karate19.weight = 69;
+	karate19.dominantHand = "Right";
+	karate19.rank = "Black belt 2nd dan";
+	karate19.beltColor = "Black";
+
+	Karate karate20 = new Karate();
+	
+	karate20.karateId = 20;
+	karate20.height = 178;
+	karate20.weight = 75;
+	karate20.dominantHand = "Left";
+	karate20.rank = "Black belt 2nd dan";
+	karate20.beltColor = "Black";
+
+
+	karate1.getInfo();
+	karate2.getInfo();
+	karate3.getInfo();
+	karate4.getInfo();
+	karate5.getInfo();
+	karate6.getInfo();
+	karate7.getInfo();
+	karate8.getInfo();
+	karate9.getInfo();
+	karate10.getInfo();
+	karate11.getInfo();
+	karate12.getInfo();
+	karate13.getInfo();
+	karate14.getInfo();
+	karate15.getInfo();
+	karate16.getInfo();
+	karate17.getInfo();
+	karate18.getInfo();
+	karate19.getInfo();
+	karate20.getInfo();
 
 	
 	System.out.println("\nmain ended");

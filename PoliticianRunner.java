@@ -10,13 +10,7 @@ class PoliticianRunner{
 	politician1.yearsInOffice=16;
 	politician1.electionWins=4;
 	politician1.party="Congress";
-	
-	System.out.println("Politician Id is:"+politician1.politicianId);
-	System.out.println("Politician Id is:"+politician1.state);
-	System.out.println("Politician Id is:"+politician1.name);
-	System.out.println("Politician Id is:"+politician1.yearsInOffice);
-	System.out.println("Politician Id is:"+politician1.electionWins);
-	System.out.println("Politician Id is:"+politician1.party+"\n");
+
 	
 	Politician politician2=new Politician();
 
@@ -27,12 +21,7 @@ class PoliticianRunner{
 	politician2.electionWins=3;
 	politician2.party="Shiv Sena";
 
-	System.out.println("Politician Id is:"+politician2.politicianId);
-	System.out.println("Politician Id is:"+politician2.state);
-	System.out.println("Politician Id is:"+politician2.name);
-	System.out.println("Politician Id is:"+politician2.yearsInOffice);
-	System.out.println("Politician Id is:"+politician2.electionWins);
-	System.out.println("Politician Id is:"+politician2.party+"\n");
+
 
 	Politician politician3=new Politician();
 
@@ -43,12 +32,6 @@ class PoliticianRunner{
 	politician3.electionWins=2;
 	politician3.party="AAP";
 
-	System.out.println("Politician Id is:"+politician3.politicianId);
-	System.out.println("Politician Id is:"+politician3.state);
-	System.out.println("Politician Id is:"+politician3.name);
-	System.out.println("Politician Id is:"+politician3.yearsInOffice);
-	System.out.println("Politician Id is:"+politician3.electionWins);
-	System.out.println("Politician Id is:"+politician3.party+"\n");
 
 	Politician politician4=new Politician();
 
@@ -59,12 +42,7 @@ class PoliticianRunner{
 	politician4.electionWins=3;
 	politician4.party="BJP";
 
-	System.out.println("Politician Id is:"+politician4.politicianId);
-	System.out.println("Politician Id is:"+politician4.state);
-	System.out.println("Politician Id is:"+politician4.name);
-	System.out.println("Politician Id is:"+politician4.yearsInOffice);
-	System.out.println("Politician Id is:"+politician4.electionWins);
-	System.out.println("Politician Id is:"+politician4.party+"\n");
+
 
 	Politician politician5=new Politician();
 
@@ -75,12 +53,6 @@ class PoliticianRunner{
 	politician5.electionWins=5;
 	politician5.party="TMC";
 
-	System.out.println("Politician Id is:"+politician5.politicianId);
-	System.out.println("Politician Id is:"+politician5.state);
-	System.out.println("Politician Id is:"+politician5.name);
-	System.out.println("Politician Id is:"+politician5.yearsInOffice);
-	System.out.println("Politician Id is:"+politician5.electionWins);
-	System.out.println("Politician Id is:"+politician5.party+"\n");
 
 	Politician politician6=new Politician();
 
@@ -91,12 +63,7 @@ class PoliticianRunner{
 	politician6.electionWins=2;
 	politician6.party="DMK";
 
-	System.out.println("Politician Id is:"+politician6.politicianId);
-	System.out.println("Politician Id is:"+politician6.state);
-	System.out.println("Politician Id is:"+politician6.name);
-	System.out.println("Politician Id is:"+politician6.yearsInOffice);
-	System.out.println("Politician Id is:"+politician6.electionWins);
-	System.out.println("Politician Id is:"+politician6.party+"\n");
+
 
 	Politician politician7=new Politician();
 
@@ -107,12 +74,6 @@ class PoliticianRunner{
 	politician7.electionWins=1;
 	politician7.party="BJP";
 
-	System.out.println("Politician Id is:"+politician7.politicianId);
-	System.out.println("Politician Id is:"+politician7.state);
-	System.out.println("Politician Id is:"+politician7.name);
-	System.out.println("Politician Id is:"+politician7.yearsInOffice);
-	System.out.println("Politician Id is:"+politician7.electionWins);
-	System.out.println("Politician Id is:"+politician7.party+"\n");
 
 	Politician politician8=new Politician();
 
@@ -123,12 +84,6 @@ class PoliticianRunner{
 	politician8.electionWins=1;
 	politician8.party="AAP";
 
-	System.out.println("Politician Id is:"+politician8.politicianId);
-	System.out.println("Politician Id is:"+politician8.state);
-	System.out.println("Politician Id is:"+politician8.name);
-	System.out.println("Politician Id is:"+politician8.yearsInOffice);
-	System.out.println("Politician Id is:"+politician8.electionWins);
-	System.out.println("Politician Id is:"+politician8.party+"\n");
 
 	Politician politician9=new Politician();
 
@@ -139,12 +94,6 @@ class PoliticianRunner{
 	politician9.electionWins=6;
 	politician9.party="JD(U)";
 
-	System.out.println("Politician Id is:"+politician9.politicianId);
-	System.out.println("Politician Id is:"+politician9.state);
-	System.out.println("Politician Id is:"+politician9.name);
-	System.out.println("Politician Id is:"+politician9.yearsInOffice);
-	System.out.println("Politician Id is:"+politician9.electionWins);
-	System.out.println("Politician Id is:"+politician9.party+"\n");
 
 	Politician politician10=new Politician();
 
@@ -155,12 +104,6 @@ class PoliticianRunner{
 	politician10.electionWins=5;
 	politician10.party="Congress";
 
-	System.out.println("Politician Id is:"+politician10.politicianId);
-	System.out.println("Politician Id is:"+politician10.state);
-	System.out.println("Politician Id is:"+politician10.name);
-	System.out.println("Politician Id is:"+politician10.yearsInOffice);
-	System.out.println("Politician Id is:"+politician10.electionWins);
-	System.out.println("Politician Id is:"+politician10.party+"\n");
 
 	Politician politician11=new Politician();
 
@@ -171,12 +114,6 @@ class PoliticianRunner{
 	politician11.electionWins=5;
 	politician11.party="BJD";
 
-	System.out.println("Politician Id is:"+politician11.politicianId);
-	System.out.println("Politician Id is:"+politician11.state);
-	System.out.println("Politician Id is:"+politician11.name);
-	System.out.println("Politician Id is:"+politician11.yearsInOffice);
-	System.out.println("Politician Id is:"+politician11.electionWins);
-	System.out.println("Politician Id is:"+politician11.party+"\n");
 
 	Politician politician12=new Politician();
 
@@ -187,12 +124,6 @@ class PoliticianRunner{
 	politician12.electionWins=2;
 	politician12.party="YSRCP";
 
-	System.out.println("Politician Id is:"+politician12.politicianId);
-	System.out.println("Politician Id is:"+politician12.state);
-	System.out.println("Politician Id is:"+politician12.name);
-	System.out.println("Politician Id is:"+politician12.yearsInOffice);
-	System.out.println("Politician Id is:"+politician12.electionWins);
-	System.out.println("Politician Id is:"+politician12.party+"\n");
 
 	Politician politician13=new Politician();
 
@@ -203,12 +134,6 @@ class PoliticianRunner{
 	politician13.electionWins=3;
 	politician13.party="CPIM";
 
-	System.out.println("Politician Id is:"+politician13.politicianId);
-	System.out.println("Politician Id is:"+politician13.state);
-	System.out.println("Politician Id is:"+politician13.name);
-	System.out.println("Politician Id is:"+politician13.yearsInOffice);
-	System.out.println("Politician Id is:"+politician13.electionWins);
-	System.out.println("Politician Id is:"+politician13.party+"\n");
 
 	Politician politician14=new Politician();
 
@@ -219,12 +144,6 @@ class PoliticianRunner{
 	politician14.electionWins=2;
 	politician14.party="JMM";
 
-	System.out.println("Politician Id is:"+politician14.politicianId);
-	System.out.println("Politician Id is:"+politician14.state);
-	System.out.println("Politician Id is:"+politician14.name);
-	System.out.println("Politician Id is:"+politician14.yearsInOffice);
-	System.out.println("Politician Id is:"+politician14.electionWins);
-	System.out.println("Politician Id is:"+politician14.party+"\n");
 
 	Politician politician15=new Politician();
 
@@ -235,12 +154,6 @@ class PoliticianRunner{
 	politician15.electionWins=2;
 	politician15.party="BJP";
 
-	System.out.println("Politician Id is:"+politician15.politicianId);
-	System.out.println("Politician Id is:"+politician15.state);
-	System.out.println("Politician Id is:"+politician15.name);
-	System.out.println("Politician Id is:"+politician15.yearsInOffice);
-	System.out.println("Politician Id is:"+politician15.electionWins);
-	System.out.println("Politician Id is:"+politician15.party+"\n");
 
 	Politician politician16=new Politician();
 
@@ -251,12 +164,6 @@ class PoliticianRunner{
 	politician16.electionWins=4;
 	politician16.party="BJP";
 
-	System.out.println("Politician Id is:"+politician16.politicianId);
-	System.out.println("Politician Id is:"+politician16.state);
-	System.out.println("Politician Id is:"+politician16.name);
-	System.out.println("Politician Id is:"+politician16.yearsInOffice);
-	System.out.println("Politician Id is:"+politician16.electionWins);
-	System.out.println("Politician Id is:"+politician16.party+"\n");
 
 	Politician politician17=new Politician();
 
@@ -267,12 +174,6 @@ class PoliticianRunner{
 	politician17.electionWins=1;
 	politician17.party="BJP";
 
-	System.out.println("Politician Id is:"+politician17.politicianId);
-	System.out.println("Politician Id is:"+politician17.state);
-	System.out.println("Politician Id is:"+politician17.name);
-	System.out.println("Politician Id is:"+politician17.yearsInOffice);
-	System.out.println("Politician Id is:"+politician17.electionWins);
-	System.out.println("Politician Id is:"+politician17.party+"\n");
 
 	Politician politician18=new Politician();
 
@@ -283,12 +184,6 @@ class PoliticianRunner{
 	politician18.electionWins=2;
 	politician18.party="Congress";
 
-	System.out.println("Politician Id is:"+politician18.politicianId);
-	System.out.println("Politician Id is:"+politician18.state);
-	System.out.println("Politician Id is:"+politician18.name);
-	System.out.println("Politician Id is:"+politician18.yearsInOffice);
-	System.out.println("Politician Id is:"+politician18.electionWins);
-	System.out.println("Politician Id is:"+politician18.party+"\n");
 
 	Politician politician19=new Politician();
 
@@ -299,12 +194,6 @@ class PoliticianRunner{
 	politician19.electionWins=1;
 	politician19.party="BJP";
 
-	System.out.println("Politician Id is:"+politician19.politicianId);
-	System.out.println("Politician Id is:"+politician19.state);
-	System.out.println("Politician Id is:"+politician19.name);
-	System.out.println("Politician Id is:"+politician19.yearsInOffice);
-	System.out.println("Politician Id is:"+politician19.electionWins);
-	System.out.println("Politician Id is:"+politician19.party+"\n");
 
 	Politician politician20=new Politician();
 
@@ -315,12 +204,26 @@ class PoliticianRunner{
 	politician20.electionWins=2;
 	politician20.party="BJP";
 
-	System.out.println("Politician Id is:"+politician20.politicianId);
-	System.out.println("Politician Id is:"+politician20.state);
-	System.out.println("Politician Id is:"+politician20.name);
-	System.out.println("Politician Id is:"+politician20.yearsInOffice);
-	System.out.println("Politician Id is:"+politician20.electionWins);
-	System.out.println("Politician Id is:"+politician20.party+"\n");
+	politician1.getInfo();
+	politician2.getInfo();
+	politician3.getInfo();
+	politician4.getInfo();
+	politician5.getInfo();
+	politician6.getInfo();
+	politician7.getInfo();
+	politician8.getInfo();
+	politician9.getInfo();
+	politician10.getInfo();
+	politician11.getInfo();
+	politician12.getInfo();
+	politician13.getInfo();
+	politician14.getInfo();
+	politician15.getInfo();
+	politician16.getInfo();
+	politician17.getInfo();
+	politician18.getInfo();
+	politician19.getInfo();
+	politician20.getInfo();
 
 	
 	System.out.println("\nmain ended");

@@ -11,12 +11,7 @@ class JwelleryRunner{
 	jewel1.price=35000.00;
 	jewel1.isCertified=true;
 	
-	System.out.println("Jewellery Id is: "+jewel1.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel1.name);
-	System.out.println("Jewellery material is :"+jewel1.material);
-	System.out.println("Jewellery weight is: "+jewel1.weight);
-	System.out.println("Jewellery price is: "+jewel1.price);
-	System.out.println("Jewellery is certified?: "+jewel1.isCertified+"\n");
+	
 	
 	Jwellery jewel2=new Jwellery();
 
@@ -27,12 +22,6 @@ class JwelleryRunner{
 	jewel2.price=18000.00;
 	jewel2.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel2.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel2.name);
-	System.out.println("Jewellery material is :"+jewel2.material);
-	System.out.println("Jewellery weight is: "+jewel2.weight);
-	System.out.println("Jewellery price is: "+jewel2.price);
-	System.out.println("Jewellery is certified?: "+jewel2.isCertified+"\n");
 
 	Jwellery jewel3=new Jwellery();
 
@@ -43,12 +32,6 @@ class JwelleryRunner{
 	jewel3.price=27000.00;
 	jewel3.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel3.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel3.name);
-	System.out.println("Jewellery material is :"+jewel3.material);
-	System.out.println("Jewellery weight is: "+jewel3.weight);
-	System.out.println("Jewellery price is: "+jewel3.price);
-	System.out.println("Jewellery is certified?: "+jewel3.isCertified+"\n");
 
 	Jwellery jewel4=new Jwellery();
 
@@ -59,12 +42,6 @@ class JwelleryRunner{
 	jewel4.price=12000.00;
 	jewel4.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel4.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel4.name);
-	System.out.println("Jewellery material is :"+jewel4.material);
-	System.out.println("Jewellery weight is: "+jewel4.weight);
-	System.out.println("Jewellery price is: "+jewel4.price);
-	System.out.println("Jewellery is certified?: "+jewel4.isCertified+"\n");
 
 	Jwellery jewel5=new Jwellery();
 
@@ -75,12 +52,6 @@ class JwelleryRunner{
 	jewel5.price=9500.00;
 	jewel5.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel5.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel5.name);
-	System.out.println("Jewellery material is :"+jewel5.material);
-	System.out.println("Jewellery weight is: "+jewel5.weight);
-	System.out.println("Jewellery price is: "+jewel5.price);
-	System.out.println("Jewellery is certified?: "+jewel5.isCertified+"\n");
 
 	Jwellery jewel6=new Jwellery();
 
@@ -91,12 +62,6 @@ class JwelleryRunner{
 	jewel6.price=7200.00;
 	jewel6.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel6.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel6.name);
-	System.out.println("Jewellery material is :"+jewel6.material);
-	System.out.println("Jewellery weight is: "+jewel6.weight);
-	System.out.println("Jewellery price is: "+jewel6.price);
-	System.out.println("Jewellery is certified?: "+jewel6.isCertified+"\n");
 
 	Jwellery jewel7=new Jwellery();
 
@@ -107,12 +72,6 @@ class JwelleryRunner{
 	jewel7.price=13500.00;
 	jewel7.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel7.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel7.name);
-	System.out.println("Jewellery material is :"+jewel7.material);
-	System.out.println("Jewellery weight is: "+jewel7.weight);
-	System.out.println("Jewellery price is: "+jewel7.price);
-	System.out.println("Jewellery is certified?: "+jewel7.isCertified+"\n");
 
 	Jwellery jewel8=new Jwellery();
 
@@ -123,12 +82,6 @@ class JwelleryRunner{
 	jewel8.price=6200.00;
 	jewel8.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel8.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel8.name);
-	System.out.println("Jewellery material is :"+jewel8.material);
-	System.out.println("Jewellery weight is: "+jewel8.weight);
-	System.out.println("Jewellery price is: "+jewel8.price);
-	System.out.println("Jewellery is certified?: "+jewel8.isCertified+"\n");
 
 	Jwellery jewel9=new Jwellery();
 
@@ -139,12 +92,6 @@ class JwelleryRunner{
 	jewel9.price=2100.00;
 	jewel9.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel9.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel9.name);
-	System.out.println("Jewellery material is :"+jewel9.material);
-	System.out.println("Jewellery weight is: "+jewel9.weight);
-	System.out.println("Jewellery price is: "+jewel9.price);
-	System.out.println("Jewellery is certified?: "+jewel9.isCertified+"\n");
 
 	Jwellery jewel10=new Jwellery();
 
@@ -155,12 +102,6 @@ class JwelleryRunner{
 	jewel10.price=3200.00;
 	jewel10.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel10.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel10.name);
-	System.out.println("Jewellery material is :"+jewel10.material);
-	System.out.println("Jewellery weight is: "+jewel10.weight);
-	System.out.println("Jewellery price is: "+jewel10.price);
-	System.out.println("Jewellery is certified?: "+jewel10.isCertified+"\n");
 	
 	Jwellery jewel11=new Jwellery();
 
@@ -171,12 +112,7 @@ class JwelleryRunner{
 	jewel11.price=85000.00;
 	jewel11.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel11.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel11.name);
-	System.out.println("Jewellery material is :"+jewel11.material);
-	System.out.println("Jewellery weight is: "+jewel11.weight);
-	System.out.println("Jewellery price is: "+jewel11.price);
-	System.out.println("Jewellery is certified?: "+jewel11.isCertified+"\n");
+
 
 	Jwellery jewel12=new Jwellery();
 
@@ -187,12 +123,6 @@ class JwelleryRunner{
 	jewel12.price=6700.00;
 	jewel12.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel12.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel12.name);
-	System.out.println("Jewellery material is :"+jewel12.material);
-	System.out.println("Jewellery weight is: "+jewel12.weight);
-	System.out.println("Jewellery price is: "+jewel12.price);
-	System.out.println("Jewellery is certified?: "+jewel12.isCertified+"\n");
 
 	Jwellery jewel13=new Jwellery();
 
@@ -203,12 +133,7 @@ class JwelleryRunner{
 	jewel13.price=5300.00;
 	jewel13.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel13.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel13.name);
-	System.out.println("Jewellery material is :"+jewel13.material);
-	System.out.println("Jewellery weight is: "+jewel13.weight);
-	System.out.println("Jewellery price is: "+jewel13.price);
-	System.out.println("Jewellery is certified?: "+jewel13.isCertified+"\n");
+
 
 	Jwellery jewel14=new Jwellery();
 
@@ -219,12 +144,7 @@ class JwelleryRunner{
 	jewel14.price=2900.00;
 	jewel14.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel14.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel14.name);
-	System.out.println("Jewellery material is :"+jewel14.material);
-	System.out.println("Jewellery weight is: "+jewel14.weight);
-	System.out.println("Jewellery price is: "+jewel14.price);
-	System.out.println("Jewellery is certified?: "+jewel14.isCertified+"\n");
+
 
 	Jwellery jewel15=new Jwellery();
 
@@ -235,12 +155,7 @@ class JwelleryRunner{
 	jewel15.price=4100.00;
 	jewel15.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel15.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel15.name);
-	System.out.println("Jewellery material is :"+jewel15.material);
-	System.out.println("Jewellery weight is: "+jewel15.weight);
-	System.out.println("Jewellery price is: "+jewel15.price);
-	System.out.println("Jewellery is certified?: "+jewel15.isCertified+"\n");
+
 
 	Jwellery jewel16=new Jwellery();
 
@@ -251,12 +166,7 @@ class JwelleryRunner{
 	jewel16.price=19500.00;
 	jewel16.isCertified=true;
 
-	System.out.println("Jewellery Id is: "+jewel16.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel16.name);
-	System.out.println("Jewellery material is :"+jewel16.material);
-	System.out.println("Jewellery weight is: "+jewel16.weight);
-	System.out.println("Jewellery price is: "+jewel16.price);
-	System.out.println("Jewellery is certified?: "+jewel16.isCertified+"\n");
+
 
 	Jwellery jewel17=new Jwellery();
 
@@ -267,14 +177,6 @@ class JwelleryRunner{
 	jewel17.price=15500.00;
 	jewel17.isCertified=false;
 
-
-	System.out.println("Jewellery Id is: "+jewel17.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel17.name);
-	System.out.println("Jewellery material is :"+jewel17.material);
-	System.out.println("Jewellery weight is: "+jewel17.weight);
-	System.out.println("Jewellery price is: "+jewel17.price);
-	System.out.println("Jewellery is certified?: "+jewel17.isCertified+"\n");
-
 	Jwellery jewel18=new Jwellery();
 
 	jewel18.jewelleryId=18;
@@ -284,12 +186,6 @@ class JwelleryRunner{
 	jewel18.price=2700.00;
 	jewel18.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel18.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel18.name);
-	System.out.println("Jewellery material is :"+jewel18.material);
-	System.out.println("Jewellery weight is: "+jewel18.weight);
-	System.out.println("Jewellery price is: "+jewel18.price);
-	System.out.println("Jewellery is certified?: "+jewel18.isCertified+"\n");
 
 	Jwellery jewel19=new Jwellery();
 
@@ -300,12 +196,6 @@ class JwelleryRunner{
 	jewel19.price=3300.00;
 	jewel19.isCertified=false;
 
-	System.out.println("Jewellery Id is: "+jewel19.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel19.name);
-	System.out.println("Jewellery material is :"+jewel19.material);
-	System.out.println("Jewellery weight is: "+jewel19.weight);
-	System.out.println("Jewellery price is: "+jewel19.price);
-	System.out.println("Jewellery is certified?: "+jewel19.isCertified+"\n");
 
 	Jwellery jewel20=new Jwellery();
 
@@ -315,13 +205,27 @@ class JwelleryRunner{
 	jewel20.weight=29.00;
 	jewel20.price=2500.00;
 	jewel20.isCertified=true;
-
-	System.out.println("Jewellery Id is: "+jewel20.jewelleryId);
-	System.out.println("Jewellery name is: "+jewel20.name);
-	System.out.println("Jewellery material is :"+jewel20.material);
-	System.out.println("Jewellery weight is: "+jewel20.weight);
-	System.out.println("Jewellery price is: "+jewel20.price);
-	System.out.println("Jewellery is certified?: "+jewel20.isCertified+"\n");
+	
+	jewel1.getInfo();
+	jewel2.getInfo();
+	jewel3.getInfo();
+	jewel4.getInfo();
+	jewel5.getInfo();
+	jewel6.getInfo();
+	jewel7.getInfo();
+	jewel8.getInfo();
+	jewel9.getInfo();
+	jewel10.getInfo();
+	jewel11.getInfo();
+	jewel12.getInfo();
+	jewel13.getInfo();
+	jewel14.getInfo();
+	jewel15.getInfo();
+	jewel16.getInfo();
+	jewel17.getInfo();
+	jewel18.getInfo();
+	jewel19.getInfo();
+	jewel20.getInfo();
 
 	
 	System.out.println("\nmain ended");

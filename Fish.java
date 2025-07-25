@@ -5,4 +5,13 @@ class Fish{
 	double length;
 	double weight;
 	String habitat;
+	
+	public void getInfo(){
+	System.out.println("Fish id is:"+fishId);
+	System.out.println("Fish species is:"+species);
+	System.out.println("Fish color is:"+color);
+	System.out.println("Fish length is:"+length);
+	System.out.println("Fish weight is:"+weight);
+	System.out.println("Fish habitat is:"+habitat+"\n");
+	}
 }

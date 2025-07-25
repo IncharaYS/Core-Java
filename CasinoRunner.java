@@ -11,12 +11,6 @@ class CasinoRunner{
 	casino1.owner="M Rashmi";
 	casino1.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino1.casinoId);
-	System.out.println("Casino location is: "+casino1.location);
-	System.out.println("Casino name is: "+casino1.name);
-	System.out.println("Casino  has lisence: "+casino1.hasLisence);
-	System.out.println("Casino owner is: "+casino1.owner);
-	System.out.println("Casino is open?: "+casino1.isOpen+"\n");
 	
 		Casino casino2=new Casino();
 	
@@ -27,12 +21,7 @@ class CasinoRunner{
 	casino2.owner="Arjun Patel";
 	casino2.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino2.casinoId);
-	System.out.println("Casino location is: "+casino2.location);
-	System.out.println("Casino name is: "+casino2.name);
-	System.out.println("Casino  has lisence: "+casino2.hasLisence);
-	System.out.println("Casino owner is: "+casino2.owner);
-	System.out.println("Casino is open?: "+casino2.isOpen+"\n");
+
 	
 	Casino casino3=new Casino();
 	
@@ -43,12 +32,7 @@ class CasinoRunner{
 	casino3.owner="Sneha Kapoor";
 	casino3.isOpen=false;
 	
-	System.out.println("Casino id is: "+casino3.casinoId);
-	System.out.println("Casino location is: "+casino3.location);
-	System.out.println("Casino name is: "+casino3.name);
-	System.out.println("Casino  has lisence: "+casino3.hasLisence);
-	System.out.println("Casino owner is: "+casino3.owner);
-	System.out.println("Casino is open?: "+casino3.isOpen+"\n");
+
 	
 	Casino casino4=new Casino();
 	
@@ -59,12 +43,7 @@ class CasinoRunner{
 	casino4.owner="Ravi Thakur";
 	casino4.isOpen=false;
 	
-	System.out.println("Casino id is: "+casino4.casinoId);
-	System.out.println("Casino location is: "+casino4.location);
-	System.out.println("Casino name is: "+casino4.name);
-	System.out.println("Casino  has lisence: "+casino4.hasLisence);
-	System.out.println("Casino owner is: "+casino4.owner);
-	System.out.println("Casino is open?: "+casino4.isOpen+"\n");
+
 	
 	Casino casino5=new Casino();
 	
@@ -75,12 +54,7 @@ class CasinoRunner{
 	casino5.owner="Lakshmi R";
 	casino5.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino5.casinoId);
-	System.out.println("Casino location is: "+casino5.location);
-	System.out.println("Casino name is: "+casino5.name);
-	System.out.println("Casino  has lisence: "+casino5.hasLisence);
-	System.out.println("Casino owner is: "+casino5.owner);
-	System.out.println("Casino is open?: "+casino5.isOpen+"\n");
+
 	
 	Casino casino6=new Casino();
 	
@@ -91,12 +65,7 @@ class CasinoRunner{
 	casino6.owner="Anil Joshi";
 	casino6.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino6.casinoId);
-	System.out.println("Casino location is: "+casino6.location);
-	System.out.println("Casino name is: "+casino6.name);
-	System.out.println("Casino  has lisence: "+casino6.hasLisence);
-	System.out.println("Casino owner is: "+casino6.owner);
-	System.out.println("Casino is open?: "+casino6.isOpen+"\n");
+
 	
 	Casino casino7=new Casino();
 	
@@ -107,12 +76,6 @@ class CasinoRunner{
 	casino7.owner="Pooja Mehra";
 	casino7.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino7.casinoId);
-	System.out.println("Casino location is: "+casino7.location);
-	System.out.println("Casino name is: "+casino7.name);
-	System.out.println("Casino  has lisence: "+casino7.hasLisence);
-	System.out.println("Casino owner is: "+casino7.owner);
-	System.out.println("Casino is open?: "+casino7.isOpen+"\n");
 	
 	Casino casino8=new Casino();
 	
@@ -122,13 +85,7 @@ class CasinoRunner{
 	casino8.hasLisence=false;
 	casino8.owner="Rohan Verma";
 	casino8.isOpen=false;
-	
-	System.out.println("Casino id is: "+casino8.casinoId);
-	System.out.println("Casino location is: "+casino8.location);
-	System.out.println("Casino name is: "+casino8.name);
-	System.out.println("Casino  has lisence: "+casino8.hasLisence);
-	System.out.println("Casino owner is: "+casino8.owner);
-	System.out.println("Casino is open?: "+casino8.isOpen+"\n");
+
 	
 	Casino casino9=new Casino();
 	
@@ -139,12 +96,7 @@ class CasinoRunner{
 	casino9.owner="Siddharth Rao";
 	casino9.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino9.casinoId);
-	System.out.println("Casino location is: "+casino9.location);
-	System.out.println("Casino name is: "+casino9.name);
-	System.out.println("Casino  has lisence: "+casino9.hasLisence);
-	System.out.println("Casino owner is: "+casino9.owner);
-	System.out.println("Casino is open?: "+casino9.isOpen+"\n");
+	
 	
 	Casino casino10=new Casino();
 	
@@ -155,12 +107,7 @@ class CasinoRunner{
 	casino10.owner="Meghna Das";
 	casino10.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino10.casinoId);
-	System.out.println("Casino location is: "+casino10.location);
-	System.out.println("Casino name is: "+casino10.name);
-	System.out.println("Casino  has lisence: "+casino10.hasLisence);
-	System.out.println("Casino owner is: "+casino10.owner);
-	System.out.println("Casino is open?: "+casino10.isOpen+"\n");
+
 	
 	Casino casino11=new Casino();
 	
@@ -171,12 +118,7 @@ class CasinoRunner{
 	casino11.owner="Rajesh Modi";
 	casino11.isOpen=false;
 	
-	System.out.println("Casino id is: "+casino11.casinoId);
-	System.out.println("Casino location is: "+casino11.location);
-	System.out.println("Casino name is: "+casino11.name);
-	System.out.println("Casino  has lisence: "+casino11.hasLisence);
-	System.out.println("Casino owner is: "+casino11.owner);
-	System.out.println("Casino is open?: "+casino11.isOpen+"\n");
+
 	
 	Casino casino12=new Casino();
 	
@@ -187,12 +129,7 @@ class CasinoRunner{
 	casino12.owner="Komal Shah";
 	casino12.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino12.casinoId);
-	System.out.println("Casino location is: "+casino12.location);
-	System.out.println("Casino name is: "+casino12.name);
-	System.out.println("Casino  has lisence: "+casino12.hasLisence);
-	System.out.println("Casino owner is: "+casino12.owner);
-	System.out.println("Casino is open?: "+casino12.isOpen+"\n");
+
 	
 	Casino casino13=new Casino();
 	
@@ -203,12 +140,7 @@ class CasinoRunner{
 	casino13.owner="Neeraj Rao";
 	casino13.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino13.casinoId);
-	System.out.println("Casino location is: "+casino13.location);
-	System.out.println("Casino name is: "+casino13.name);
-	System.out.println("Casino  has lisence: "+casino13.hasLisence);
-	System.out.println("Casino owner is: "+casino13.owner);
-	System.out.println("Casino is open?: "+casino13.isOpen+"\n");
+
 	
 	Casino casino14=new Casino();
 	
@@ -219,12 +151,7 @@ class CasinoRunner{
 	casino14.owner="Deepa Malhotra";
 	casino14.isOpen=false;
 	
-	System.out.println("Casino id is: "+casino14.casinoId);
-	System.out.println("Casino location is: "+casino14.location);
-	System.out.println("Casino name is: "+casino14.name);
-	System.out.println("Casino  has lisence: "+casino14.hasLisence);
-	System.out.println("Casino owner is: "+casino14.owner);
-	System.out.println("Casino is open?: "+casino14.isOpen+"\n");
+
 	
 	Casino casino15=new Casino();
 	
@@ -235,12 +162,7 @@ class CasinoRunner{
 	casino15.owner="Karan Gupta";
 	casino15.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino15.casinoId);
-	System.out.println("Casino location is: "+casino15.location);
-	System.out.println("Casino name is: "+casino15.name);
-	System.out.println("Casino  has lisence: "+casino15.hasLisence);
-	System.out.println("Casino owner is: "+casino15.owner);
-	System.out.println("Casino is open?: "+casino15.isOpen+"\n");
+
 	
 	Casino casino16=new Casino();
 	
@@ -251,12 +173,7 @@ class CasinoRunner{
 	casino16.owner="Tanvi Ahuja";
 	casino16.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino16.casinoId);
-	System.out.println("Casino location is: "+casino16.location);
-	System.out.println("Casino name is: "+casino16.name);
-	System.out.println("Casino  has lisence: "+casino16.hasLisence);
-	System.out.println("Casino owner is: "+casino16.owner);
-	System.out.println("Casino is open?: "+casino16.isOpen+"\n");
+
 	
 	Casino casino17=new Casino();
 	
@@ -267,12 +184,7 @@ class CasinoRunner{
 	casino17.owner="Rahul Khanna";
 	casino17.isOpen=false;
 	
-	System.out.println("Casino id is: "+casino17.casinoId);
-	System.out.println("Casino location is: "+casino17.location);
-	System.out.println("Casino name is: "+casino17.name);
-	System.out.println("Casino  has lisence: "+casino17.hasLisence);
-	System.out.println("Casino owner is: "+casino17.owner);
-	System.out.println("Casino is open?: "+casino17.isOpen+"\n");
+
 	
 	Casino casino18=new Casino();
 	
@@ -283,12 +195,7 @@ class CasinoRunner{
 	casino18.owner="Ritika Sinha";
 	casino18.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino18.casinoId);
-	System.out.println("Casino location is: "+casino18.location);
-	System.out.println("Casino name is: "+casino18.name);
-	System.out.println("Casino  has lisence: "+casino18.hasLisence);
-	System.out.println("Casino owner is: "+casino18.owner);
-	System.out.println("Casino is open?: "+casino18.isOpen+"\n");
+
 	
 	Casino casino19=new Casino();
 	
@@ -299,12 +206,7 @@ class CasinoRunner{
 	casino19.owner="Amit Tiwari";
 	casino19.isOpen=false;
 	
-	System.out.println("Casino id is: "+casino19.casinoId);
-	System.out.println("Casino location is: "+casino19.location);
-	System.out.println("Casino name is: "+casino19.name);
-	System.out.println("Casino  has lisence: "+casino19.hasLisence);
-	System.out.println("Casino owner is: "+casino19.owner);
-	System.out.println("Casino is open?: "+casino19.isOpen+"\n");
+	
 	
 	Casino casino20=new Casino();
 	
@@ -315,12 +217,26 @@ class CasinoRunner{
 	casino20.owner="Nisha Menon";
 	casino20.isOpen=true;
 	
-	System.out.println("Casino id is: "+casino20.casinoId);
-	System.out.println("Casino location is: "+casino20.location);
-	System.out.println("Casino name is: "+casino20.name);
-	System.out.println("Casino  has lisence: "+casino20.hasLisence);
-	System.out.println("Casino owner is: "+casino20.owner);
-	System.out.println("Casino is open?: "+casino20.isOpen+"\n");
+	casino1.getInfo();
+	casino2.getInfo();
+	casino3.getInfo();
+	casino4.getInfo();
+	casino5.getInfo();
+	casino6.getInfo();
+	casino7.getInfo();
+	casino8.getInfo();
+	casino9.getInfo();
+	casino10.getInfo();
+	casino11.getInfo();
+	casino12.getInfo();
+	casino13.getInfo();
+	casino14.getInfo();
+	casino15.getInfo();
+	casino16.getInfo();
+	casino17.getInfo();
+	casino18.getInfo();
+	casino19.getInfo();
+	casino20.getInfo();
 
 	
 	System.out.println("\nmain ended");

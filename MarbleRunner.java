@@ -10,14 +10,6 @@ class MarbleRunner{
 	marbel1.isAcidResistant=true;
 	marbel1.color="Green";
 	marbel1.hardness="3-4 Mohs";
-	
-	
-	System.out.println("Marbel id is:"+marbel1.marbelId);
-	System.out.println("Marbel texture is:"+marbel1.texture);
-	System.out.println("Marbel color is:"+marbel1.color);
-	System.out.println("Marbel hardness is:"+marbel1.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel1.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel1.isAcidResistant+"\n");
 
 
 	Marble marbel2=new Marble();
@@ -30,13 +22,6 @@ class MarbleRunner{
 	marbel2.hardness="4 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel2.marbelId);
-	System.out.println("Marbel texture is:"+marbel2.texture);
-	System.out.println("Marbel color is:"+marbel2.color);
-	System.out.println("Marbel hardness is:"+marbel2.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel2.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel2.isAcidResistant+"\n");
-
 	Marble marbel3=new Marble();
 
 	marbel3.marbelId=3;
@@ -46,13 +31,6 @@ class MarbleRunner{
 	marbel3.color="Red";
 	marbel3.hardness="3 Mohs";
 
-
-	System.out.println("Marbel id is:"+marbel3.marbelId);
-	System.out.println("Marbel texture is:"+marbel3.texture);
-	System.out.println("Marbel color is:"+marbel3.color);
-	System.out.println("Marbel hardness is:"+marbel3.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel3.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel3.isAcidResistant+"\n");
 
 	Marble marbel4=new Marble();
 
@@ -64,13 +42,6 @@ class MarbleRunner{
 	marbel4.hardness="2 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel4.marbelId);
-	System.out.println("Marbel texture is:"+marbel4.texture);
-	System.out.println("Marbel color is:"+marbel4.color);
-	System.out.println("Marbel hardness is:"+marbel4.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel4.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel4.isAcidResistant+"\n");
-
 	Marble marbel5=new Marble();
 
 	marbel5.marbelId=5;
@@ -81,12 +52,6 @@ class MarbleRunner{
 	marbel5.hardness="5 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel5.marbelId);
-	System.out.println("Marbel texture is:"+marbel5.texture);
-	System.out.println("Marbel color is:"+marbel5.color);
-	System.out.println("Marbel hardness is:"+marbel5.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel5.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel5.isAcidResistant+"\n");
 
 	Marble marbel6=new Marble();
 
@@ -98,13 +63,6 @@ class MarbleRunner{
 	marbel6.hardness="4 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel6.marbelId);
-	System.out.println("Marbel texture is:"+marbel6.texture);
-	System.out.println("Marbel color is:"+marbel6.color);
-	System.out.println("Marbel hardness is:"+marbel6.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel6.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel6.isAcidResistant+"\n");
-
 	Marble marbel7=new Marble();
 
 	marbel7.marbelId=7;
@@ -115,12 +73,6 @@ class MarbleRunner{
 	marbel7.hardness="3 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel7.marbelId);
-	System.out.println("Marbel texture is:"+marbel7.texture);
-	System.out.println("Marbel color is:"+marbel7.color);
-	System.out.println("Marbel hardness is:"+marbel7.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel7.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel7.isAcidResistant+"\n");
 
 	Marble marbel8=new Marble();
 
@@ -132,13 +84,6 @@ class MarbleRunner{
 	marbel8.hardness="2-3 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel8.marbelId);
-	System.out.println("Marbel texture is:"+marbel8.texture);
-	System.out.println("Marbel color is:"+marbel8.color);
-	System.out.println("Marbel hardness is:"+marbel8.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel8.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel8.isAcidResistant+"\n");
-
 	Marble marbel9=new Marble();
 
 	marbel9.marbelId=9;
@@ -149,13 +94,6 @@ class MarbleRunner{
 	marbel9.hardness="4-5 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel9.marbelId);
-	System.out.println("Marbel texture is:"+marbel9.texture);
-	System.out.println("Marbel color is:"+marbel9.color);
-	System.out.println("Marbel hardness is:"+marbel9.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel9.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel9.isAcidResistant+"\n");
-
 	Marble marbel10=new Marble();
 
 	marbel10.marbelId=10;
@@ -165,13 +103,6 @@ class MarbleRunner{
 	marbel10.color="Brown";
 	marbel10.hardness="3.5 Mohs";
 
-
-	System.out.println("Marbel id is:"+marbel10.marbelId);
-	System.out.println("Marbel texture is:"+marbel10.texture);
-	System.out.println("Marbel color is:"+marbel10.color);
-	System.out.println("Marbel hardness is:"+marbel10.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel10.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel10.isAcidResistant+"\n");
 	
 	Marble marbel11=new Marble();
 
@@ -183,13 +114,6 @@ class MarbleRunner{
 	marbel11.hardness="2.5 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel11.marbelId);
-	System.out.println("Marbel texture is:"+marbel11.texture);
-	System.out.println("Marbel color is:"+marbel11.color);
-	System.out.println("Marbel hardness is:"+marbel11.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel11.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel11.isAcidResistant+"\n");
-
 	Marble marbel12=new Marble();
 
 	marbel12.marbelId=12;
@@ -199,13 +123,6 @@ class MarbleRunner{
 	marbel12.color="Ivory";
 	marbel12.hardness="4 Mohs";
 
-
-	System.out.println("Marbel id is:"+marbel12.marbelId);
-	System.out.println("Marbel texture is:"+marbel12.texture);
-	System.out.println("Marbel color is:"+marbel12.color);
-	System.out.println("Marbel hardness is:"+marbel12.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel12.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel12.isAcidResistant+"\n");
 
 	Marble marbel13=new Marble();
 
@@ -217,12 +134,6 @@ class MarbleRunner{
 	marbel13.hardness="3 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel13.marbelId);
-	System.out.println("Marbel texture is:"+marbel13.texture);
-	System.out.println("Marbel color is:"+marbel13.color);
-	System.out.println("Marbel hardness is:"+marbel13.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel13.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel13.isAcidResistant+"\n");
 
 	Marble marbel14=new Marble();
 
@@ -234,13 +145,6 @@ class MarbleRunner{
 	marbel14.hardness="3.2 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel14.marbelId);
-	System.out.println("Marbel texture is:"+marbel14.texture);
-	System.out.println("Marbel color is:"+marbel14.color);
-	System.out.println("Marbel hardness is:"+marbel14.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel14.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel14.isAcidResistant+"\n");
-
 	Marble marbel15=new Marble();
 
 	marbel15.marbelId=15;
@@ -251,12 +155,6 @@ class MarbleRunner{
 	marbel15.hardness="3.7 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel15.marbelId);
-	System.out.println("Marbel texture is:"+marbel15.texture);
-	System.out.println("Marbel color is:"+marbel15.color);
-	System.out.println("Marbel hardness is:"+marbel15.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel15.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel15.isAcidResistant+"\n");
 
 	Marble marbel16=new Marble();
 
@@ -268,13 +166,6 @@ class MarbleRunner{
 	marbel16.hardness="2.8 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel16.marbelId);
-	System.out.println("Marbel texture is:"+marbel16.texture);
-	System.out.println("Marbel color is:"+marbel16.color);
-	System.out.println("Marbel hardness is:"+marbel16.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel16.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel16.isAcidResistant+"\n");
-
 	Marble marbel17=new Marble();
 
 	marbel17.marbelId=17;
@@ -283,14 +174,6 @@ class MarbleRunner{
 	marbel17.isAcidResistant=false;
 	marbel17.color="Cream";
 	marbel17.hardness="3 Mohs";
-
-
-	System.out.println("Marbel id is:"+marbel17.marbelId);
-	System.out.println("Marbel texture is:"+marbel17.texture);
-	System.out.println("Marbel color is:"+marbel17.color);
-	System.out.println("Marbel hardness is:"+marbel17.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel17.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel17.isAcidResistant+"\n");
 
 	Marble marbel18=new Marble();
 
@@ -302,13 +185,6 @@ class MarbleRunner{
 	marbel18.hardness="4 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel18.marbelId);
-	System.out.println("Marbel texture is:"+marbel18.texture);
-	System.out.println("Marbel color is:"+marbel18.color);
-	System.out.println("Marbel hardness is:"+marbel18.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel18.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel18.isAcidResistant+"\n");
-
 	Marble marbel19=new Marble();
 
 	marbel19.marbelId=19;
@@ -319,13 +195,6 @@ class MarbleRunner{
 	marbel19.hardness="3.3 Mohs";
 
 
-	System.out.println("Marbel id is:"+marbel19.marbelId);
-	System.out.println("Marbel texture is:"+marbel19.texture);
-	System.out.println("Marbel color is:"+marbel19.color);
-	System.out.println("Marbel hardness is:"+marbel19.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel19.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel19.isAcidResistant+"\n");
-
 	Marble marbel20=new Marble();
 
 	marbel20.marbelId=20;
@@ -334,14 +203,29 @@ class MarbleRunner{
 	marbel20.isAcidResistant=false;
 	marbel20.color="Mint";
 	marbel20.hardness="2.9 Mohs";
+	
+	marbel1.getInfo();
+	marbel2.getInfo();
+	marbel3.getInfo();
+	marbel4.getInfo();
+	marbel5.getInfo();
+	marbel6.getInfo();
+	marbel7.getInfo();
+	marbel8.getInfo();
+	marbel9.getInfo();
+	marbel10.getInfo();
+	marbel11.getInfo();
+	marbel12.getInfo();
+	marbel13.getInfo();
+	marbel14.getInfo();
+	marbel15.getInfo();
+	marbel16.getInfo();
+	marbel17.getInfo();
+	marbel18.getInfo();
+	marbel19.getInfo();
+	marbel20.getInfo();
 
 
-	System.out.println("Marbel id is:"+marbel20.marbelId);
-	System.out.println("Marbel texture is:"+marbel20.texture);
-	System.out.println("Marbel color is:"+marbel20.color);
-	System.out.println("Marbel hardness is:"+marbel20.hardness);
-	System.out.println("Marbel  is polisher?:"+marbel20.isPolished);
-	System.out.println("Marbel is acid resistant?:"+marbel20.isAcidResistant+"\n");
 	
 	System.out.println("\nmain ended");
 	}

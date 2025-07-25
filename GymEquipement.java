@@ -5,4 +5,13 @@ class GymEquipment{
 	String material;
 	String name;
 	String brand;
+	
+	public void getInfo(){
+	System.out.println("Gym equipment ID is:"+equipmentId);
+	System.out.println("Gym equipment name is:"+name);
+	System.out.println("Gym equipment type is:"+type);
+	System.out.println("Gym equipment brand is:"+brand);
+	System.out.println("Gym equipment price is:"+price);
+	System.out.println("Gym equipment material is:"+material+"\n");
+	}
 }
