@@ -1,4 +1,13 @@
 class Blazer{
+	Blazer(int itemId,char size,String color,String style,String brandName,double price){
+	this.itemId=itemId;
+	this.size=size;
+	this.color=color;
+	this.style=style;
+	this.brandName=brandName;
+	this.price=price;
+	}
+	
 	int itemId;
 	char size;
 	String color;

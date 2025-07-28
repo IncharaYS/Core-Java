@@ -1,4 +1,12 @@
 class Karate{
+	Karate(int karateId,double height,double weight,String rank,String dominantHand,String beltColor){
+	this.karateId=karateId;
+	this.rank=rank;
+	this.height=height;
+	this.weight=weight;
+	this.dominantHand=dominantHand;
+	this.beltColor=beltColor;
+	}
 	int karateId;
 	String rank;
 	double height;

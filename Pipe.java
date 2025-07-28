@@ -1,4 +1,12 @@
 class Pipe{
+	Pipe(String material,int pipeId,double width,double length,boolean isFireResistance,String shape){
+	this.material=material;
+	this.pipeId=pipeId;
+	this.width=width;
+	this.length=length;
+	this.isFireResistance=isFireResistance;
+	this.shape=shape;
+	}
 	String material;
 	int pipeId;
 	double width;

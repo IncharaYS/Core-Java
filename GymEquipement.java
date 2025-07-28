@@ -1,4 +1,12 @@
 class GymEquipment{
+	GymEquipment(int equipmentId,String type,String material,String name,double price,String brand){
+	this.equipmentId=equipmentId;
+	this.type=type;
+	this.price=price;
+	this.material=material;
+	this.name=name;
+	this.brand=brand;
+	}
 	int equipmentId;
 	String type;
 	double price;

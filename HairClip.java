@@ -1,4 +1,12 @@
 class HairClip{
+	HairClip(int itemId,String color,String type,double price,String size,String material){
+	this.itemId=itemId;
+	this.color=color;
+	this.type=type;
+	this.price=price;
+	this.size=size;
+	this.material=material;
+	}
 	int itemId;
 	String color;
 	String type;

@@ -1,4 +1,12 @@
 class InvitationCard{
+	InvitationCard(int invitationId,String hostName,String guestName,String date,String time,String venue){
+	this.invitationId=invitationId;
+	this.hostName=hostName;
+	this.guestName=guestName;
+	this.date=date;
+	this.time=time;
+	this.venue=venue;
+	}
 	int invitationId;
 	String hostName;
 	String guestName;
