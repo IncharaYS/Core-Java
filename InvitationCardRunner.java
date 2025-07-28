@@ -2,212 +2,186 @@ class InvitationCardRunner{
 	public static void main(String jewels[]){
 	System.out.println("\nmain started\n");
 	
-	InvitationCard card1=new InvitationCard();
+	InvitationCard card1=new InvitationCard(1,"Sana","Sridhar","21/10/25","10:40","Shimogga");
 	
-	card1.invitationId=1;
+	/*card1.invitationId=1;
 	card1.hostName="Sana";
 	card1.guestName="Sridhar";
 	card1.date="21/10/25";
 	card1.time="10:40";
-	card1.venue="Shimogga";
-	
+	card1.venue="Shimogga";*/
 
+	InvitationCard card2=new InvitationCard(2,"Samay","Ranveer","6/7/25","5:40","Davangere");
 	
-	InvitationCard card2=new InvitationCard();
-
-	card2.invitationId=2;
+	/*card2.invitationId=2;
 	card2.hostName="Samay";
 	card2.guestName="Ranveer";
 	card2.date="6/7/25";
 	card2.time="5:40";
-	card2.venue="Davangere";
+	card2.venue="Davangere";*/
 
-
-	InvitationCard card3=new InvitationCard();
-
-	card3.invitationId=3;
+	InvitationCard card3=new InvitationCard(3,"Sanjana","Sandeer","3/5/25","12:30","Davangere");
+	
+	/*card3.invitationId=3;
 	card3.hostName="Sanjana";
 	card3.guestName="Sandeer";
 	card3.date="3/5/25";
 	card3.time="12:30";
-	card3.venue="Davangere";
+	card3.venue="Davangere";*/
 
-
-
-	InvitationCard card4=new InvitationCard();
-
-	card4.invitationId=4;
+	InvitationCard card4=new InvitationCard(4,"Sunil","Sanni","5/7/25","5:00","Shimoga");
+	
+	/*card4.invitationId=4;
 	card4.hostName="Sunil";
 	card4.guestName="Sanni";
 	card4.date="5/7/25";
 	card4.time="5:00";
-	card4.venue="Shimoga";
+	card4.venue="Shimoga";*/
 
-
-	InvitationCard card5=new InvitationCard();
-
-	card5.invitationId=5;
+	InvitationCard card5=new InvitationCard(5,"Inchara","Rashmi","24/7/25","11:00","banglore");
+	
+	/*card5.invitationId=5;
 	card5.hostName="Inchara";
 	card5.guestName="Rashmi";
 	card5.date="24/7/25";
 	card5.time="11:00";
-	card5.venue="banglore";
+	card5.venue="banglore";*/
 
-
-	InvitationCard card6=new InvitationCard();
-
-	card6.invitationId=6;
+	InvitationCard card6=new InvitationCard(6,"Rashmi","Inchara","23/7/25","11:00","Banglore");
+	
+	/*card6.invitationId=6;
 	card6.hostName="Rashmi";
 	card6.guestName="Inchara";
 	card6.date="23/7/25";
 	card6.time="11:00";
-	card6.venue="Banglore";
+	card6.venue="Banglore";*/
 
-
-	InvitationCard card7=new InvitationCard();
-
-	card7.invitationId=7;
+	InvitationCard card7=new InvitationCard(7,"Saniha","Sahana","3/4/25","3:00","Chikkamangalore");
+	
+	/*card7.invitationId=7;
 	card7.hostName="Saniha";
 	card7.guestName="Sahana";
 	card7.date="3/4/25";
 	card7.time="3:00";
-	card7.venue="Chikkamangalore";
+	card7.venue="Chikkamangalore";*/
 
-
-	InvitationCard card8=new InvitationCard();
-
-	card8.invitationId=8;
+	InvitationCard card8=new InvitationCard(8,"Latha","Sridhar","21/7/25","8:00","Shimoga");
+	
+	/*card8.invitationId=8;
 	card8.hostName="Latha";
 	card8.guestName="Sridhar";
 	card8.date="21/7/25";
 	card8.time="8:00";
-	card8.venue="Shimoga";
+	card8.venue="Shimoga";*/
 
-
-
-	InvitationCard card9=new InvitationCard();
-
-	card9.invitationId=9;
+	InvitationCard card9=new InvitationCard(9,"Sahana","Inchara","6/8/25","9:00","Coorg");
+	
+	/*card9.invitationId=9;
 	card9.hostName="Sahana";
 	card9.guestName="Inchara";
 	card9.date="6/8/25";
 	card9.time="9:00";
-	card9.venue="Coorg";
+	card9.venue="Coorg";*/
 
-
-	InvitationCard card10=new InvitationCard();
-
-	card10.invitationId=10;
+	InvitationCard card10=new InvitationCard(10,"Ananya","Ahori","4/5/25","8:00","Davangere");
+	
+	/*card10.invitationId=10;
 	card10.hostName="Ananya";
 	card10.guestName="Ahori";
 	card10.date="4/5/25";
 	card10.time="8:00";
-	card10.venue="Davangere";
+	card10.venue="Davangere";*/
 
-
-
-	InvitationCard card11=new InvitationCard();
-
-	card11.invitationId=11;
+	InvitationCard card11=new InvitationCard(11,"Devendra","Akshara","24/7/25","10:00","Banglore");
+	
+	/*card11.invitationId=11;
 	card11.hostName="Devendra";
 	card11.guestName="Akshara";
 	card11.date="24/7/25";
 	card11.time="10:00";
-	card11.venue="Banglore";
+	card11.venue="Banglore";*/
 
-
-	InvitationCard card12=new InvitationCard();
-
-	card12.invitationId=12;
+	InvitationCard card12=new InvitationCard(12,"Rashmi","Chandhu","5/9/25","9:00","Ballari");
+	
+	/*card12.invitationId=12;
 	card12.hostName="Rashmi";
 	card12.guestName="Chandhu";
 	card12.date="5/9/25";
 	card12.time="9:00";
-	card12.venue="Ballari";
+	card12.venue="Ballari";*/
 
-
-	InvitationCard card13=new InvitationCard();
-
-	card13.invitationId=13;
+	InvitationCard card13=new InvitationCard(13,"Sameeksha","Harsha","5/9/25","12:30","Madikeri");
+	
+	/*card13.invitationId=13;
 	card13.hostName="Sameeksha";
 	card13.guestName="Harsha";
 	card13.date="5/9/25";
 	card13.time="12:30";
-	card13.venue="Madikeri";
+	card13.venue="Madikeri";*/
 
-
-	InvitationCard card14=new InvitationCard();
-
-	card14.invitationId=14;
+	InvitationCard card14=new InvitationCard(14,"Shriharsha","Kiara","6/8/25","7:00","Banglore");
+	
+	/*card14.invitationId=14;
 	card14.hostName="Shriharsha";
 	card14.guestName="Kiara";
 	card14.date="6/8/25";
 	card14.time="7:00";
-	card14.venue="Banglore";
+	card14.venue="Banglore";*/
 
-
-
-	InvitationCard card15=new InvitationCard();
-
-	card15.invitationId=15;
+	InvitationCard card15=new InvitationCard(15,"Divya","Kavya","6/9/24","9:00","Gachabowli");
+	
+	/*card15.invitationId=15;
 	card15.hostName="Divya";
 	card15.guestName="Kavya";
 	card15.date="6/9/24";
 	card15.time="9:00";
-	card15.venue="Gachabowli";
+	card15.venue="Gachabowli";*/
 
-
-	InvitationCard card16=new InvitationCard();
-
-	card16.invitationId=16;
+	InvitationCard card16=new InvitationCard(16,"Ram","Sam","4/9/24","7:00","Davangere");
+	
+	/*card16.invitationId=16;
 	card16.hostName="Ram";
 	card16.guestName="Sam";
 	card16.date="4/9/24";
 	card16.time="7:00";
-	card16.venue="Davangere";
+	card16.venue="Davangere";*/
 
-
-
-	InvitationCard card17=new InvitationCard();
-
-	card17.invitationId=17;
+	InvitationCard card17=new InvitationCard(17,"Samarth","Tarun","5/6/25","7:00","Davangere");
+	
+	/*card17.invitationId=17;
 	card17.hostName="Samarth";
 	card17.guestName="Tarun";
 	card17.date="5/6/25";
 	card17.time="7:00";
-	card17.venue="Davangere";
+	card17.venue="Davangere";*/
 
-
-
-	InvitationCard card18=new InvitationCard();
-
-	card18.invitationId=18;
+	InvitationCard card18=new InvitationCard(18,"Nandan","Parvez","4/7/24","11:00","Banglore");
+	
+	/*card18.invitationId=18;
 	card18.hostName="Nandan";
 	card18.guestName="Parvez";
 	card18.date="4/7/24";
 	card18.time="11:00";
-	card18.venue="Banglore";
+	card18.venue="Banglore";*/
 
-
-
-	InvitationCard card19=new InvitationCard();
-
-	card19.invitationId=19;
+	InvitationCard card19=new InvitationCard(19,"Inchara","Sam","5/3/25","8:00","Madkere");
+	
+	/*card19.invitationId=19;
 	card19.hostName="Inchara";
 	card19.guestName="Sam";
 	card19.date="5/3/25";
 	card19.time="8:00";
-	card19.venue="Madkere";
+	card19.venue="Madkere";*/
 
-
-	InvitationCard card20=new InvitationCard();
-
-	card20.invitationId=20;
+	InvitationCard card20=new InvitationCard(20,"Sana","Ram","7/3/25","7:00","Davangere");
+	
+	/*card20.invitationId=20;
 	card20.hostName="Sana";
 	card20.guestName="Ram";
 	card20.date="7/3/25";
 	card20.time="7:00";
-	card20.venue="Davangere";
+	card20.venue="Davangere";*/
+
 
 	card1.getInfo();
 	card2.getInfo();

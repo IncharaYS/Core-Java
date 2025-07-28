@@ -1,4 +1,12 @@
 class Festivals{
+	Festivals(int festivalId,String name,String country,String religion,String date,boolean hasPublicHoliday){
+	this.festivalId=festivalId;
+	this.name=name;
+	this.country=country;
+	this.religion=religion;
+	this.date=date;
+	this.hasPublicHoliday=hasPublicHoliday;
+	}
 	int festivalId;
 	String name;
 	String country;

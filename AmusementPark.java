@@ -1,4 +1,13 @@
 class AmusementPark{
+	AmusementPark(int parkId,String name,String location,String openingTime,String closingTime,double price){
+	this.parkId=parkId;
+	this.name=name;
+	this.location=location;
+	this.openingTime=openingTime;
+	this.closingTime=closingTime;
+	this.price=price;	
+	}
+	
 	int parkId;
 	String name;
 	String location;

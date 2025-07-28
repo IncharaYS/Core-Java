@@ -1,5 +1,13 @@
 class King
 {
+	King(int kingId,String name,int age,String birthPlace,String heir,String yearsOfRuling){
+	this.kingId=kingId=kingId;
+	this.name=name;
+	this.age=age;
+	this.birthPlace=birthPlace;
+	this.heir=heir;
+	this.yearsOfRuling=yearsOfRuling;
+	}
 	int kingId;
 	String name;
 	int age;

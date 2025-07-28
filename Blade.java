@@ -1,4 +1,12 @@
-class Blade{
+jclass Blade{
+	Blade(int bladeId,String bladeCompany,double price,String bladeType,int bladeLength,double bladeThickness){
+	this.bladeId=bladeId;
+	this.bladeCompany=bladeCompany;
+	this.price=price;
+	this.bladeType=bladeType;
+	this.bladeLength=bladeLength;
+	this.bladeThickness=bladeThickness;
+	}
 	int bladeId;
 	String bladeCompany;
 	double price;

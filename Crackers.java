@@ -1,4 +1,12 @@
 class Crackers{
+	Crackers(int crackersId,String name,String type,double weight,double price,String size){
+	this.crackersId=crackersId;
+	this.name=name;
+	this.type=type;
+	this.size=size;
+	this.weight=weight;
+	this.price=price;
+	}
 	int crackersId;
 	String name;
 	String type;

@@ -1,4 +1,12 @@
 class Network{
+	Network(int networkId,String ipAddress,String hostName,String bandwidth,double speed,boolean isConnected){
+	this.networkId=networkId;
+	this.ipAddress=ipAddress;
+	this.hostName=hostName;
+	this.bandwidth=bandwidth;
+	this.speed=speed;
+	this.isConnected=isConnected;
+	}
 	int networkId;
 	String ipAddress;
 	String hostName;

@@ -1,4 +1,12 @@
 class Politician{
+	Politician(int politicianId,String state,String name,int yearsInOffice,int electionWins,String party){
+	this.politicianId=politicianId;
+	this.state=state;
+	this.name=name;
+	this.yearsInOffice=yearsInOffice;
+	this.electionWins=electionWins;
+	this.party=party;
+	}
 	int politicianId;
 	String state;
 	String name;

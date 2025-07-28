@@ -1,4 +1,12 @@
 class GiTag{
+	GiTag(int GiTagId,String name,String state,String catogory,int period,String registeredYear){
+	this.GiTagId=GiTagId;
+	this.name=name;
+	this.state=state;
+	this.catogory=catogory;
+	this.periodperiod=periodperiod;
+	this.registeredYear=registeredYear;
+	}
 	int GiTagId;
 	String name;
 	String state;

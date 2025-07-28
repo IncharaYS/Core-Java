@@ -1,4 +1,12 @@
 class Fish{
+	Fish(int fishId,String species,String color,double length,double weight,String habitat){
+	this.fishId=fishId;
+	this.species=species=species;
+	this.color=color;
+	this.length=length;
+	this.weight=weight;
+	this.habitat=habitat;
+	}
 	int fishId;
 	String species;
 	String color;

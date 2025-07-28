@@ -1,4 +1,12 @@
 class Hat{
+	Hat(int itemId,double price,String color,String type,String material,char size){
+	this.itemId=itemId;
+	this.price=price;
+	this.color=color;
+	this.type=type;
+	this.material=material;
+	this.size=size;
+	}
 	int itemId;
 	double price;
 	String color;

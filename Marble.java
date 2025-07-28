@@ -1,4 +1,12 @@
 class Marble{
+	Marble(int marbelId,String texture,boolean isPolished,boolean isAcidResistant,String color,String hardness){
+	this.marbelId=marbelId;
+	this.texture=texture;
+	this.isPolished=isPolished;
+	this.color=color;
+	this.hardness=hardness;
+	this.isAcidResistant=isAcidResistant;
+	}
 	int marbelId;
 	String texture;
 	boolean isPolished;

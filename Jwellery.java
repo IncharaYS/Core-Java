@@ -1,4 +1,12 @@
 class Jwellery{
+	Jwellery(int jewelleryId,String name,String material,double weight,double price,boolean isCertified){
+	this.jewelleryId=jewelleryId;
+	this.name=name;
+	this.material=material;
+	this.weight=weight;
+	this.price=price;
+	this.isCertified=isCertified;
+	}
 	int jewelleryId;
 	String name;
 	String material;

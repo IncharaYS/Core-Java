@@ -1,4 +1,12 @@
 class Courtcase{
+	Courtcase(int caseId,String caseTitle,String caseType,String jurisdriction,String courtName,String division){
+	this.caseId=caseId;
+	this.caseTitle=caseTitle;
+	this.caseType=caseType;
+	this.jurisdriction=jurisdriction;
+	this.courtName=courtName;
+	this.division=division;
+	}
 	int caseId;
 	String caseTitle;
 	String caseType;

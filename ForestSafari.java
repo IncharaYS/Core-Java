@@ -1,4 +1,12 @@
 class ForestSafari{
+	ForestSafari(int safariId,String name,String location,boolean hasTransport,int noOfAnimals,boolean isVisitationAllowed){
+	this.safariId=safariId;
+	this.name=name;
+	this.location=location;
+	this.hasTransport=hasTransport;
+	this.noOfAnimals=noOfAnimals;
+	this.isVisitationAllowed=isVisitationAllowed;
+	}
 	int safariId;
 	String name;
 	String location;

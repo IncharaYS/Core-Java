@@ -1,4 +1,12 @@
 class Weapon{
+	Weapon(int weponId,String name,String size,String type,String range,double weight){
+	this.weponId=weponId;
+	this.name=name;
+	this.size=size;
+	this.type=type;
+	this.range=range;
+	this.weight=weight;
+	}
 	int weponId;
 	String name;
 	String size;
