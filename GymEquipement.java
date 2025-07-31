@@ -7,6 +7,21 @@ class GymEquipment{
 	this.name=name;
 	this.brand=brand;
 	}
+	GymEquipment(){
+		
+	}
+	GymEquipment(int equipmentId,String type,String material){
+	this.equipmentId=equipmentId;
+	this.type=type;
+	this.price=price;
+	}
+	GymEquipment(int equipmentId,String type){
+	this.equipmentId=equipmentId;
+	this.type=type;	
+	}
+	GymEquipment(int equipmentId){
+	this.equipmentId=equipmentId;	
+	}
 	int equipmentId;
 	String type;
 	double price;

@@ -7,6 +7,21 @@ class Hat{
 	this.material=material;
 	this.size=size;
 	}
+	Hat(int itemId,double price,String color){
+	this.itemId=itemId;
+	this.price=price;
+	this.color=color;	
+	}
+	Hat(int itemId,double price){
+	this.itemId=itemId;
+	this.price=price;	
+	}
+	Hat(int itemId){
+	this.itemId=itemId;
+	}
+	Hat(){
+		
+	}
 	int itemId;
 	double price;
 	String color;

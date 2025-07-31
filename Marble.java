@@ -7,6 +7,21 @@ class Marble{
 	this.hardness=hardness;
 	this.isAcidResistant=isAcidResistant;
 	}
+	Marble(int marbelId,String texture,boolean isPolished){
+	this.marbelId=marbelId;
+	this.texture=texture;
+	this.isPolished=isPolished;
+	}
+	Marble(int marbelId,String texture){
+	this.marbelId=marbelId;
+	this.texture=texture;	
+	}
+	Marble(int marbelId){
+	this.marbelId=marbelId;	
+	}
+	Marble(){
+		
+	}
 	int marbelId;
 	String texture;
 	boolean isPolished;

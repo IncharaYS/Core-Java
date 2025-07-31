@@ -7,7 +7,22 @@ class Blazer{
 	this.brandName=brandName;
 	this.price=price;
 	}
-	
+	Blazer(){
+		
+	}
+	Blazer(int itemId){
+	this.itemId=itemId;	
+	}
+	Blazer(int itemId,char size,String color,String style,String brandName){
+	this.itemId=itemId;
+	this.size=size;
+	this.color=color;
+	this.style=style;
+	this.brandName=brandName;	
+	}
+	Blazer(double price){
+	this.price=price;	
+	}
 	int itemId;
 	char size;
 	String color;

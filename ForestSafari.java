@@ -7,6 +7,21 @@ class ForestSafari{
 	this.noOfAnimals=noOfAnimals;
 	this.isVisitationAllowed=isVisitationAllowed;
 	}
+	ForestSafari(){
+		
+	}
+	ForestSafari(int safariId){
+	this.safariId=safariId;	
+	}
+	ForestSafari(int safariId,String name){
+	this.safariId=safariId;
+	this.name=name;	
+	}
+	ForestSafari(int safariId,String name,String location){
+	this.safariId=safariId;
+	this.name=name;
+	this.location=location;	
+	}
 	int safariId;
 	String name;
 	String location;

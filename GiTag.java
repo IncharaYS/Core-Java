@@ -4,8 +4,23 @@ class GiTag{
 	this.name=name;
 	this.state=state;
 	this.catogory=catogory;
-	this.periodperiod=periodperiod;
+	this.period=period;
 	this.registeredYear=registeredYear;
+	}
+	GiTag(){
+		
+	}
+	GiTag(int GiTagId,String name,String state){
+	this.GiTagId=GiTagId;
+	this.name=name;
+	this.state=state;
+	}
+	GiTag(int GiTagId,String name){
+	this.GiTagId=GiTagId;
+	this.name=name;	
+	}
+	GiTag(int GiTagId){
+	this.GiTagId=GiTagId;	
 	}
 	int GiTagId;
 	String name;

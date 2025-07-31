@@ -7,6 +7,21 @@ class InvitationCard{
 	this.time=time;
 	this.venue=venue;
 	}
+	InvitationCard(int invitationId,String hostName,String guestName){
+	this.invitationId=invitationId;
+	this.hostName=hostName;
+	this.guestName=guestName;	
+	}
+	InvitationCard(int invitationId,String hostName){
+	this.invitationId=invitationId;
+	this.hostName=hostName;	
+	}
+	InvitationCard(int invitationId){
+	this.invitationId=invitationId;
+	}
+	InvitationCard(){
+		
+	}
 	int invitationId;
 	String hostName;
 	String guestName;

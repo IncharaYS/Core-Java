@@ -7,6 +7,21 @@ class HairClip{
 	this.size=size;
 	this.material=material;
 	}
+	HairClip(int itemId,String color,String type){
+	this.itemId=itemId;
+	this.color=color;
+	this.type=type;	
+	}
+	HairClip(int itemId,String color){
+	this.itemId=itemId;
+	this.color=color;
+	}
+	HairClip(int itemId){
+	this.itemId=itemId;
+	}
+	HairClip(){
+		
+	}
 	int itemId;
 	String color;
 	String type;

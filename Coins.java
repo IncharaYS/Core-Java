@@ -8,6 +8,22 @@ class Coins{
 	this.diameter=diameter;
 	this.thickness=thickness;
 	}
+	Coins(){
+	
+	}
+	Coins(int coinId){
+	this.coinId=coinId;
+	}
+	Coins(int coinId,String type,double price,double weight){
+	this.coinId=coinId;
+	this.type=type;
+	this.price=price;
+	this.weight=weight;
+	}
+	Coins(double diameter,double thickness){
+	this.diameter=diameter;
+	this.thickness=thickness;
+	}
 	int coinId;
 	String type;
 	double price;

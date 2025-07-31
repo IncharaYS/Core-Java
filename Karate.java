@@ -7,6 +7,21 @@ class Karate{
 	this.dominantHand=dominantHand;
 	this.beltColor=beltColor;
 	}
+	Karate(int karateId,double height,double weight){
+	this.karateId=karateId;
+	this.rank=rank;
+	this.height=height;
+	}
+	Karate(int karateId,double height){
+	this.karateId=karateId;
+	this.rank=rank;	
+	}
+	Karate(int karateId){
+	this.karateId=karateId;	
+	}
+	Karate(){
+		
+	}
 	int karateId;
 	String rank;
 	double height;

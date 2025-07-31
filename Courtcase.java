@@ -7,6 +7,27 @@ class Courtcase{
 	this.courtName=courtName;
 	this.division=division;
 	}
+	Courtcase(){
+		
+	}
+	Courtcase(int caseId,String caseTitle,String caseType,String jurisdriction,String courtName){
+	this.caseId=caseId;
+	this.caseTitle=caseTitle;
+	this.caseType=caseType;
+	this.jurisdriction=jurisdriction;
+	this.courtName=courtName;	
+	}
+	Courtcase(int caseId,String caseTitle,String caseType,String jurisdriction){
+	this.caseId=caseId;
+	this.caseTitle=caseTitle;
+	this.caseType=caseType;
+	this.jurisdriction=jurisdriction;	
+	}
+	Courtcase(int caseId,String caseTitle,String caseType){
+	this.caseId=caseId;
+	this.caseTitle=caseTitle;
+	this.caseType=caseType;
+	}
 	int caseId;
 	String caseTitle;
 	String caseType;

@@ -7,6 +7,21 @@ class Crackers{
 	this.weight=weight;
 	this.price=price;
 	}
+	Crackers(int crackersId){
+	this.crackersId=crackersId;	
+	}
+	Crackers(int crackersId,String name){
+	this.crackersId=crackersId;
+	this.name=name;	
+	}
+	Crackers(int crackersId,String name,String type){
+	this.crackersId=crackersId;
+	this.name=name;
+	this.type=type;	
+	}
+	Crackers(){
+		
+	}
 	int crackersId;
 	String name;
 	String type;

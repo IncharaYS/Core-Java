@@ -8,7 +8,24 @@ class Casino{
 	this.owner=owner;
 	this.isOpen=isOpen;
 	}
-	
+	Casino(){
+		
+	}
+	Casino(String location,String name,boolean hasLisence,String owner){
+	this.location=location;
+	this.name=name;
+	this.hasLisence=hasLisence;
+	this.owner=owner;	
+	}
+	Casino(boolean isOpen){
+	this.isOpen=isOpen;
+	}
+	Casino(int casinoId,String location,String name,boolean hasLisence){
+	this.casinoId=casinoId;
+	this.location=location;
+	this.name=name;
+	this.hasLisence=hasLisence;
+	}
 	int casinoId;
 	String location;
 	String name;

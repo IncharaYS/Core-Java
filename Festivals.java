@@ -7,6 +7,27 @@ class Festivals{
 	this.date=date;
 	this.hasPublicHoliday=hasPublicHoliday;
 	}
+	Festivals(int festivalId,String name,String country,String religion,String date){
+	this.festivalId=festivalId;
+	this.name=name;
+	this.country=country;
+	this.religion=religion;
+	this.date=date;	
+	}
+	Festivals(int festivalId,String name,String country,String religion){
+	this.festivalId=festivalId;
+	this.name=name;
+	this.country=country;
+	this.religion=religion;	
+	}
+	Festivals(int festivalId,String name,String country){
+	this.festivalId=festivalId;
+	this.name=name;
+	this.country=country;
+	}
+	Festivals(){
+		
+	}
 	int festivalId;
 	String name;
 	String country;

@@ -1,4 +1,4 @@
-jclass Blade{
+class Blade{
 	Blade(int bladeId,String bladeCompany,double price,String bladeType,int bladeLength,double bladeThickness){
 	this.bladeId=bladeId;
 	this.bladeCompany=bladeCompany;
@@ -6,6 +6,23 @@ jclass Blade{
 	this.bladeType=bladeType;
 	this.bladeLength=bladeLength;
 	this.bladeThickness=bladeThickness;
+	}
+	Blade(){
+		
+	}
+	Blade(int bladeId,String bladeCompany){
+	this.bladeId=bladeId;
+	this.bladeCompany=bladeCompany;
+	}
+	Blade(int bladeId,String bladeCompany,double price,String bladeType){
+	this.bladeId=bladeId;
+	this.bladeCompany=bladeCompany;
+	this.price=price;
+	this.bladeType=bladeType;	
+	}
+	Blade(int bladeLength,double bladeThickness){
+	this.bladeLength=bladeLength;
+	this.bladeThickness=bladeThickness;	
 	}
 	int bladeId;
 	String bladeCompany;

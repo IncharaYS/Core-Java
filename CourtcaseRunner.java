@@ -10,8 +10,14 @@ class CourtcaseRunner{
 	case1.jurisdriction="Supreme court";
 	case1.courtName="Delhi";
 	case1.division="Civil bench";*/
+	System.out.println("Case Id is:"+case1.caseId);
+	System.out.println("Case title is:"+case1.caseTitle);
+	System.out.println("Case type is:"+case1.caseType);
+	System.out.println("Case jurisdriction is:"+case1.jurisdriction);
+	System.out.println("Case court name is:"+case1.courtName);
+	System.out.println("Case division is:"+case1.division+"\n");
 
-	Courtcase case2=new Courtcase(2,"State VS Ram","Criminal","High court","Mumbai","Criminal bench"); 
+	Courtcase case2=new Courtcase(); 
 	
 	/*case2.caseId=2;
 	case2.caseTitle="State VS Ram";
@@ -19,8 +25,14 @@ class CourtcaseRunner{
 	case2.jurisdriction="High court";
 	case2.courtName="Mumbai";
 	case2.division="Criminal bench";*/
+	System.out.println("Case Id is:"+case2.caseId);
+	System.out.println("Case title is:"+case2.caseTitle);
+	System.out.println("Case type is:"+case2.caseType);
+	System.out.println("Case jurisdriction is:"+case2.jurisdriction);
+	System.out.println("Case court name is:"+case2.courtName);
+	System.out.println("Case division is:"+case2.division+"\n");
 
-	Courtcase case3=new Courtcase(3,"Company A VS Company B","Corporate","District court","Bangalore","Business bench");
+	Courtcase case3=new Courtcase(3,"Company A VS Company B","Corporate","District court","Bangalore");
 
 	/*case3.caseId=3;
 	case3.caseTitle="Company A VS Company B";
@@ -28,16 +40,27 @@ class CourtcaseRunner{
 	case3.jurisdriction="District court";
 	case3.courtName="Bangalore";
 	case3.division="Business bench";*/
+	
+	System.out.println("Case Id is:"+case3.caseId);
+	System.out.println("Case title is:"+case3.caseTitle);
+	System.out.println("Case type is:"+case3.caseType);
+	System.out.println("Case jurisdriction is:"+case3.jurisdriction);
+	System.out.println("Case court name is:"+case3.courtName+"\n");
 
-	Courtcase case4=new Courtcase(4,"State VS Priya","Civil","Family court","Chennai","Family bench");
+	Courtcase case4=new Courtcase(4,"State VS Priya","Civil","Family court");
 	/*case4.caseId=4;
 	case4.caseTitle="State VS Priya";
 	case4.caseType="Civil";
 	case4.jurisdriction="Family court";
 	case4.courtName="Chennai";
 	case4.division="Family bench";*/
+	
+	System.out.println("Case Id is:"+case4.caseId);
+	System.out.println("Case title is:"+case4.caseTitle);
+	System.out.println("Case type is:"+case4.caseType);
+	System.out.println("Case jurisdriction is:"+case4.jurisdriction+"\n");
 
-	Courtcase case5=new Courtcase(5,"Income Tax Dept VS Raj","Tax","Tribunal","Pune","Tax bench"); 
+	Courtcase case5=new Courtcase(5,"Income Tax Dept VS Raj","Tax"); 
 	
 	/*case5.caseId=5;
 	case5.caseTitle="Income Tax Dept VS Raj";
@@ -45,166 +68,12 @@ class CourtcaseRunner{
 	case5.jurisdriction="Tribunal";
 	case5.courtName="Pune";
 	case5.division="Tax bench";*/
-
-	Courtcase case6=new Courtcase(6,"NGO VS State","Public Interest","Supreme court","Delhi","Constitutional bench");
-
-	/*case6.caseId=6;
-	case6.caseTitle="NGO VS State";
-	case6.caseType="Public Interest";
-	case6.jurisdriction="Supreme court";
-	case6.courtName="Delhi";
-	case6.division="Constitutional bench";*/
-
-	Courtcase case7=new Courtcase(7,"Ajay VS Police","Criminal","Sessions court","Hyderabad","Sessions bench");
-
-	/*case7.caseId=7;
-	case7.caseTitle="Ajay VS Police";
-	case7.caseType="Criminal";
-	case7.jurisdriction="Sessions court";
-	case7.courtName="Hyderabad";
-	case7.division="Sessions bench";*/
-
-	Courtcase case8=new Courtcase(8,"Landlord VS Tenant","Property","District court","Ahmedabad","Property bench"); 
 	
-	/*case8.caseId=8;
-	case8.caseTitle="Landlord VS Tenant";
-	case8.caseType="Property";
-	case8.jurisdriction="District court";
-	case8.courtName="Ahmedabad";
-	case8.division="Property bench";*/
-
-	Courtcase case9=new Courtcase(9,"School VS State","Education","High court","Kolkata","Education bench");
-
-	/*case9.caseId=9;
-	case9.caseTitle="School VS State";
-	case9.caseType="Education";
-	case9.jurisdriction="High court";
-	case9.courtName="Kolkata";
-	case9.division="Education bench";*/
-
-	Courtcase case10=new Courtcase(10,"Environment Dept VS Factory","Environment","Green tribunal","Delhi","Environment bench"); 
-	
-	/*case10.caseId=10;
-	case10.caseTitle="Environment Dept VS Factory";
-	case10.caseType="Environment";
-	case10.jurisdriction="Green tribunal";
-	case10.courtName="Delhi";
-	case10.division="Environment bench";*/
-
-	Courtcase case11=new Courtcase(11,"State VS Illegal Mining","Environment","High court","Ranchi","Green bench"); 
-	
-	/*case11.caseId=11;
-	case11.caseTitle="State VS Illegal Mining";
-	case11.caseType="Environment";
-	case11.jurisdriction="High court";
-	case11.courtName="Ranchi";
-	case11.division="Green bench";*/
-
-	Courtcase case12=new Courtcase(12,"College VS Education Board","Academic","District court","Nagpur","Education bench");
-
-	/*case12.caseId=12;
-	case12.caseTitle="College VS Education Board";
-	case12.caseType="Academic";
-	case12.jurisdriction="District court";
-	case12.courtName="Nagpur";
-	case12.division="Education bench";*/
-
-	Courtcase case13=new Courtcase(13,"Citizen VS Municipal Corp","Civil","Local court","Indore","Civil bench");
-
-	/*case13.caseId=13;
-	case13.caseTitle="Citizen VS Municipal Corp";
-	case13.caseType="Civil";
-	case13.jurisdriction="Local court";
-	case13.courtName="Indore";
-	case13.division="Civil bench";*/
-
-	Courtcase case14=new Courtcase(14,"Fraud Victim VS Bank","Financial","Consumer court","Bhopal","Banking bench");
-
-	/*case14.caseId=14;
-	case14.caseTitle="Fraud Victim VS Bank";
-	case14.caseType="Financial";
-	case14.jurisdriction="Consumer court";
-	case14.courtName="Bhopal";
-	case14.division="Banking bench";*/
-
-	Courtcase case15=new Courtcase(15,"Resident VS Water Board","Utility","District court","Thane","Public service bench");
-
-	/*case15.caseId=15;
-	case15.caseTitle="Resident VS Water Board";
-	case15.caseType="Utility";
-	case15.jurisdriction="District court";
-	case15.courtName="Thane";
-	case15.division="Public service bench";*/
-
-	Courtcase case16=new Courtcase(16,"Company X VS Employee","Labor","Labour court","Surat","Industrial bench");
-
-	/*case16.caseId=16;
-	case16.caseTitle="Company X VS Employee";
-	case16.caseType="Labor";
-	case16.jurisdriction="Labour court";
-	case16.courtName="Surat";
-	case16.division="Industrial bench";*/
-
-	Courtcase case17=new Courtcase(17,"Woman VS Insurance Company","Insurance","Consumer court","Patna","Claims bench");
-
-	/*case17.caseId=17;
-	case17.caseTitle="Woman VS Insurance Company";
-	case17.caseType="Insurance";
-	case17.jurisdriction="Consumer court";
-	case17.courtName="Patna";
-	case17.division="Claims bench";*/
-
-	Courtcase case18=new Courtcase(18,"Hospital VS Family","Medical","Civil court","Lucknow","Health bench");
-
-	/*case18.caseId=18;
-	case18.caseTitle="Hospital VS Family";
-	case18.caseType="Medical";
-	case18.jurisdriction="Civil court";
-	case18.courtName="Lucknow";
-	case18.division="Health bench";*/
-
-	Courtcase case19=new Courtcase(19,"Transport Dept VS Vendor","Contract","High court","Jaipur","Contractual bench");
-
-	/*case19.caseId=19;
-	case19.caseTitle="Transport Dept VS Vendor";
-	case19.caseType="Contract";
-	case19.jurisdriction="High court";
-	case19.courtName="Jaipur";
-	case19.division="Contractual bench";*/
-
-	Courtcase case20=new Courtcase(20,"Citizen VS State","Fundamental Rights","Supreme court","Delhi","Rights bench");
-
-	/*case20.caseId=20;
-	case20.caseTitle="Citizen VS State";
-	case20.caseType="Fundamental Rights";
-	case20.jurisdriction="Supreme court";
-	case20.courtName="Delhi";
-	case20.division="Rights bench";*/
+	System.out.println("Case Id is:"+case5.caseId);
+	System.out.println("Case title is:"+case5.caseTitle);
+	System.out.println("Case type is:"+case5.caseType+"\n");
 
 
-	case1.getInfo();
-	case2.getInfo();
-	case3.getInfo();
-	case4.getInfo();
-	case5.getInfo();
-	case6.getInfo();
-	case7.getInfo();
-	case8.getInfo();
-	case9.getInfo();
-	case10.getInfo();
-	case11.getInfo();
-	case12.getInfo();
-	case13.getInfo();
-	case14.getInfo();
-	case15.getInfo();
-	case16.getInfo();
-	case17.getInfo();
-	case18.getInfo();
-	case19.getInfo();
-	case20.getInfo();
-
-	
-	
 	System.out.println("\nmain ended");
 	}
 }

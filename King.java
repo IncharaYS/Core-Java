@@ -8,6 +8,21 @@ class King
 	this.heir=heir;
 	this.yearsOfRuling=yearsOfRuling;
 	}
+	King(int kingId,String name,int age){
+	this.kingId=kingId=kingId;
+	this.name=name;
+	this.age=age;	
+	}
+	King(int kingId,String name){
+	this.kingId=kingId=kingId;
+	this.name=name;	
+	}
+	King(int kingId){
+	this.kingId=kingId=kingId;	
+	}
+	King(){
+		
+	}
 	int kingId;
 	String name;
 	int age;

@@ -7,6 +7,21 @@ class Jwellery{
 	this.price=price;
 	this.isCertified=isCertified;
 	}
+	Jwellery(int jewelleryId,String name,String material){
+	this.jewelleryId=jewelleryId;
+	this.name=name;
+	this.material=material;
+	}
+	Jwellery(int jewelleryId,String name){
+	this.jewelleryId=jewelleryId;
+	this.name=name;
+	}
+	Jwellery(int jewelleryId){
+	this.jewelleryId=jewelleryId;
+	}
+	Jwellery(){
+	
+	}
 	int jewelleryId;
 	String name;
 	String material;
