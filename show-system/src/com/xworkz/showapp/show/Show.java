@@ -1,8 +1,7 @@
 package com.xworkz.showapp.show;
 
 public class Show {
-    public Show(){
-        System.out.println("Parent class constructor invoked");
+    public void show(){
+        System.out.println("Parent method invoked");
     }
-
 }

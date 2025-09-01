@@ -3,8 +3,9 @@ package com.xworkz.deviceapp.phone;
 import com.xworkz.deviceapp.device.Device;
 
 public class Phone extends Device {
-    public Phone(){
-        System.out.println("Child class constructor invoked");
+
+    @Override public void device(){
+        System.out.println("Child method invoked");
     }
 
 }

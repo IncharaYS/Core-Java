@@ -1,8 +1,8 @@
 package com.xworkz.countryapp.country;
 
 public class Country {
-    public Country(){
-        System.out.println("Parent class constructor invoked");
+    public void country(){
+        System.out.println("Parent method invoked");
     }
 
 }

@@ -1,13 +1,13 @@
 package com.xworkz.trainerapp;
 
 import com.xworkz.trainerapp.dev.Dev;
+import com.xworkz.trainerapp.trainer.Trainer;
 
 public class TrainerRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-
-        Dev dev=new Dev();
-
-        System.out.println("main endede");
+        Trainer trainer=new Dev();
+        trainer.trainer();
+        System.out.println("main ended");
     }
 }

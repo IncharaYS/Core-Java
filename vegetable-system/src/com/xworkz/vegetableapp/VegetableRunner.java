@@ -1,13 +1,13 @@
 package com.xworkz.vegetableapp;
 
 import com.xworkz.vegetableapp.carrot.Carrot;
+import com.xworkz.vegetableapp.vegetable.Vegetable;
 
 public class VegetableRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-
-        Carrot carrot=new Carrot();
-
+        Vegetable vegetable=new Carrot();
+        vegetable.vegetable();
         System.out.println("main ended");
     }
 }

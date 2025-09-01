@@ -1,7 +1,7 @@
 package com.xworkz.laptopapp.laptop;
 
 public class Laptop {
-    public Laptop(){
-        System.out.println("Parent class constructor invoked");
+    public void laptop(){
+        System.out.println("Parent method invoked");
     }
 }

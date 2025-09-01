@@ -1,12 +1,13 @@
 package com.xworkz.deviceapp;
 
+import com.xworkz.deviceapp.device.Device;
 import com.xworkz.deviceapp.phone.Phone;
 
 public class DeviceRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-
-        Phone phone=new Phone();
+        Device device=new Phone();
+        device.device();
 
         System.out.println("main ended");
     }

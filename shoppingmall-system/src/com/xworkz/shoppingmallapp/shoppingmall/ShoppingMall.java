@@ -1,8 +1,7 @@
 package com.xworkz.shoppingmallapp.shoppingmall;
 
 public class ShoppingMall {
-    public ShoppingMall(){
-        System.out.println("Parent class constructor invoked");
+    public void shoppingMall(){
+        System.out.println("parent method started");
     }
-
 }

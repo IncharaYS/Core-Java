@@ -1,8 +1,8 @@
 package com.xworkz.flowerapp.flower;
 
 public class Flower {
-    public Flower(){
-        System.out.println("Parent class constructor invoked");
+    public void flower(){
+        System.out.println("parent method invoked");
     }
 
 }

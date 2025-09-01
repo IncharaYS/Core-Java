@@ -1,8 +1,7 @@
 package com.xworkz.indianindicesapp.indianindices;
 
 public class IndianIndices {
-    public IndianIndices(){
-        System.out.println("Parent class constructor invoked");
+    public void indianIndices(){
+        System.out.println("parent method invoked");
     }
-
 }

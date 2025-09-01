@@ -3,8 +3,7 @@ package com.xworkz.trainerapp.dev;
 import com.xworkz.trainerapp.trainer.Trainer;
 
 public class Dev extends Trainer {
-    public Dev(){
-        System.out.println("Child class constructor invoked");
+    @Override public void trainer(){
+        System.out.println("Child method invoked");
     }
-
 }

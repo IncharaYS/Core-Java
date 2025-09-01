@@ -1,7 +1,7 @@
 package com.xworkz.webbrowserapp.webbrowser;
 
 public class WebBrowser {
-    public WebBrowser(){
-        System.out.println("Parent class constructor invoked");
+    public void webBrowser(){
+        System.out.println("Parent method invoked");
     }
 }

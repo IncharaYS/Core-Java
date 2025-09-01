@@ -1,15 +1,13 @@
 package com.xworkz.institutionapp;
 
+import com.xworkz.institutionapp.institution.Institution;
 import com.xworkz.institutionapp.xworkz.Xworkz;
-
-import java.util.logging.XMLFormatter;
 
 public class InstitutionRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-
-        Xworkz xworkz=new Xworkz();
-
+        Institution institution=new Xworkz();
+        institution.institution();
         System.out.println("main ended");
     }
 }

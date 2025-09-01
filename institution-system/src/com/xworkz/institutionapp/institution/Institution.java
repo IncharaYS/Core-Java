@@ -1,8 +1,8 @@
 package com.xworkz.institutionapp.institution;
 
 public class Institution {
-    public Institution(){
-        System.out.println("Parent class constructor invoked");
+    public void institution(){
+        System.out.println("Parent method invoked");
     }
 
 }

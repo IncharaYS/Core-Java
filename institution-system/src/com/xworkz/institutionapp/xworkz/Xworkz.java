@@ -3,8 +3,7 @@ package com.xworkz.institutionapp.xworkz;
 import com.xworkz.institutionapp.institution.Institution;
 
 public class Xworkz extends Institution {
-    public Xworkz(){
-        System.out.println("Child class constructor invoked");
+    @Override public void institution(){
+        System.out.println("Child method invoked");
     }
-
 }

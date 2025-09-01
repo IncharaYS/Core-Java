@@ -3,8 +3,7 @@ package com.xworkz.showapp.podcast;
 import com.xworkz.showapp.show.Show;
 
 public class Podcast extends Show {
-    public Podcast(){
-        System.out.println("Child class constructor invoked");
+    @Override public void show(){
+        System.out.println("Child method invoked");
     }
-
 }

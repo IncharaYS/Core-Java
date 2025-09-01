@@ -1,7 +1,7 @@
 package com.xworkz.protectorapp.protector;
 
 public class Protector {
-    public Protector(){
-        System.out.println("Parent class constructor invoked");
+    public void protector(){
+        System.out.println("parent method invoked");
     }
 }

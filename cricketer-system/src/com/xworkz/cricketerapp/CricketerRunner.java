@@ -1,13 +1,13 @@
 package com.xworkz.cricketerapp;
 
+import com.xworkz.cricketerapp.cricketer.Cricketer;
 import com.xworkz.cricketerapp.virat.Virat;
 
 public class CricketerRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-
-        Virat virat=new Virat();
-
+        Cricketer cricketer=new Virat();
+        cricketer.cricketer();
         System.out.println("main ended");
     }
 }

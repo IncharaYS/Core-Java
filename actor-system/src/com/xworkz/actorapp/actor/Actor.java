@@ -1,8 +1,7 @@
 package com.xworkz.actorapp.actor;
 
 public class Actor {
-    public Actor(){
-        System.out.println("Parent class constructor invoked");
+    public void actor(){
+        System.out.println("Parent method invoked");
     }
-
 }

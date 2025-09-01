@@ -1,8 +1,7 @@
 package com.xworkz.stationyapp.stationary;
 
 public class Stationary {
-    public Stationary(){
-        System.out.println("Parent class constructor invoked");
+    public void stationary(){
+        System.out.println("Parent method invoked");
     }
-
 }
