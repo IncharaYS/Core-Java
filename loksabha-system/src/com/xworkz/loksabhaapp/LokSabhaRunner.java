@@ -1,11 +1,61 @@
 package com.xworkz.loksabhaapp;
 
+import com.xworkz.loksabhaapp.constants.Gender;
 import com.xworkz.loksabhaapp.loksabha.LokSabha;
 import com.xworkz.loksabhaapp.politician.Politician;
 
+import java.util.Scanner;
+
 public class LokSabhaRunner {
     public static void main(String[] args) {
-        Politician politician1=new Politician();
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number of politicians to add:");
+        int size=sc.nextInt();
+        LokSabha lokSabha=new LokSabha(size);
+        System.out.println("The number of politicians to add is:"+lokSabha.politicians.length);
+
+        for(int i=0;i<size;i++){
+            System.out.println("Enter details of politician "+(i+1));
+            Politician politician=new Politician();
+            System.out.print("Enter the politician's id:");
+            politician.setPoliticianId(sc.nextInt());sc.nextLine();
+            System.out.print("Enter the politician's name:");
+            politician.setName(sc.nextLine());
+            System.out.print("Enter the politician's age:");
+            politician.setAge(sc.nextInt());sc.nextLine();
+            System.out.print("Enter the politician's gender:");
+            politician.setGender(Gender.valueOf(sc.nextLine().toUpperCase()));
+            System.out.print("Enter the politician's party:");
+            politician.setParty(sc.nextLine());
+            System.out.print("Enter the politician's state:");
+            politician.setState(sc.nextLine());
+            lokSabha.addPolitician(politician);
+            System.out.println("----------------------------------------------------------");
+        }
+
+        lokSabha.getPoliticianInfo();
+
+        System.out.print("Enter Id of politician to update age:");
+        int id=sc.nextInt();sc.nextLine();
+        System.out.print("Enter the updated name:");
+        boolean isUpdated=lokSabha.updateAgeById(id,sc.nextInt());
+        if(isUpdated) System.out.println("Age updated successfully \n");
+        else System.out.println("Failed to update age \n");
+
+
+        System.out.print("Enter Id to fetch name:");
+        System.out.println("Name for given id is:"+lokSabha.getNameById(sc.nextInt()));
+
+
+        System.out.println("Enter id to get politician details");
+        lokSabha.getPoliticianById(sc.nextInt());
+
+        System.out.print("Enter politician id to delete their details:");
+        lokSabha.deletePoliticianById(sc.nextInt());
+        lokSabha.getPoliticianInfo();
+
+        /*Politician politician1=new Politician();
         politician1.setPoliticianId(1);
         politician1.setAge(74);
         politician1.setGender("Male");

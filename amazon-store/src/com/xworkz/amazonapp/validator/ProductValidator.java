@@ -15,7 +15,7 @@ public class ProductValidator {
         if(product.getProductId()>0) idProductIdValid=true;
         else System.out.println("Entered ID is not valid");
 
-        if (product.getBrand()!=null&&!product.getBrand().isEmpty()) isBrandValid=true;
+        if (product.getBrand()!=null) isBrandValid=true;
         else System.out.println("Product brand is not valid");
 
         if (product.getColor()!=null&&!product.getColor().isEmpty()) isColorValid=true;

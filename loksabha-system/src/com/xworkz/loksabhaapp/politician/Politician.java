@@ -1,6 +1,7 @@
 package com.xworkz.loksabhaapp.politician;
 
 
+import com.xworkz.loksabhaapp.constants.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ import lombok.Setter;
 public class Politician {
     private int politicianId;
     private String name;
-    private String gender;
+    private Gender gender;
     private int age;
     private String party;
     private String state;

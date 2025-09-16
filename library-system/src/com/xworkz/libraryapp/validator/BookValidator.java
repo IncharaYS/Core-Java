@@ -24,7 +24,7 @@ public class BookValidator {
         if (book.getPublisher()!=null&&!book.getPublisher().isEmpty()) isBookPublisherValid=true;
         else System.out.println("Entered publisher name is not valid");
 
-        if (book.getGenre()!=null&&!book.getGenre().isEmpty()) isBookGenreValid=true;
+        if (book.getGenre()!=null) isBookGenreValid=true;
         else System.out.println("Entered book genre is noot valid");
 
         if (book.getPrice()>0) isBookPriceValid=true;

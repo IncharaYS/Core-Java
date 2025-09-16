@@ -21,7 +21,7 @@ public class PoliceValidator {
         if (police.getDepartment()!=null&&!police.getDepartment().isEmpty()) isDepartmentValid=true;
         else System.out.println("Entered department is not valid");
 
-        if (police.getGender()!=null&&!police.getGender().isEmpty()) isGenderValid=true;
+        if (police.getGender()!=null) isGenderValid=true;
         else System.out.println("Entered gender is not valid");
 
         if (police.getRank()!=null&&!police.getRank().isEmpty()) isRankValid=true;

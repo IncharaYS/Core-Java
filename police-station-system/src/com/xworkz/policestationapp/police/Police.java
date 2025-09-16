@@ -1,5 +1,6 @@
 package com.xworkz.policestationapp.police;
 
+import com.xworkz.policestationapp.constants.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,7 @@ import lombok.Setter;
 public class Police {
     private int policeId;
     private String name;
-    private String gender;
+    private Gender gender;
     private String rank;
     private String department;
     private String shift;

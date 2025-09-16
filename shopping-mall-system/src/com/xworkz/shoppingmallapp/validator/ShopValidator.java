@@ -18,7 +18,7 @@ public class ShopValidator {
         if (shop.getArea()>0) isAreaValid=true;
         else System.out.println("Entered shop area is not valid");
 
-        if (shop.getFloor()>=0) isFloorValid=true;
+        if (shop.getFloor()!=null) isFloorValid=true;
         else System.out.println("Entered floor is not valid");
 
         if (shop.getNoOfWorkers()>0) isNoOfWorkersValid=true;

@@ -21,7 +21,7 @@ public class PoliticianValidator {
         if (politician.getAge()>25) isAgeValid=true;
         else System.out.println("Entered age is not valid");
 
-        if(politician.getGender()!=null&&!politician.getGender().isEmpty()) isGenderValid=true;
+        if(politician.getGender()!=null) isGenderValid=true;
         else System.out.println("Entered gender is not valid");
 
         if(politician.getParty()!=null&&!politician.getParty().isEmpty()) isPartyValid=true;

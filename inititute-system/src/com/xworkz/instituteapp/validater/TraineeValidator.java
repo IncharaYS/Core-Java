@@ -18,7 +18,7 @@ public class TraineeValidator {
         if (trainee.getAge()>0) isAgeValid=true;
         else System.out.println("Entered age is not valid");
 
-        if (trainee.getGender()!=' ') isGenderValid=true;
+        if (trainee.getGender()!=null) isGenderValid=true;
         else System.out.println("Entered gender is not valid");
 
         if (trainee.getName()!=null&&!trainee.getName().isEmpty()) isNameValid=true;

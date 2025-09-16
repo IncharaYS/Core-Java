@@ -1,11 +1,61 @@
 package com.xworkz.companyapp;
 
 import com.xworkz.companyapp.company.Company;
+import com.xworkz.companyapp.constants.Domain;
 import com.xworkz.companyapp.project.Project;
+
+import java.util.Scanner;
 
 public class CompanyRunner {
     public static void main(String[] args) {
-        Project project1=new Project();
+
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number of projects:");
+        int size=sc.nextInt();
+        Company company=new Company(size);
+        System.out.println("Number of projects to be added are:"+company.projects.length);
+        for(int i=0;i<size;i++){
+            Project project=new Project();
+            System.out.println("Enter the details of project "+(i+1));
+            System.out.print("Enter project Id:");
+            project.setProjectId(sc.nextInt());
+            System.out.print("Enter the project name:");sc.nextLine();
+            project.setProjectName(sc.nextLine());
+            System.out.print("Enter the project type:");
+            project.setType(sc.nextLine());
+            System.out.print("Enter the project domain:");
+            project.setDomain(Domain.valueOf(sc.nextLine().toUpperCase()));
+            System.out.print("Enter the number of members:");
+            project.setNoOfMembers(sc.nextInt());
+            System.out.print("Enter the budget:");
+            project.setBudget(sc.nextDouble());
+            company.addProject(project);
+            System.out.println("---------------------------------------------");
+        }
+        company.getProjectInfo();
+
+        System.out.print("Enter Id of project to update name:");
+        int id=sc.nextInt();sc.nextLine();
+        System.out.print("Enter the updated name:");
+        boolean isUpdated=company.updateProjectNameById(id,sc.nextLine());
+        if(isUpdated) System.out.println("Name updated successfully \n");
+        else System.out.println("Failed to update name \n");
+
+
+        System.out.print("Enter Id to fetch name:");
+        System.out.println("Name for given id is:"+company.getProjectNameById(sc.nextInt()));
+
+
+        System.out.println("Enter id to get project details");
+        company.getProjectById(sc.nextInt());
+
+        System.out.print("Enter the id of project you want to delete:");
+        company.deleteProjectById(sc.nextInt());
+
+        company.getProjectInfo();
+
+        /*Project project1=new Project();
         project1.setProjectId(1);
         project1.setBudget(20000000.00);
         project1.setProjectName("Banking UPI");
@@ -74,7 +124,7 @@ public class CompanyRunner {
         company.addProject(project20);
 
         company.getProjectInfo();
-       /* if(company.addProject(project)) company.getProjectInfo();
+        if(company.addProject(project)) company.getProjectInfo();
         else System.out.println("Project is not added");*/
     }
 }

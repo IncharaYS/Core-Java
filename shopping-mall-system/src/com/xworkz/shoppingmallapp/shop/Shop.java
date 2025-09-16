@@ -1,6 +1,7 @@
 package com.xworkz.shoppingmallapp.shop;
 
 
+import com.xworkz.shoppingmallapp.constants.Floor;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ import lombok.Setter;
 public class Shop {
     private int shopId;
     private String name;
-    private int floor;
+    private Floor floor;
     private double area;
     private int noOfWorkers;
     private String owner;

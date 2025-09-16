@@ -1,5 +1,6 @@
 package com.xworkz.companyapp.project;
 
+import com.xworkz.companyapp.constants.Domain;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ public class Project {
     private int projectId;
     private String projectName;
     private String type;
-    private String domain;
+    private Domain domain;
     private int noOfMembers;
     private double budget;
 

@@ -21,7 +21,7 @@ public class PatientValidator {
         if(patient.getPhoneNo()>0) isPatientPhoneNoValid=true;
         else System.out.println("Patient phone no is not valid");
 
-        if (patient.getGender()!=null&&!patient.getGender().isEmpty()) isPatientGenderValid=true;
+        if (patient.getGender()!=null) isPatientGenderValid=true;
         else System.out.println("Patient gender is not valid");
 
         if (patient.getModeOfPayment()!=null&&!patient.getModeOfPayment().isEmpty()) isPatientModeOfPaymentValid=true;

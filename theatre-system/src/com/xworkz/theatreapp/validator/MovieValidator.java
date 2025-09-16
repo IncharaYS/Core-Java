@@ -15,7 +15,7 @@ public class MovieValidator {
         if(movie.getMovieId()>0) isMovieIdValid=true;
         else System.out.println("Entered movie Id is not valid");
 
-        if (movie.getCategory()!=null&&!movie.getCategory().isEmpty()) isCategoryValid=true;
+        if (movie.getCategory()!=null) isCategoryValid=true;
         else System.out.println("Entered category is not valid");
 
         if(movie.getName()!=null&&!movie.getName().isEmpty()) isNameValid=true;

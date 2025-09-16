@@ -1,5 +1,6 @@
 package com.xworkz.libraryapp.book;
 
+import com.xworkz.libraryapp.constants.Genre;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ public class Book {
     private String bookAuthor;
     private String publisher;
     private double price;
-    private String genre;
+    private Genre genre;
 
    /* public void setBookId(int bookId) {
         this.bookId = bookId;

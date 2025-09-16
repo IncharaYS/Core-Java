@@ -1,11 +1,60 @@
 package com.xworkz.shoppingmallapp;
 
+import com.xworkz.shoppingmallapp.constants.Floor;
 import com.xworkz.shoppingmallapp.shop.Shop;
 import com.xworkz.shoppingmallapp.shoppingmall.ShoppingMall;
 
+import java.util.Scanner;
+
 public class ShoppingMallRunner {
     public static void main(String[] args) {
-        Shop shop1=new Shop();
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number of shops to add:");
+        int size=sc.nextInt();
+        ShoppingMall shoppingMall=new ShoppingMall(size);
+        System.out.println("Number of shops to be added is:"+shoppingMall.shops.length);
+        for (int i=0;i<size;i++){
+            System.out.println("Enter details of shop "+(i+1));
+            Shop shop=new Shop();
+            System.out.print("Enter shop id:");
+            shop.setShopId(sc.nextInt());
+            System.out.print("Enter shop name:");sc.nextLine();
+            shop.setName(sc.nextLine());
+            System.out.print("Enter shop floor:");
+            shop.setFloor(Floor.valueOf(sc.nextLine().toUpperCase()));
+            System.out.print("Enter shop area:");
+            shop.setArea(sc.nextDouble());
+            System.out.print("Enter no of workers:");
+            shop.setNoOfWorkers(sc.nextInt());
+            System.out.print("Enter shop owner:");sc.nextLine();
+            shop.setOwner(sc.nextLine());
+            shoppingMall.addShop(shop);
+            System.out.println("---------------------------------------------------");
+        }
+
+        shoppingMall.getShopInfo();
+
+        System.out.print("Enter Id of shop to update name:");
+        int id=sc.nextInt();sc.nextLine();
+        System.out.print("Enter the updated name:");
+        boolean isUpdated=shoppingMall.updateNameById(id,sc.nextLine());
+        if(isUpdated) System.out.println("Name updated successfully \n");
+        else System.out.println("Failed to update name\n");
+
+
+        System.out.print("Enter Id to fetch name:");
+        System.out.println("Name for given id is:"+shoppingMall.getNameById(sc.nextInt()));
+
+
+        System.out.println("Enter id to get shop details");
+        shoppingMall.getShopById(sc.nextInt());
+
+        System.out.print("Enter shop id to delete it's details:");
+        shoppingMall.deleteShopById(sc.nextInt());
+        shoppingMall.getShopInfo();
+
+        /*Shop shop1=new Shop();
         shop1.setShopId(1);
         shop1.setArea(2000.00);
         shop1.setFloor(2);
@@ -61,6 +110,6 @@ public class ShoppingMallRunner {
         shoppingMall.getShopInfo();
 
 //        if(shoppingMall.addShop(shop)) shoppingMall.getShopInfo();
-//        else System.out.println("Shop is not added");
+//        else System.out.println("Shop is not added");*/
     }
 }

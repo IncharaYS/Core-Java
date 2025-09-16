@@ -25,13 +25,13 @@ public class WatchValidator {
         if (watch.getPrice()>0) isPriceValid=true;
         else System.out.println("Entered price is not valid");
 
-        if (watch.isWaterResistant()!=false) isWaterResistantValueValid=true;
+        if (watch.getHasValidity()!=null) isWaterResistantValueValid=true;
         else System.out.println("Entered value for is water resistant is not valid");
 
-        if (watch.isHasValidity()!=false) isHasValidityValueValid=true;
+        if (watch.getIsWaterResistant()!=null) isHasValidityValueValid=true;
         else System.out.println("Entered value for has validity is not valid");
 
-        if (watch.getType()!=null&&!watch.getType().isEmpty()) isTypeValid=true;
+        if (watch.getType()!=null) isTypeValid=true;
         else System.out.println("Entered type is not valid");
 
         if(isBrandValid&&isColorValid&&isWatchIdValid&&isPriceValid&&isTypeValid&&isHasValidityValueValid&&isWaterResistantValueValid){

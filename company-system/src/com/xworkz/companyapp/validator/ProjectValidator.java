@@ -21,7 +21,7 @@ public class ProjectValidator {
         if (project.getBudget()>0) isBudgetValid=true;
         else System.out.println("Entered budget is not valid");
 
-        if (project.getDomain()!=null&&!project.getDomain().isEmpty()) isDomainValid=true;
+        if (project.getDomain()!=null) isDomainValid=true;
         else System.out.println("Entered domain is not valid");
 
         if (project.getType()!=null&&!project.getType().isEmpty()) isTypeValid=true;

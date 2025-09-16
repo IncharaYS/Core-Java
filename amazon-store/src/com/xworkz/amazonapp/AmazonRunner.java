@@ -1,11 +1,63 @@
 package com.xworkz.amazonapp;
 
 import com.xworkz.amazonapp.amazon.Amazon;
+import com.xworkz.amazonapp.constants.BrandName;
 import com.xworkz.amazonapp.product.Product;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class AmazonRunner {
     public static void main(String[] args) {
-        Product product=new Product();
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number of products to add:");
+        int size=sc.nextInt();
+        Amazon amazon=new Amazon(size);
+        System.out.println("Number of products to be added are:"+amazon.products.length);
+
+        for(int i=0;i<size;i++){
+            Product product=new Product();
+            System.out.println("Enter details of product "+(i+1));
+            System.out.print("Enter product id:");
+            product.setProductId(sc.nextInt());
+            System.out.print("Enter product name:");sc.nextLine();
+            product.setName(sc.nextLine());
+            System.out.print("Enter product price:");
+            product.setPrice(sc.nextDouble());
+            System.out.print("Enter product brand:");sc.nextLine();
+            product.setBrand(BrandName.valueOf(sc.nextLine().toUpperCase()));
+            System.out.print("Enter product color:");
+            product.setColor(sc.nextLine());
+            System.out.print("Enter seller name:");
+            product.setSellerName(sc.nextLine());
+            amazon.addProduct(product);
+            System.out.println("----------------------------------------------");
+        }
+
+        amazon.getProductInfo();
+
+        System.out.print("Enter Id of product to update name:");
+        int id=sc.nextInt();sc.nextLine();
+        System.out.print("Enter the updated name:");
+        boolean isUpdated=amazon.updateNameById(id,sc.nextLine());
+        if(isUpdated) System.out.println("Name updated successfully \n");
+        else System.out.println("Failed to update name \n");
+
+//        amazon.updatePriceById(1,333);
+
+        System.out.print("Enter Id to fetch name:");
+        System.out.println("Name for given id is:"+amazon.getNameById(sc.nextInt()));
+
+
+        System.out.println("Enter id to get product details");
+        amazon.getProductById(sc.nextInt());
+
+        System.out.print("Enter product id to delete product:");
+        amazon.deleteProductById(sc.nextInt());
+        amazon.getProductInfo();
+
+       /* Product product=new Product();
         product.setProductId(1);
         product.setName("Broom");
         product.setBrand("Skyees");
@@ -24,7 +76,7 @@ public class AmazonRunner {
         }
         else System.out.println("product price is not updated");
 
-        amazon.deleteProduct(product);*/
+        amazon.deleteProduct(product);
         Amazon amazon=new Amazon();
         Product product1=new Product(1,"Broom",300.00,"Shila","Orange","Shila collections");
         amazon.addProduct(product1);
@@ -83,6 +135,6 @@ public class AmazonRunner {
         Product product19=new Product(19,"Wardrobe",22000.00,"Ikea","Walnut","Furniture World");
         amazon.addProduct(product19);
 
-        amazon.getProductInfo();
+        amazon.getProductInfo();*/
     }
 }

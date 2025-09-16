@@ -1,5 +1,8 @@
 package com.xworkz.watchapp.watch;
 
+import com.xworkz.watchapp.constants.HasValidity;
+import com.xworkz.watchapp.constants.IsWaterResistant;
+import com.xworkz.watchapp.constants.Type;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,9 +17,9 @@ public class Watch {
     private double price;
     private String color;
     private String brand;
-    private boolean hasValidity;
-    private String type;
-    private boolean isWaterResistant;
+    private HasValidity hasValidity;
+    private Type type;
+    private IsWaterResistant isWaterResistant;
 
     /*public void setType(String type) {
         this.type = type;

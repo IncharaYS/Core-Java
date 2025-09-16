@@ -1,5 +1,6 @@
 package com.xworkz.amazonapp.product;
 
+import com.xworkz.amazonapp.constants.BrandName;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ public class Product {
     private int productId;
     private String name;
     private double price;
-    private String brand;
+    private BrandName brand;
     private String color;
     private String sellerName;
 
