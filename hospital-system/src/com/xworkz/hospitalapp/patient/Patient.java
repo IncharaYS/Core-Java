@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
@@ -18,63 +20,30 @@ public class Patient {
     private String modeOfPayment;
     private double billAmount;
 
-   /* public Patient(){
-
+    @Override
+    public String toString(){
+        return "Patient-(patientId="+this.patientId+
+                " , name="+this.name+
+                " , gender="+this.gender+
+                " , phoneNo="+this.phoneNo+
+                " , modeOfPayment="+this.modeOfPayment+
+                " , billAmount="+this.billAmount+
+                ")";
     }
-    public  Patient(int patientId,String name,String gender,long phoneNo,String modeOfPayment,double billAmount){
-        this.patientId=patientId;
-        this.name=name;
-        this.gender=gender;
-        this.phoneNo=phoneNo;
-        this.modeOfPayment=modeOfPayment;
-        this.billAmount=billAmount;
-    }
-
-    public void setPatientId(int patientId) {
-        this.patientId = patientId;
-    }
-
-    public int getPatientId() {
-        return patientId;
-    }
-
-    public void setPhoneNo(long phoneNo) {
-        this.phoneNo = phoneNo;
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Patient){
+            Patient patient=(Patient) obj;
+            if(this.patientId==patient.patientId && this.name.equals(patient.name) && this.gender.equals(patient.gender) && this.phoneNo==patient.phoneNo && this.modeOfPayment.equals(patient.modeOfPayment) &&
+            this.billAmount==patient.billAmount){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public long getPhoneNo() {
-        return phoneNo;
+    @Override
+    public int hashCode() {
+        return Objects.hash(patientId, name, gender, phoneNo, modeOfPayment, billAmount);
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setModeOfPayment(String modeOfPayment) {
-        this.modeOfPayment = modeOfPayment;
-    }
-
-    public String getModeOfPayment() {
-        return modeOfPayment;
-    }
-
-    public void setBillAmount(double billAmount) {
-        this.billAmount = billAmount;
-    }
-
-    public double getBillAmount() {
-        return billAmount;
-    }*/
 }

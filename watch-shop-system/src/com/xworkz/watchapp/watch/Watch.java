@@ -8,11 +8,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Watch {
+public class Watch{
     private int watchId;
     private double price;
     private String color;
@@ -21,59 +23,32 @@ public class Watch {
     private Type type;
     private IsWaterResistant isWaterResistant;
 
-    /*public void setType(String type) {
-        this.type = type;
+    @Override
+    public String toString(){
+        return "Watch-(watchId="+this.watchId+
+                " , price="+this.price+
+                " , color="+this.color+
+                " , brand="+this.brand+
+                " , hasValidity="+this.hasValidity+
+                " , type="+this.type+
+                " , isWaterResistant="+this.isWaterResistant+
+                ")";
+    }
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Watch){
+            Watch watch=(Watch) obj;
+            if(this.watchId==watch.watchId&&this.price==watch.price&& this.color.equals(watch.color)&&
+            this.brand.equals(watch.brand)&&this.type.equals(watch.type)&&this.hasValidity.equals(watch.hasValidity)&&
+            this.isWaterResistant.equals(watch.isWaterResistant)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public String getType() {
-        return type;
+    @Override
+    public int hashCode() {
+        return Objects.hash(watchId, price, color, brand, hasValidity, type, isWaterResistant);
     }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public boolean getHasValidity() {
-        return hasValidity;
-    }
-
-    public int getWatchId() {
-        return watchId;
-    }
-
-    public void setWatchId(int watchId) {
-        this.watchId = watchId;
-    }
-
-    public boolean getIsWaterResistant() {
-        return isWaterResistant;
-    }
-
-    public void setHasValidity(boolean hasValidity) {
-        this.hasValidity = hasValidity;
-    }
-
-    public void setWaterResistant(boolean waterResistant) {
-        isWaterResistant = waterResistant;
-    }*/
 }

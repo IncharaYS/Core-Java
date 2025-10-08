@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Setter
 @Getter
 @AllArgsConstructor
@@ -19,51 +21,31 @@ public class Politician {
     private String party;
     private String state;
 
-    /*public void setName(String name) {
-        this.name = name;
+    @Override
+    public String toString(){
+        return "Politician-(politicianId="+this.politicianId+
+                " , name="+this.name+
+                " , gender="+this.gender+
+                " , age="+this.age+
+                " , party="+this.party+
+                " , state="+this.state+
+        ")";
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Politician){
+            Politician politician=(Politician) obj;
+            if(this.politicianId==politician.politicianId && this.name.equals(politician.name) && this.gender.equals(politician.gender) &&
+            this.age==politician.age && this.party.equals(politician.party) && this.state.equals(politician.state)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    @Override
+    public int hashCode() {
+        return Objects.hash(politicianId, name, gender, age, party, state);
     }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-    public int getPoliticianId() {
-        return politicianId;
-    }
-
-    public void setPoliticianId(int politicianId) {
-        this.politicianId = politicianId;
-    }
-
-    public String getParty() {
-        return party;
-    }
-
-    public void setParty(String party) {
-        this.party = party;
-    }*/
 }

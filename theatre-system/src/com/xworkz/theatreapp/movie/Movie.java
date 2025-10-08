@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Setter
 @Getter
 @AllArgsConstructor
@@ -18,51 +20,31 @@ public class Movie {
     private Category category;
     private double rating;
 
-   /* public String getName() {
-        return name;
+    @Override
+    public String toString(){
+        return "Movie-(movieId="+this.movieId+
+                " , name="+this.name+
+                " , producer="+this.producer+
+                " , price="+this.price+
+                " , category="+this.category+
+                " , rating="+this.rating+
+                ")";
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Movie){
+            Movie movie=(Movie) obj;
+            if(this.movieId==movie.movieId&&this.name.equals(movie.name)&&this.producer.equals(movie.producer)
+            &&this.price==movie.price&&this.category.equals(movie.category)&&this.rating==movie.rating){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    @Override
+    public int hashCode(){
+        return Objects.hash(movieId,name,producer,price,category,rating);
     }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public int getMovieId() {
-        return movieId;
-    }
-
-    public void setMovieId(int movieId) {
-        this.movieId = movieId;
-    }
-
-    public double getRating() {
-        return rating;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public String getProducer() {
-        return producer;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public void setProducer(String producer) {
-        this.producer = producer;
-    }
-
-    public void setRating(double rating) {
-        this.rating = rating;
-    }*/
 }

@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Setter
 @Getter
 @AllArgsConstructor
@@ -19,59 +21,30 @@ public class Shop {
     private int noOfWorkers;
     private String owner;
 
-   /* public String getType() {
-        return type;
+    @Override
+    public String toString(){
+        return "Shop-(shopId="+this.shopId+
+                " , name="+this.name+
+                " , floor="+this.floor+
+                " , area="+this.area+
+                " , noOfWorkers="+this.noOfWorkers+
+                " , owner="+this.owner+
+                ")";
+    }
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof  Shop){
+            Shop shop=(Shop) obj;
+            if(this.shopId==shop.shopId && this.name.equals(shop.name) && this.floor.equals(shop.floor)&&this.area==shop.area && this.noOfWorkers==shop.noOfWorkers
+            && this.owner.equals(shop.owner)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    @Override
+    public int hashCode(){
+        return Objects.hash(shopId,name,floor,area,noOfWorkers,owner);
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setArea(double area) {
-        this.area = area;
-    }
-
-    public int getShopId() {
-        return shopId;
-    }
-
-    public double getArea() {
-        return area;
-    }
-
-    public int getFloor() {
-        return floor;
-    }
-
-    public int getNoOfWorkers() {
-        return noOfWorkers;
-    }
-
-    public void setShopId(int shopId) {
-        this.shopId = shopId;
-    }
-
-    public String getOwner() {
-        return owner;
-    }
-
-    public void setFloor(int floor) {
-        this.floor = floor;
-    }
-
-    public void setNoOfWorkers(int noOfWorkers) {
-        this.noOfWorkers = noOfWorkers;
-    }
-
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }*/
 }

@@ -8,138 +8,165 @@ import java.util.Scanner;
 
 public class CompanyRunner {
     public static void main(String[] args) {
-
+        System.out.println("main started");
 
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number of projects:");
+        System.out.print("Enter the number of projects to add:");
         int size=sc.nextInt();
         CompanyImpl company=new CompanyImpl(size);
-        System.out.println("Number of projects to be added are:"+company.projects.length);
+        System.out.println("Number of projects to be added is:"+company.projects.length);
+
         for(int i=0;i<size;i++){
+            System.out.println("Enter details of project "+(i+1));
             Project project=new Project();
-            System.out.println("Enter the details of project "+(i+1));
-            System.out.print("Enter project Id:");
+            System.out.print("Enter project id:");
             project.setProjectId(sc.nextInt());
-            System.out.print("Enter the project name:");sc.nextLine();
+            System.out.print("Enter project name:"); sc.nextLine();
             project.setProjectName(sc.nextLine());
-            System.out.print("Enter the project type:");
+            System.out.print("Enter project type:");
             project.setType(sc.nextLine());
-            System.out.print("Enter the project domain:");
+            System.out.print("Enter project domain:");
             project.setDomain(Domain.valueOf(sc.nextLine().toUpperCase()));
-            System.out.print("Enter the number of members:");
+            System.out.print("Enter number of members:");
             project.setNoOfMembers(sc.nextInt());
-            System.out.print("Enter the budget:");
+            System.out.print("Enter project budget:");
             project.setBudget(sc.nextDouble());
-            company.addProject(project);
-            System.out.println("---------------------------------------------");
+
+            boolean added=company.addProject(project);
+            if(!added){
+                i--;
+            }
+            System.out.println("---------------------------------------------------");
+            System.out.println(project);
         }
-        company.getProjectInfo();
 
-        System.out.print("Enter Id of project to update name:");
-        int id=sc.nextInt();sc.nextLine();
-        System.out.print("Enter the updated name:");
-        boolean isUpdated=company.updateProjectNameById(id,sc.nextLine());
-        if(isUpdated) System.out.println("Name updated successfully \n");
-        else System.out.println("Failed to update name \n");
+        String input=null;
+        do {
+            System.out.println("Press 1 to update project name by ID");
+            System.out.println("Press 2 to update type by ID");
+            System.out.println("Press 3 to update domain by ID");
+            System.out.println("Press 4 to update number of members by ID");
+            System.out.println("Press 5 to update budget by ID");
+            System.out.println("Press 6 to get project name by ID");
+            System.out.println("Press 7 to get type by ID");
+            System.out.println("Press 8 to get domain by ID");
+            System.out.println("Press 9 to get number of members by ID");
+            System.out.println("Press 10 to get budget by ID");
+            System.out.println("Press 11 to get domain by project name");
+            System.out.println("Press 12 to get project details by ID");
+            System.out.println("Press 13 to delete project by ID");
+            System.out.println("Press 14 to get all project details");
 
-//        company.updateNoOfMembersById(1,45);
-//        company.updateBudgetById(1,800000);
-//        company.updateDomainById(1,Domain.HEALTHCARE);
-//        company.updateTypeById(1,"software");
+            int option=sc.nextInt();
+            switch(option){
+                case 1:
+                    System.out.print("Enter Id of project to update name:");
+                    int idName=sc.nextInt(); sc.nextLine();
+                    System.out.print("Enter the updated project name:");
+                    company.updateProjectNameById(idName,sc.nextLine());
+                    break;
 
+                case 2:
+                    System.out.print("Enter Id of project to update type:");
+                    int idType=sc.nextInt(); sc.nextLine();
+                    System.out.print("Enter the updated type:");
+                    company.updateTypeById(idType,sc.nextLine());
+                    break;
 
+                case 3:
+                    System.out.print("Enter Id of project to update domain:");
+                    int idDomain=sc.nextInt(); sc.nextLine();
+                    System.out.print("Enter the updated domain:");
+                    company.updateDomainById(idDomain,Domain.valueOf(sc.nextLine().toUpperCase()));
+                    break;
 
-        System.out.print("Enter Id to fetch name:");
-        System.out.println("Name for given id is:"+company.getProjectNameById(sc.nextInt()));
+                case 4:
+                    System.out.print("Enter Id of project to update number of members:");
+                    int idMembers=sc.nextInt();
+                    System.out.print("Enter the updated number of members:");
+                    company.updateNoOfMembersById(idMembers,sc.nextInt());
+                    break;
 
-//        company.getBudgetById(1);
-//        company.getBudgetById(11);
-//        company.getDomainById(1);
-//        company.getTypeById(1);
-//        company.getDomainByProjectName("Healthcare system");
-//        company.getNoOfMembersById(1);
-//
-//        company.deleteProjectByProjectName("Healthcare system");
+                case 5:
+                    System.out.print("Enter Id of project to update budget:");
+                    int idBudget=sc.nextInt();
+                    System.out.print("Enter the updated budget:");
+                    company.updateBudgetById(idBudget,sc.nextDouble());
+                    break;
 
+                case 6:
+                    System.out.print("Enter Id to fetch project name:");
+                    String name=company.getProjectNameById(sc.nextInt());
+                    if(name!=null){
+                        System.out.println("Project name for given id is:"+name);
+                    }
+                    break;
 
-        System.out.println("Enter id to get project details");
-        company.getProjectById(sc.nextInt());
+                case 7:
+                    System.out.print("Enter Id to fetch type:");
+                    String type=company.getTypeById(sc.nextInt());
+                    if(type!=null){
+                        System.out.println("Type for given id is:"+type);
+                    }
+                    break;
 
-        System.out.print("Enter the id of project you want to delete:");
-        company.deleteProjectById(sc.nextInt());
+                case 8:
+                    System.out.print("Enter Id to fetch domain:");
+                    Domain domain=company.getDomainById(sc.nextInt());
+                    if(domain!=null){
+                        System.out.println("Domain for given id is:"+domain);
+                    }
+                    break;
 
-        company.getProjectInfo();
+                case 9:
+                    System.out.print("Enter Id to fetch number of members:");
+                    int members=company.getNoOfMembersById(sc.nextInt());
+                    if(members!=0){
+                        System.out.println("Number of members for given id is:"+members);
+                    }
+                    break;
 
-        /*Project project1=new Project();
-        project1.setProjectId(1);
-        project1.setBudget(20000000.00);
-        project1.setProjectName("Banking UPI");
-        project1.setDomain("Banking");
-        project1.setType("Software development");
-        project1.setNoOfMembers(18);
+                case 10:
+                    System.out.print("Enter Id to fetch budget:");
+                    double budget=company.getBudgetById(sc.nextInt());
+                    if(budget!=0){
+                        System.out.println("Budget for given id is:"+budget);
+                    }
+                    break;
 
-        CompanyImpl company=new CompanyImpl();
-        company.addProject(project1);
+                case 11:
+                    sc.nextLine();
+                    System.out.print("Enter project name to fetch domain:");
+                    Domain domainByName=company.getDomainByProjectName(sc.nextLine());
+                    if(domainByName!=null){
+                        System.out.println("Domain for given project name is:"+domainByName);
+                    }
+                    break;
 
-        Project project2=new Project(2,"Cloud website","Software development","Cload",24,300000.00);
-        company.addProject(project2);
+                case 12:
+                    System.out.print("Enter Id to get project details:");
+                    company.getProjectById(sc.nextInt());
+                    break;
 
-        Project project3=new Project(3,"E-commerce Platform","Software development","RetailX",18,1500000.00);
-        company.addProject(project3);
+                case 13:
+                    System.out.print("Enter project id to delete:");
+                    company.deleteProjectById(sc.nextInt());
+                    break;
 
-        Project project4=new Project(4,"Banking App","Mobile application","FinBank",12,900000.00);
-        company.addProject(project4);
+                case 14:
+                    company.getProjectInfo();
+                    break;
 
-        Project project5=new Project(5,"Hospital Management System","Software development","MediCare",20,1200000.00);
-        company.addProject(project5);
+                default:
+                    System.out.println("Enter valid option");
+            }
 
-        Project project6=new Project(6,"Online Learning Portal","Web application","EduTech",15,750000.00);
-        company.addProject(project6);
+            System.out.println("Do you want to continue Yes / No");
+            input=sc.next();
 
-        Project project7=new Project(7,"Inventory Management","ERP solution","MegaMart",10,500000.00);
-        company.addProject(project7);
+        } while(input.equalsIgnoreCase("YES"));
 
-        Project project8=new Project(8,"Hotel Booking App","Mobile application","TravelEase",14,800000.00);
-        company.addProject(project8);
-
-        Project project9=new Project(9,"Food Delivery System","Web application","QuickEats",16,950000.00);
-        company.addProject(project9);
-
-        Project project10=new Project(10,"Ride Sharing Platform","Mobile application","GoRide",22,2200000.00);
-        company.addProject(project10);
-
-        Project project11=new Project(11,"Healthcare Chatbot","AI solution","MediHelp",8,400000.00);
-        company.addProject(project11);
-
-        Project project12=new Project(12,"Payroll System","Enterprise software","HRPro",9,600000.00);
-        company.addProject(project12);
-
-        Project project13=new Project(13,"Digital Marketing Tool","Web application","MarketBoost",11,550000.00);
-        company.addProject(project13);
-
-        Project project14=new Project(14,"Gaming App","Mobile game","FunPlay",7,300000.00);
-        company.addProject(project14);
-
-        Project project15=new Project(15,"Online Exam Portal","Web application","TestMaster",12,450000.00);
-        company.addProject(project15);
-
-        Project project16=new Project(16,"IoT Smart Home","Embedded app","SmartLiving",24,3500000.00);
-        company.addProject(project16);
-
-        Project project17=new Project(17,"Blockchain Wallet","FinTech solution","CryptoSafe",18,1800000.00);
-        company.addProject(project17);
-
-        Project project18=new Project(18,"Streaming Service","Mobile app","StreamHub",20,2500000.00);
-        company.addProject(project18);
-
-        Project project19=new Project(19,"Retail POS System","Enterprise software","ShopEase",10,700000.00);
-        company.addProject(project19);
-
-        Project project20=new Project(20,"Logistics Tracking","IoT application","TransTrack",15,1100000.00);
-        company.addProject(project20);
-
-        company.getProjectInfo();
-        if(company.addProject(project)) company.getProjectInfo();
-        else System.out.println("Project is not added");*/
+        System.out.println("main ended");
     }
+
 }

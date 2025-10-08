@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Setter
 @Getter
 @NoArgsConstructor
@@ -18,64 +20,31 @@ public class Product {
     private String color;
     private String sellerName;
 
-    /*public Product(){
-
-    }
-    public  Product(int productId,String name,double price,String brand,String color,String sellerName){
-        this.productId=productId;
-        this.name=name;
-        this.price=price;
-        this.brand=brand;
-        this.color=color;
-        this.sellerName=sellerName;
-    }
-
-    public String getName() {
-        return name;
+    @Override
+    public String toString(){
+        return "Product-(productId="+this.productId+
+                " , name="+this.name+
+                " , price="+this.price+
+                " , brand="+this.brand+
+                " , color="+this.color+
+                " , sellerName="+this.sellerName+
+                ")";
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Product){
+            Product product=(Product) obj;
+            if(this.productId==product.productId && this.name.equals(product.name) && this.price==product.price && this.brand.equals(product.brand) &&
+            this.color.equals(product.color) && this.sellerName.equals(product.sellerName)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    @Override
+    public int hashCode() {
+        return Objects.hash(productId, name, price, brand, color, sellerName);
     }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public int getProductId() {
-        return productId;
-    }
-
-    public void setProductId(int productId) {
-        this.productId = productId;
-    }
-
-    public String getSellerName() {
-        return sellerName;
-    }
-
-    public void setSellerName(String sellerName) {
-        this.sellerName = sellerName;
-    }*/
-
 }

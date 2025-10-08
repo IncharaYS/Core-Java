@@ -8,16 +8,17 @@ import java.util.Scanner;
 
 public class AmazonRunner {
     public static void main(String[] args) {
+        System.out.println("main started");
 
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number of products to add:");
         int size=sc.nextInt();
         AmazonImpl amazon=new AmazonImpl(size);
-        System.out.println("Number of products to be added are:"+amazon.products.length);
+        System.out.println("Number of products to be added is:"+amazon.products.length);
 
         for(int i=0;i<size;i++){
-            Product product=new Product();
             System.out.println("Enter details of product "+(i+1));
+            Product product=new Product();
             System.out.print("Enter product id:");
             product.setProductId(sc.nextInt());
             System.out.print("Enter product name:");sc.nextLine();
@@ -30,122 +31,149 @@ public class AmazonRunner {
             product.setColor(sc.nextLine());
             System.out.print("Enter seller name:");
             product.setSellerName(sc.nextLine());
-            amazon.addProduct(product);
-            System.out.println("----------------------------------------------");
+
+            boolean added=amazon.addProduct(product);
+            if(!added){
+                i--;
+            }
+            System.out.println("---------------------------------------------------");
+            System.out.println(product);
         }
 
-        amazon.getProductInfo();
+        String input=null;
+        do{
+            System.out.println("Press 1 to update name by ID");
+            System.out.println("Press 2 to update price by ID");
+            System.out.println("Press 3 to update brand by ID");
+            System.out.println("Press 4 to update color by ID");
+            System.out.println("Press 5 to update seller name by ID");
+            System.out.println("Press 6 to update price by brand");
+            System.out.println("Press 7 to get name by ID");
+            System.out.println("Press 8 to get price by ID");
+            System.out.println("Press 9 to get brand by ID");
+            System.out.println("Press 10 to get color by ID");
+            System.out.println("Press 11 to get seller name by ID");
+            System.out.println("Press 12 to get brand by name");
+            System.out.println("Press 13 to get product details by ID");
+            System.out.println("Press 14 to delete product by ID");
+            System.out.println("Press 15 to get all product details");
 
-        System.out.print("Enter Id of product to update name:");
-        int id=sc.nextInt();sc.nextLine();
-        System.out.print("Enter the updated name:");
-        boolean isUpdated=amazon.updateNameById(id,sc.nextLine());
-        if(isUpdated) System.out.println("Name updated successfully \n");
-        else System.out.println("Failed to update name \n");
+            int option=sc.nextInt();
+            switch(option){
+                case 1:
+                    System.out.print("Enter Id of product to update name:");
+                    int idName=sc.nextInt();sc.nextLine();
+                    System.out.print("Enter the updated name:");
+                    amazon.updateNameById(idName,sc.nextLine());
+                    break;
 
-        //amazon.updatePriceById(1,333);
-        //amazon.updateBrandById(1,"Zudio");
-        //amazon.updateColorById(2,"blue");
-        //amazon.updateSellerNameById(1,"Sana");
-        //amazon.updatePriceByBrand("Zudio",222.00);
+                case 2:
+                    System.out.print("Enter Id of product to update price:");
+                    int idPrice=sc.nextInt();
+                    System.out.print("Enter the updated price:");
+                    amazon.updatePriceById(idPrice,sc.nextDouble());
+                    break;
 
+                case 3:
+                    System.out.print("Enter Id of product to update brand:");
+                    int idBrand=sc.nextInt();sc.nextLine();
+                    System.out.print("Enter the updated brand:");
+                    amazon.updateBrandById(idBrand,BrandName.valueOf(sc.nextLine().toUpperCase()));
+                    break;
 
-        System.out.print("Enter Id to fetch name:");
-        System.out.println("Name for given id is:"+amazon.getNameById(sc.nextInt()));
+                case 4:
+                    System.out.print("Enter Id of product to update color:");
+                    int idColor=sc.nextInt();sc.nextLine();
+                    System.out.print("Enter the updated color:");
+                    amazon.updateColorById(idColor,sc.nextLine());
+                    break;
 
-//        amazon.getPriceById(2);
-//        amazon.getBrandById(1);
-//        amazon.getSellerNameById(1);
-//        amazon.getBrandByName("Broom");
-//        amazon.getColorById(2);
+                case 5:
+                    System.out.print("Enter Id of product to update seller name:");
+                    int idSeller=sc.nextInt();sc.nextLine();
+                    System.out.print("Enter the updated seller name:");
+                    amazon.updateSellerNameById(idSeller,sc.nextLine());
+                    break;
 
+                case 6:
+                    System.out.print("Enter Brand to update price:");sc.nextLine();
+                    String brandName=sc.nextLine();
+                    System.out.print("Enter the updated price:");
+                    amazon.updatePriceByBrand(BrandName.valueOf(brandName.toUpperCase()),sc.nextDouble());
+                    break;
 
-        System.out.println("Enter id to get product details");
-        amazon.getProductById(sc.nextInt());
+                case 7:
+                    System.out.print("Enter Id to fetch name:");
+                    String name=amazon.getNameById(sc.nextInt());
+                    if(name!=null){
+                        System.out.println("Name for given id is:"+name);
+                    }
+                    break;
 
+                case 8:
+                    System.out.print("Enter Id to fetch price:");
+                    double price=amazon.getPriceById(sc.nextInt());
+                    if(price!=0){
+                        System.out.println("Price for given id is:"+price);
+                    }
+                    break;
 
-        System.out.print("Enter product id to delete product:");
-        amazon.deleteProductById(sc.nextInt());
-        amazon.getProductInfo();
+                case 9:
+                    System.out.print("Enter Id to fetch brand:");
+                    BrandName brand=amazon.getBrandById(sc.nextInt());
+                    if(brand!=null){
+                        System.out.println("Brand for given id is:"+brand);
+                    }
+                    break;
 
-       /* Product product=new Product();
-        product.setProductId(1);
-        product.setName("Broom");
-        product.setBrand("Skyees");
-        product.setColor("Black");
-        product.setSellerName("Sanvi collections");
-        product.setPrice(300.00);
+                case 10:
+                    System.out.print("Enter Id to fetch color:");
+                    String color=amazon.getColorById(sc.nextInt());
+                    if(color!=null){
+                        System.out.println("Color for given id is:"+color);
+                    }
+                    break;
 
+                case 11:
+                    System.out.print("Enter Id to fetch seller name:");
+                    String seller=amazon.getSellerNameById(sc.nextInt());
+                    if(seller!=null){
+                        System.out.println("Seller name for given id is:"+seller);
+                    }
+                    break;
 
+                case 12:
+                    sc.nextLine();
+                    System.out.print("Enter product name to fetch brand:");
+                    BrandName brandByName=amazon.getBrandByName(sc.nextLine());
+                    if(brandByName!=null){
+                        System.out.println("Brand for given name is:"+brandByName);
+                    }
+                    break;
 
-        /*if(amazon.addProduct(product)) amazon.getProductInfo();
-        else System.out.println("Product is not added");
+                case 13:
+                    System.out.print("Enter Id to get product details:");
+                    amazon.getProductById(sc.nextInt());
+                    break;
 
-        if(amazon.updatePrice(250.00)){
-            System.out.println("Updated product details:");
-            amazon.getProductInfo();
-        }
-        else System.out.println("product price is not updated");
+                case 14:
+                    System.out.print("Enter product id to delete:");
+                    amazon.deleteProductById(sc.nextInt());
+                    break;
 
-        amazon.deleteProduct(product);
-        AmazonImpl amazon=new AmazonImpl();
-        Product product1=new Product(1,"Broom",300.00,"Shila","Orange","Shila collections");
-        amazon.addProduct(product1);
+                case 15:
+                    amazon.getProductInfo();
+                    break;
 
-        Product product2=new Product(2,"Mop",250.00,"Ravi","Blue","Home Essentials");
-        amazon.addProduct(product2);
+                default:
+                    System.out.println("Enter valid option");
+            }
 
-        Product product3=new Product(3,"Vacuum Cleaner",5500.00,"Philips","Black","Appliance World");
-        amazon.addProduct(product3);
+            System.out.println("Do you want to continue Yes / No");
+            input=sc.next();
 
-        Product product4=new Product(4,"Dishwasher",35000.00,"Bosch","Silver","Appliance World");
-        amazon.addProduct(product4);
+        }while(input.equalsIgnoreCase("YES"));
 
-        Product product5=new Product(5,"Table Lamp",1200.00,"Ajanta","Yellow","Bright Lights");
-        amazon.addProduct(product5);
-
-        Product product6=new Product(6,"Ceiling Fan",3000.00,"Orient","White","Cooling Solutions");
-        amazon.addProduct(product6);
-
-        Product product7=new Product(7,"Air Conditioner",45000.00,"Samsung","Grey","Cooling Solutions");
-        amazon.addProduct(product7);
-
-        Product product8=new Product(8,"Refrigerator",60000.00,"LG","Silver","Appliance World");
-        amazon.addProduct(product8);
-
-        Product product9=new Product(9,"Microwave Oven",8000.00,"Whirlpool","Black","Kitchen Zone");
-        amazon.addProduct(product9);
-
-        Product product10=new Product(10,"Toaster",2000.00,"Prestige","Red","Kitchen Zone");
-        amazon.addProduct(product10);
-
-        Product product11=new Product(11,"Mixer Grinder",3500.00,"Bajaj","White","Kitchen Zone");
-        amazon.addProduct(product11);
-
-        Product product12=new Product(12,"Washing Machine",28000.00,"IFB","Silver","Appliance World");
-        amazon.addProduct(product12);
-
-        Product product13=new Product(13,"Iron Box",1500.00,"Philips","Blue","Home Essentials");
-        amazon.addProduct(product13);
-
-        Product product14=new Product(14,"Water Purifier",12000.00,"Kent","White","Home Essentials");
-        amazon.addProduct(product14);
-
-        Product product15=new Product(15,"Electric Kettle",1800.00,"Pigeon","Black","Kitchen Zone");
-        amazon.addProduct(product15);
-
-        Product product16=new Product(16,"Induction Stove",3200.00,"Prestige","Black","Kitchen Zone");
-        amazon.addProduct(product16);
-
-        Product product17=new Product(17,"Sofa",25000.00,"Godrej","Brown","Furniture World");
-        amazon.addProduct(product17);
-
-        Product product18=new Product(18,"Dining Table",30000.00,"Durian","Oak","Furniture World");
-        amazon.addProduct(product18);
-
-        Product product19=new Product(19,"Wardrobe",22000.00,"Ikea","Walnut","Furniture World");
-        amazon.addProduct(product19);
-
-        amazon.getProductInfo();*/
+        System.out.println("main ended");
     }
 }

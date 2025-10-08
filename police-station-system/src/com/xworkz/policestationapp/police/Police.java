@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -18,51 +20,31 @@ public class Police {
     private String department;
     private String shift;
 
-   /* public String getGender() {
-        return gender;
+    @Override
+    public String toString(){
+        return "Police-(policeId="+this.policeId+
+                " , name="+this.name+
+                " , gender="+this.gender+
+                " , rank="+this.rank+
+                " , department="+this.department+
+                " , shift="+this.shift+
+                ")";
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public  boolean equals(Object obj){
+        if(obj instanceof Police){
+            Police police=(Police) obj;
+            if(this.policeId==police.policeId && this.name.equals(police.name) && this.gender.equals(police.gender) && this.rank.equals(police.rank)
+            && this.department.equals(police.department) && this.shift.equals(police.department)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public int hashCode() {
+        return Objects.hash(policeId, name, gender, rank, department, shift);
     }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public int getPoliceId() {
-        return policeId;
-    }
-
-    public void setPoliceId(int policeId) {
-        this.policeId = policeId;
-    }
-
-    public String getDepartment() {
-        return department;
-    }
-
-    public String getRank() {
-        return rank;
-    }
-
-    public String getShift() {
-        return shift;
-    }
-
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-
-    public void setRank(String rank) {
-        this.rank = rank;
-    }
-
-    public void setShift(String shift) {
-        this.shift = shift;
-    }*/
 }

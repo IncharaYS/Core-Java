@@ -16,7 +16,7 @@ public interface CompanyRules {
     int getNoOfMembersById(int existingProjectId);
     double getBudgetById(int existingProjectId);
     Domain getDomainByProjectName(String projectName);
-    void deleteProjectByProjectName(String projectName);
+//    void deleteProjectByProjectName(String projectName);
     void deleteProjectById(int id);
     Project getProjectById(int existingId);
     void getProjectDetails(Project project);

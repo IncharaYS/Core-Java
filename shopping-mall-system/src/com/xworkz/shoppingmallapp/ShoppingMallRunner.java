@@ -8,12 +8,14 @@ import java.util.Scanner;
 
 public class ShoppingMallRunner {
     public static void main(String[] args) {
+        System.out.println("main started");
 
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number of shops to add:");
         int size=sc.nextInt();
         ShoppingMallImpl shoppingMall=new ShoppingMallImpl(size);
         System.out.println("Number of shops to be added is:"+shoppingMall.shops.length);
+
         for (int i=0;i<size;i++){
             System.out.println("Enter details of shop "+(i+1));
             Shop shop=new Shop();
@@ -29,97 +31,162 @@ public class ShoppingMallRunner {
             shop.setNoOfWorkers(sc.nextInt());
             System.out.print("Enter shop owner:");sc.nextLine();
             shop.setOwner(sc.nextLine());
-            shoppingMall.addShop(shop);
+            boolean added=shoppingMall.addShop(shop);
+            if(!added){
+                i--;
+            }
             System.out.println("---------------------------------------------------");
         }
 
-        shoppingMall.getShopInfo();
+//        shoppingMall.getShopInfo();
 
-        System.out.print("Enter Id of shop to update name:");
-        int id=sc.nextInt();sc.nextLine();
-        System.out.print("Enter the updated name:");
-        boolean isUpdated=shoppingMall.updateNameById(id,sc.nextLine());
-        if(isUpdated) System.out.println("Name updated successfully \n");
-        else System.out.println("Failed to update name\n");
+        String input=null;
+        do {
+            System.out.println("Press 1 to update name by ID");
+            System.out.println("Press 2 to update floor by ID");
+            System.out.println("Press 3 to update area by ID");
+            System.out.println("Press 4 to update area by name");
+            System.out.println("Press 5 to update no of workers by ID");
+            System.out.println("Press 6 to update owner by ID");
+            System.out.println("Press 7 to get name by ID");
+            System.out.println("Press 8 to get floor by ID");
+            System.out.println("Press 9 to get area by ID");
+            System.out.println("Press 10 to get no of workers by ID");
+            System.out.println("Press 11 to get owner by ID");
+            System.out.println("Press 12 to get floor by Name");
+            System.out.println("Press 13 to get shop details by id");
+            System.out.println("Press 14 to delete shop by ID");
+            System.out.println("Press 15 to delete shop by owner");
+            System.out.println("Press 16 to get all shop details");
 
-//        shoppingMall.updateAreaById(1,2354545);
-//        shoppingMall.updateFloorById(2,Floor.FIFTH);
-//        shoppingMall.updateNoOfWorkersById(1,89);
-//        shoppingMall.updateOwnerById(2,"Ranveer");
 
-        System.out.print("Enter Id to fetch name:");
-        System.out.println("Name for given id is:"+shoppingMall.getNameById(sc.nextInt()));
+            int option = sc.nextInt();
+            switch (option) {
+                case 1:
+                System.out.print("Enter Id of shop to update name:");
+                int id = sc.nextInt();
+                sc.nextLine();
+                System.out.print("Enter the updated name:");
+                shoppingMall.updateNameById(id, sc.nextLine());
+                break;
 
-//        shoppingMall.getAreaById(1);
-//        shoppingMall.getOwnerById(1);
-//        shoppingMall.getFloorById(1);
-//        shoppingMall.getNoOfWorkersById(2);
-//        shoppingMall.getFloorByName("Zudio");
-//        shoppingMall.deleteShopByOwner("Ranveer");
+                case 2:
+                System.out.print("Enter Id of shop to update floor:");
+                int idToUpdateFloor = sc.nextInt();
+                sc.nextLine();
+                System.out.print("Enter the updated floor:");
+                shoppingMall.updateFloorById(idToUpdateFloor, Floor.valueOf(sc.nextLine().toUpperCase()));
+                break;
 
-        System.out.println("Enter id to get shop details");
-        shoppingMall.getShopById(sc.nextInt());
+                case 3:
+                System.out.print("Enter Id of shop to update area:");
+                int idToUpdateArea = sc.nextInt();
+                sc.nextLine();
+                System.out.print("Enter the updated area:");
+                shoppingMall.updateAreaById(idToUpdateArea, sc.nextDouble());
+                break;
 
-        System.out.print("Enter shop id to delete it's details:");
-        shoppingMall.deleteShopById(sc.nextInt());
-        shoppingMall.getShopInfo();
+                case 4:
+                System.out.print("Enter name of shop to update area:");
+                String nameToUpdateAreaByName = sc.nextLine();
+                System.out.print("Enter the updated area:");
+                shoppingMall.updateAreaByName(nameToUpdateAreaByName, sc.nextDouble());
+                break;
 
-        /*Shop shop1=new Shop();
-        shop1.setShopId(1);
-        shop1.setArea(2000.00);
-        shop1.setFloor(2);
-        shop1.setName("Reliance");
-        shop1.setOwner("Mukesh Ambani");
-        shop1.setNoOfWorkers(37);
+                case 5:
+                System.out.print("Enter Id of shop to update no of workers:");
+                int idToUpdateNo = sc.nextInt();
+                sc.nextLine();
+                System.out.print("Enter the updated no of workers:");
+                shoppingMall.updateNoOfWorkersById(idToUpdateNo, sc.nextInt());
+                break;
 
-        ShoppingMall shoppingMall=new ShoppingMall();
-        shoppingMall.addShop(shop1);
+                case 6:
+                System.out.print("Enter Id of shop to update owner:");
+                int idToUpdateOwner = sc.nextInt();
+                sc.nextLine();
+                System.out.print("Enter the updated owner name:");
+                shoppingMall.updateOwnerById(idToUpdateOwner, sc.nextLine());
+                break;
 
-        Shop shop2=new Shop(2,"Zudio",3,5000.00,8,"Tata");
-        shoppingMall.addShop(shop2);
+                case 7:
+                System.out.print("Enter Id to fetch name:");
+                String name = shoppingMall.getNameById(sc.nextInt());
+                if (name != null) {
+                    System.out.println("Name for given id is:" + name);
+                }
+                break;
 
-        Shop shop3 = new Shop(3, "Lifestyle", 2, 15000.00, 12, "Landmark");
-        shoppingMall.addShop(shop3);
+                case 8:
+                System.out.print("Enter Id to fetch floor:");
+                Floor floor = shoppingMall.getFloorById(sc.nextInt());
+                if (floor != null) {
+                    System.out.println("Floor for given id is:" + floor);
+                }
+                break;
 
-        Shop shop4 = new Shop(4, "Pantaloons", 1, 12000.00, 10, "Aditya Birla");
-        shoppingMall.addShop(shop4);
+                case 9:
+                System.out.print("Enter Id to fetch area:");
+                double area = shoppingMall.getAreaById(sc.nextInt());
+                if (area != 0) {
+                    System.out.println("Area for given id is:" + area);
+                }
+                break;
 
-        Shop shop5 = new Shop(5, "Shoppers Stop", 4, 20000.00, 15, "K Raheja");
-        shoppingMall.addShop(shop5);
+                case 10:
+                System.out.print("Enter Id to fetch no of workers:");
+                int noOfWorkers = shoppingMall.getNoOfWorkersById(sc.nextInt());
+                if (noOfWorkers != 0) {
+                    System.out.println("No of workers for given id is:" + noOfWorkers);
+                }
+                break;
 
-        Shop shop6 = new Shop(6, "H&M", 2, 18000.00, 14, "Hennes & Mauritz");
-        shoppingMall.addShop(shop6);
+                case 11:
+                System.out.print("Enter Id to fetch owner:");
+                String owner = shoppingMall.getOwnerById(sc.nextInt());
+                if (owner != null) {
+                    System.out.println("Owner for given id is:" + owner);
+                }
+                break;
 
-        Shop shop7 = new Shop(7, "Max Fashion", 3, 10000.00, 9, "Landmark");
-        shoppingMall.addShop(shop7);
+                case 12:
+                System.out.print("Enter Name to fetch floor1:");
+                Floor floor1 = shoppingMall.getFloorByName(sc.nextLine());
+                if (floor1 != null) {
+                    System.out.println("Floor for given name is:" + floor1);
+                }
+                break;
 
-        Shop shop8 = new Shop(8, "Reliance Trends", 1, 13000.00, 11, "Reliance");
-        shoppingMall.addShop(shop8);
 
-        Shop shop9 = new Shop(9, "Fabindia", 2, 8000.00, 7, "Fabindia");
-        shoppingMall.addShop(shop9);
+                case 13:
+                System.out.println("Enter id to get shop details");
+                shoppingMall.getShopById(sc.nextInt());
+                break;
 
-        Shop shop10 = new Shop(10, "Marks & Spencer", 4, 22000.00, 16, "M&S");
-        shoppingMall.addShop(shop10);
+                case 14:
+                System.out.print("Enter shop id to delete it's details:");
+                shoppingMall.deleteShopById(sc.nextInt());
+                break;
 
-        Shop shop11 = new Shop(11, "Bata", 1, 6000.00, 6, "Bata India");
-        shoppingMall.addShop(shop11);
+                case 15:
+                System.out.print("Enter shop owner to delete details:");
+                shoppingMall.deleteShopByOwner(sc.nextLine());
+                break;
 
-        Shop shop12 = new Shop(12, "Woodland", 3, 7000.00, 8, "Aero Group");
-        shoppingMall.addShop(shop12);
+                case 16:
+                shoppingMall.getShopInfo();
+                break;
 
-        Shop shop13 = new Shop(13, "Nike", 2, 25000.00, 18, "Nike Inc.");
-        shoppingMall.addShop(shop13);
+                default:
+                    System.out.println("Enter valid option");
+            }
 
-        Shop shop14 = new Shop(14, "Adidas", 2, 24000.00, 17, "Adidas AG");
-        shoppingMall.addShop(shop14);
+            System.out.println("Do you want to continue Yes / No");
+            input = sc.next();
 
-        Shop shop15 = new Shop(15, "Reebok", 3, 12000.00, 10, "Adidas");
-        shoppingMall.addShop(shop15);
+        }
+        while (input.equalsIgnoreCase("YES"));
 
-        shoppingMall.getShopInfo();
-
-//        if(shoppingMall.addShop(shop)) shoppingMall.getShopInfo();
-//        else System.out.println("Shop is not added");*/
+        System.out.println("main ended");
     }
 }

@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -18,51 +20,31 @@ public class Project {
     private int noOfMembers;
     private double budget;
 
-   /* public String getType() {
-        return type;
+    @Override
+    public String toString(){
+        return "Project-(projectId="+this.projectId+
+                ", projectName="+this.projectName+
+                ", type="+this.type+
+                ", domain="+this.domain+
+                ", noOfMembers="+this.noOfMembers+
+                ", budget="+this.budget+
+                ")";
     }
 
-    public void setType(String type) {
-        this.type = type;
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Project){
+            Project project=(Project) obj;
+            if(this.projectId==project.projectId && this.projectName.equals(project.projectName) && this.type.equals(project.type) && this.domain.equals(project.domain) &&
+            this.noOfMembers==project.noOfMembers && this.budget==project.budget){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public String getDomain() {
-        return domain;
+    @Override
+    public int hashCode() {
+        return Objects.hash(projectId, projectName, type, domain, noOfMembers, budget);
     }
-
-    public void setDomain(String domain) {
-        this.domain = domain;
-    }
-
-    public int getProjectId() {
-        return projectId;
-    }
-
-    public double getBudget() {
-        return budget;
-    }
-
-    public String getProjectName() {
-        return projectName;
-    }
-
-    public int getNoOfMembers() {
-        return noOfMembers;
-    }
-
-    public void setProjectId(int projectId) {
-        this.projectId = projectId;
-    }
-
-    public void setBudget(double budget) {
-        this.budget = budget;
-    }
-
-    public void setProjectName(String projectName) {
-        this.projectName = projectName;
-    }
-
-    public void setNoOfMembers(int noOfMembers) {
-        this.noOfMembers = noOfMembers;
-    }*/
 }

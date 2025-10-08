@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -18,51 +20,31 @@ public class Book {
     private double price;
     private Genre genre;
 
-   /* public void setBookId(int bookId) {
-        this.bookId = bookId;
+    @Override
+    public String toString(){
+        return "Book-(bookId="+this.bookId+
+                " , name="+this.name+
+                " , bookAuthor="+this.bookAuthor+
+                " , publisher="+this.publisher+
+                " , price="+this.price+
+                " , genre="+this.genre+
+                ")";
     }
 
-    public double getPrice() {
-        return price;
+    @Override
+    public boolean equals(Object o) {
+       if(o instanceof Book){
+           Book book=(Book) o;
+           if(this.bookId==book.bookId && this.name.equals(book.name) && this.bookAuthor.equals(book.bookAuthor) && this.publisher.equals(book.publisher)
+           && this.price==book.price && this.genre.equals(book.genre)){
+               return true;
+           }
+       }
+       return false;
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public int hashCode() {
+        return Objects.hash(bookId, name, bookAuthor, publisher, price, genre);
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public int getBookId() {
-        return bookId;
-    }
-
-    public String getBookAuthor() {
-        return bookAuthor;
-    }
-
-    public void setBookAuthor(String bookAuthor) {
-        this.bookAuthor = bookAuthor;
-    }
-
-    public String getGenre() {
-        return genre;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
-    }*/
 }

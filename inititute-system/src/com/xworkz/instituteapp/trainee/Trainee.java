@@ -6,6 +6,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.lang.management.ThreadInfo;
+import java.util.Objects;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -18,51 +21,30 @@ public class Trainee {
     private long phoneNo;
     private String email;
 
-    /*public void setName(String name) {
-        this.name = name;
+    @Override
+    public String toString(){
+        return "Trainee-(traineeId="+this.traineeId+
+                " , name="+this.name+
+                " , gender="+this.gender+
+                " , age="+this.age+
+                " , phoneNo="+this.phoneNo+
+                " , email="+this.email+
+        ")";
+    }
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Trainee){
+            Trainee trainee=(Trainee) obj;
+            if(this.traineeId==trainee.traineeId && this.name.equals(trainee.name) && this.gender.equals(trainee.gender) && this.age==trainee.age &&
+            this.phoneNo==trainee.phoneNo && this.email.equals(trainee.email)){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public int hashCode() {
+        return Objects.hash(traineeId, name, gender, age, phoneNo, email);
     }
-
-    public long getPhoneNo() {
-        return phoneNo;
-    }
-
-    public void setPhoneNo(long phoneNo) {
-        this.phoneNo = phoneNo;
-    }
-
-    public void setGender(char gender) {
-        this.gender = gender;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public int getTraineeId() {
-        return traineeId;
-    }
-
-    public void setTraineeId(int traineeId) {
-        this.traineeId = traineeId;
-    }
-
-    public char getGender() {
-        return gender;
-    }*/
 }
