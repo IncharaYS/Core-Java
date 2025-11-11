@@ -1,4 +1,4 @@
-package com.xworkz.employeeapp.dto;
+package com.xworkz.mapapp.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +14,7 @@ public class EmployeeDto implements Comparable<EmployeeDto>{
     private int employeeId;
     private String firstName;
     private String lastName;
-    private String DateOfJoining;
+    private String YearOfJoining;
     private String gender;
     private String department;
     private int age;
@@ -26,3 +26,4 @@ public class EmployeeDto implements Comparable<EmployeeDto>{
         return this.employeeId-o.employeeId;
     }
 }
+
